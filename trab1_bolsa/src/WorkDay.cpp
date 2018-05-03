@@ -5,7 +5,7 @@
 #include <iostream>
 #include "include/WorkDay.h"
 
-WorkDay::WorkDay(int day, int month, int year, std::vector<WorkPaper *>& work_papers) : day(day), month(month),
+WorkDay::WorkDay(int day, int month, int year, std::map<Company, WorkPaper *>& work_papers) : day(day), month(month),
                                                                                             year(year),
                                                                                             work_papers(work_papers) {}
 
@@ -23,7 +23,7 @@ int WorkDay::getYear() const {
     return year;
 }
 
-const std::vector<WorkPaper *> &WorkDay::getWorkPapers() const {
+const std::map<Company, WorkPaper *> &WorkDay::getWorkPapers() const {
     return work_papers;
 }
 
@@ -37,8 +37,8 @@ void WorkDay::printDayHeader(){
 void WorkDay::printDay() {
     printDayHeader();
 
-    for(WorkPaper* paper : getWorkPapers()){
-        paper->printPaper();
+    for(std::pair<Company, WorkPaper*> paper : getWorkPapers()){
+        paper.second->printPaper();
     }
 }
 

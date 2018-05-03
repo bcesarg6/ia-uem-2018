@@ -6,8 +6,10 @@
 #define TRAB1_BOLSA_WORKDAY_H
 
 #include <vector>
+#include <map>
 
 #include "WorkPaper.h"
+#include "Company.h"
 
 class WorkDay {
 public:
@@ -18,7 +20,7 @@ public:
      * @param year Year of negotiation
      * @param work_papers Vector of the work papers negotiated this day
      */
-    WorkDay(int day, int month, int year, std::vector<WorkPaper *>& work_papers);
+    WorkDay(int day, int month, int year, std::map<Company, WorkPaper *>& work_papers);
 
     /**
      * @return The day of this negotiation
@@ -38,7 +40,7 @@ public:
     /**
      * @return Vector of all work papers negotiated this day
      */
-    const std::vector<WorkPaper *> &getWorkPapers() const;
+    const std::map<Company, WorkPaper*> &getWorkPapers() const;
 
     /**
      * Displays the papers negotiated this day
@@ -52,7 +54,7 @@ public:
 
 private:
     int day, month, year;
-    std::vector<WorkPaper*> work_papers;
+    std::map<Company, WorkPaper*> work_papers;
 };
 
 
