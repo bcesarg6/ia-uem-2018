@@ -45,6 +45,11 @@ public:
      */
     void printDay();
 
+    /**
+     * Prints the header of a day
+     */
+    void printDayHeader();
+
 private:
     int day, month, year;
     std::vector<WorkPaper*> work_papers;

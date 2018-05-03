@@ -37,11 +37,13 @@ float WorkPaper::getLastp() const {
 }
 
 void WorkPaper::printPaper() {
-    std::cout << "\tPaper from " << getCompanycode() << std::endl;
-    std::cout << "\tPrices: " << std::endl;
-    std::cout << "\t\tOpening: " << getOpenp() << std::endl;
-    std::cout << "\t\tMaximum: " << getMaxp() << std::endl;
-    std::cout << "\t\tMinimum: " << getMinp() << std::endl;
-    std::cout << "\t\tAverage: " << getAvgp() << std::endl;
-    std::cout << "\t\tLast: " << getLastp() << std::endl;
+    std::cout << "\t   " << getCompanycode() << std::endl;
+    std::cout << "--------------------" << std::endl;
+    std::cout << "/ Abertura: " << getOpenp() << std::endl;
+    std::cout << "/   Maximo: " << getMaxp() << std::endl;
+    std::cout << "/   Minimo: " << getMinp() << std::endl;
+    std::cout << "/    Media: " << getAvgp() << std::endl;
+    std::cout << "/   Ultimo: " << getLastp() << std::endl;
+    std::cout << "--------------------" << std::endl;
+    std::cout << std::endl;
 }

@@ -3,13 +3,24 @@
 
 void runTests();
 
-int main() {
-    std::cout << "Market trade artificial intelligence" << std::endl;
-    std::cout << "Starting tests..." << std::endl << std::endl;
+void printInitHeader(){
+    std::cout << "\t/--------------------------------------/" << std::endl;
+    std::cout << "\t/ Simulaçao da bolsa de valores 2016   /" << std::endl;
+    std::cout << "\t/                                      /" << std::endl;
+    std::cout << "\t/    Bruno Cesar & Cristofer Oswald    /" << std::endl;
+    std::cout << "\t/   Trabalho de IA. UEM, maringa, PR   /" << std::endl;
+    std::cout << "\t/--------------------------------------/" << std::endl;
+    std::cout << std::endl;
 
+}
+
+int main() {
+    printInitHeader();
+
+    std::cout << "Iniciando testes..." << std::endl << std::endl;
     runTests();
 
-    std::cout << "Tests finished" << std::endl;
+    std::cout << "Testes concluidos!" << std::endl;
 
     return 0;
 }

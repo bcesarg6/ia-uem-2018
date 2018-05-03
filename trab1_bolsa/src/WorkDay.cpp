@@ -27,9 +27,15 @@ const std::vector<WorkPaper *> &WorkDay::getWorkPapers() const {
     return work_papers;
 }
 
+void WorkDay::printDayHeader(){
+    std::cout << "\t/-------------------------------/" << std::endl;
+    std::cout << "\t/   Dia de trabalho: " << getDay() << "/" << getMonth() << "/" << getYear() << "   /" << std::endl;
+    std::cout << "\t/         Papeis do dia         /" << std::endl;
+    std::cout << "\t/-------------------------------/" << std::endl << std::endl;
+}
+
 void WorkDay::printDay() {
-    std::cout << "Work day: " << getDay() << "/" << getMonth() << "/" << getYear() << std::endl;
-    std::cout << "Papers this day:" << std::endl;
+    printDayHeader();
 
     for(WorkPaper* paper : getWorkPapers()){
         paper->printPaper();
