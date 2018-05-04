@@ -1,8 +1,10 @@
 #include <iostream>
 #include "include/Market.h"
-#include "include/BasicInvestor.h"
+#include "include/UserInvestor.h"
+#include "include/utils.h"
+#include "include/NoInvestor.h"
 
-void runTests();
+void runTests(bool create_data);
 
 void printInitHeader(){
     std::cout << "\t/--------------------------------------/" << std::endl;
@@ -19,38 +21,39 @@ int main() {
     printInitHeader();
 
     std::cout << "Iniciando testes..." << std::endl << std::endl;
-    runTests();
+    runTests(false);
     std::cout << "Testes concluídos!" << std::endl;
 
     return 0;
 }
 
-void runTests(){
-    Market* market;
+void runTests(bool create_data){
+    Market market;
+    market.addInvestor(new NoInvestor(1., "No", Type::AI));
 
-    std::vector<WorkDay*> work_days;
-    std::map<Company, WorkPaper*> work_papers;
-    std::vector<Investor*> investors;
+    if(!create_data){
+        readFile("dados2014.txt", market);
+        readFile("dados2015.txt", market);
+    }
+    else{
+        WorkDay* workday;
 
-    investors.push_back(new BasicInvestor(1, "User", Type::USER));
+        workday = new WorkDay(1, 1, 2014);
+        workday->addWorkPaper(new WorkPaper("UPG3", 10, 12, 8, 11, 11.5), Company::CIEL3);
+        workday->addWorkPaper( new WorkPaper("WR2", 20, 25, 15, 22, 23.2), Company::GRND3);
+        workday->addWorkPaper(new WorkPaper("TF2", 12, 16, 11, 14, 15.6), Company::JSLG3);
+        workday->addWorkPaper(new WorkPaper("GGEE", 31, 32, 27, 28, 29.1), Company::LEVE3);
 
-    work_papers.insert(std::pair<Company, WorkPaper*>(Company::CIEL3, new WorkPaper("UPG3", 10, 12, 8, 11, 11.5)));
-    work_papers.insert(std::pair<Company, WorkPaper*>(Company::GRND3, new WorkPaper("WR2", 20, 25, 15, 22, 23.2)));
-    work_papers.insert(std::pair<Company, WorkPaper*>(Company::JSLG3, new WorkPaper("TF2", 12, 16, 11, 14, 15.6)));
-    work_papers.insert(std::pair<Company, WorkPaper*>(Company::LEVE3, new WorkPaper("GGEE", 31, 32, 27, 28, 29.1)));
+        market.addWorkDay(workday);
 
-    work_days.push_back(new WorkDay(1, 1, 2014, work_papers));
+        workday = new WorkDay(2, 1, 2014);
+        workday->addWorkPaper(new WorkPaper("UPG3", 11.5, 13, 11, 12, 12.1), Company::CIEL3);
+        workday->addWorkPaper( new WorkPaper("WR2", 23.2, 27, 20, 23, 26.4), Company::GRND3);
+        workday->addWorkPaper(new WorkPaper("TF2", 15.6, 18, 13, 16, 15.8), Company::JSLG3);
+        workday->addWorkPaper(new WorkPaper("GGEE", 29.1, 30, 25, 26, 27.2), Company::LEVE3);
 
-    work_papers.clear();
+        market.addWorkDay(workday);
+    }
 
-    work_papers.insert(std::pair<Company, WorkPaper*>(Company::CIEL3, new WorkPaper("UPG3", 11.5, 13, 11, 12, 12.1)));
-    work_papers.insert(std::pair<Company, WorkPaper*>(Company::GRND3, new WorkPaper("WR2", 23.2, 27, 20, 23, 26.4)));
-    work_papers.insert(std::pair<Company, WorkPaper*>(Company::JSLG3, new WorkPaper("TF2", 15.6, 18, 13, 16, 15.8)));
-    work_papers.insert(std::pair<Company, WorkPaper*>(Company::LEVE3, new WorkPaper("GGEE", 29.1, 30, 25, 26, 27.2)));
-
-    work_days.push_back(new WorkDay(1, 2, 2014, work_papers));
-
-    market = new Market(0, 2, &work_days, &investors);
-
-    market->startMarket();
+    market.startMarket();
 }

@@ -6,8 +6,8 @@
 #include <iostream>
 #include "include/WorkPaper.h"
 
-WorkPaper::WorkPaper(std::string company_code, float openp, float maxp, float minp, float medp, float lastp)
-        : company_code(std::move(company_code)), openp(openp), maxp(maxp), minp(minp), avgp(medp), lastp(lastp) {}
+WorkPaper::WorkPaper(std::string company_code, float openp, float maxp, float minp, float avgp, float lastp)
+        : company_code(std::move(company_code)), openp(openp), maxp(maxp), minp(minp), avgp(avgp), lastp(lastp) {}
 
 const std::string &WorkPaper::getCompanycode() const {
     return company_code;

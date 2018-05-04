@@ -15,10 +15,10 @@ public:
      * @param openp Opening price
      * @param maxp Maximum price
      * @param minp Minimum price
-     * @param medp Medium price
+     * @param avgp Medium price
      * @param lastp Last price
      */
-    WorkPaper(std::string company_code, float openp, float maxp, float minp, float medp, float lastp);
+    WorkPaper(std::string company_code, float openp, float maxp, float minp, float avgp, float lastp);
 
     /**
      * @return The company code

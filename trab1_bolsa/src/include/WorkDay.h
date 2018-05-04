@@ -20,7 +20,7 @@ public:
      * @param year Year of negotiation
      * @param work_papers Vector of the work papers negotiated this day
      */
-    WorkDay(int day, int month, int year, std::map<Company, WorkPaper *>& work_papers);
+    WorkDay(int day, int month, int year);
 
     /**
      * @return The day of this negotiation
@@ -41,6 +41,13 @@ public:
      * @return Vector of all work papers negotiated this day
      */
     const std::map<Company, WorkPaper*> &getWorkPapers() const;
+
+    /**
+     * Adds a work paper to the map
+     * @param workpaper
+     * @param company Company code
+     */
+    void addWorkPaper(WorkPaper* workpaper, Company company);
 
     /**
      * Displays the papers negotiated this day
