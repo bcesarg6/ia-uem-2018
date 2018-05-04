@@ -1,6 +1,7 @@
 #include <iostream>
 #include "include/Market.h"
 #include "include/BasicInvestor.h"
+#include "include/Utils.h"
 
 void runTests();
 
@@ -19,7 +20,8 @@ int main() {
     printInitHeader();
 
     std::cout << "Iniciando testes..." << std::endl << std::endl;
-    runTests();
+    //runTests();
+    readFile("dados2014.txt", nullptr);
     std::cout << "Testes concluídos!" << std::endl;
 
     return 0;
