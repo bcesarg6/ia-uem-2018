@@ -7,6 +7,9 @@
 
 #include <string>
 
+/**
+ * The most basic class of the hierachy. Has the prices of a single company paper.
+ */
 class WorkPaper {
 public:
     /**

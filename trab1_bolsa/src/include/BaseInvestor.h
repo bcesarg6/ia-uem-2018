@@ -6,27 +6,50 @@
 #define TRAB1_BOLSA_INVESTOR_H
 
 #include <string>
-#include "WorkDay.h"
+#include <utility> #include "WorkDay.h"
+#include <map>
+#include "Company.h"
 
 class WorkDay;
 
-enum Type{
+/**
+ * Enum representing the type of the investor.
+ */
+enum InvestorType{
     AI, USER
 };
 
+/**
+ * Type of the possible operations
+ */
 enum ActionType{
     BUY, SELL
 };
 
+/**
+ * Base abstract class for all investors. Stores all information needed by a investor and implements
+ * the basic functions needed by a investor. The main function is operations() wich needs to be implemented
+ * by other classes, should use the registerAction() function to make actions.
+ */
 class BaseInvestor {
 public:
-    BaseInvestor(double start_wallet, std::string name, Type type) : start_wallet(start_wallet), actual_wallet(start_wallet),
-                                                                name(name), type(type) {};
     /**
-     * Do buy/sell operations based on data of the work day
+     * @param start_wallet Initial wallet, my be used to parcel the initial shares
+     * @param name Name of the investor
+     * @param type Type of the investor (AI, USER)
+     */
+    BaseInvestor(double start_wallet, std::string name, InvestorType type) : start_wallet(start_wallet), actual_wallet(start_wallet),
+                                                                name(std::move(name)), type(type) {};
+    /**
+     * Updates the actual/last work, calls the operations() function and then call doActions() funcion
      * @param actual Actual work day
      */
     void doOperations(WorkDay* actual);
+
+    /**
+     * Prints to screen the dayly report with gains and actual wallet
+     * @param workday
+     */
     void printDayReport(WorkDay* workday);
 
 protected:
@@ -35,13 +58,41 @@ protected:
     std::map<Company, double> shares;
     std::map<std::pair<WorkDay*,Company>, std::pair<ActionType, double>> actions;
     std::map<std::pair<WorkDay*,Company>, double> gains;
-    Type type;
+    InvestorType type;
     WorkDay *last_work = nullptr, *actual_work = nullptr;
 
+    /**
+     * Abstract function, should be implemented to register actions.
+     */
     virtual void operations() = 0;
-    void buy(Company company, double amount);
-    void sell(Company company, double amount);
+
+    /**
+     * Register a action to be done at the end o the day
+     * @param company Target company o the action
+     * @param action Buy or sell type
+     * @param amount Amount
+     */
     void registerAction(Company company, ActionType action, double amount);
+
+private:
+    /**
+     * Performs a buy operation, updating the wallet and shares
+     * @param company The company to be bought
+     * @param amount The amount to be bought
+     */
+    void buy(Company company, double amount);
+
+    /**
+     * Performs a sell operation, updating the wallet and shares
+     * @param company The company to be bought
+     * @param amount The amount to be bought
+     */
+    void sell(Company company, double amount);
+
+    /**
+     * Called at the end of doOperations(). Perform all registered actions.
+     * @param print_report If needs to print the dayly report at the end of all operations
+     */
     void doActions(bool print_report);
 };
 

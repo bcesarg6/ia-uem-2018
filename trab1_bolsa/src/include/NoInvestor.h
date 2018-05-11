@@ -8,9 +8,12 @@
 
 #include "BaseInvestor.h"
 
+/**
+ * Investor that does nothing, just makes a initial uniform buy.
+ */
 class NoInvestor : public BaseInvestor {
 public:
-    NoInvestor(double start_wallet, const std::string &name, Type type);
+    NoInvestor(double start_wallet, const std::string &name, InvestorType type);
     void operations() override ;
 
 };

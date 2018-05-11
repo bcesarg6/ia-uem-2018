@@ -11,6 +11,9 @@
 #include "WorkPaper.h"
 #include "Company.h"
 
+/**
+ * Represents a work day. Each work day has a list of work papers from each company
+ */
 class WorkDay {
 public:
     /**

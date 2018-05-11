@@ -18,5 +18,5 @@ void NoInvestor::operations() {
 }
 
 
-NoInvestor::NoInvestor(double start_wallet, const std::string &name, Type type) : BaseInvestor(start_wallet,
+NoInvestor::NoInvestor(double start_wallet, const std::string &name, InvestorType type) : BaseInvestor(start_wallet,
                                                                                                        name, type) {}

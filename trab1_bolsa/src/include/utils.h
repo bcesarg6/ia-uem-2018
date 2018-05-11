@@ -10,4 +10,9 @@
 
 #endif //TRAB1_BOLSA_UTILS_H
 
+/**
+ * Reads a market file, constructing a market object
+ * @param file_name
+ * @param market
+ */
 void readFile(std::string file_name, Market& market);

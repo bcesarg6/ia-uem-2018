@@ -37,5 +37,5 @@ void UserInvestor::operations() {
     }
 }
 
-UserInvestor::UserInvestor(double start_wallet, const std::string &name, Type type) : BaseInvestor(start_wallet,
+UserInvestor::UserInvestor(double start_wallet, const std::string &name, InvestorType type) : BaseInvestor(start_wallet,
                                                                                                           name, type) {}

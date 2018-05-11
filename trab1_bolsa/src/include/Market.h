@@ -13,8 +13,14 @@
 
 static std::vector<std::string> companies = {"UGPA3", "WEGE3", "LREN3", "GRND3", "SBSP3", "JSLG3", "CIEL3", "NATU3", "VIVT4", "LEVE3"};
 
+/**
+ * Represents the market object. Handles the day to day update, storing all work days and running the investments
+ */
 class Market {
 public:
+
+    Market(int day, int month, int year) : start_day(day), start_month(month), start_year(year) {}
+
     /**
      * Adds a work day to the market
      * @param workday The work day object
@@ -86,7 +92,7 @@ public:
     void startMarket();
 
 private:
-    int past_days = 0;
+    int past_days = 0, start_day, start_month, start_year;
     std::vector<WorkDay*> work_days;
     std::map<std::string, WorkDay*> work_day_map;
     std::vector<BaseInvestor*> investors;

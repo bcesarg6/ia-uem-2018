@@ -8,9 +8,12 @@
 
 #include "BaseInvestor.h"
 
+/**
+ * User based investor. Makes a initial uniform buy than anks to user what to buy/sell.
+ */
 class UserInvestor : public BaseInvestor{
 public:
-    UserInvestor(double start_wallet, const std::string &name, Type type);
+    UserInvestor(double start_wallet, const std::string &name, InvestorType type);
 
     void operations() override;
 private:
