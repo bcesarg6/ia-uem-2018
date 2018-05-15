@@ -2,24 +2,22 @@
 // Created by cristofer on 09/05/18.
 //
 
-#ifndef TRAB1_BOLSA_AUTOINVESTOR_H
-#define TRAB1_BOLSA_AUTOINVESTOR_H
+#ifndef TRAB1_BOLSA_MAEINVESTOR_H
+#define TRAB1_BOLSA_MAEINVESTOR_H
 
 
-#include <map>
-#include "Company.h"
 #include "BaseInvestor.h"
 
 /**
  * Investor used by the AI. Recieves the initial shares (trained by the AI) and makes
- * buy/sell operations based on the moving averages simple
+ * buy/sell operations based on the moving averages exponential
  */
-class MASInvestor : public BaseInvestor {
+class MMEInvestor : public BaseInvestor {
 public:
     /**
      * @param initial_shares Map with the initial shares of each company
      */
-    MASInvestor(double start_wallet, const std::string &name, InvestorType type, std::map<Company, double>& initial_shares);
+    MMEInvestor(double start_wallet, const std::string &name, InvestorType type, std::map<Company, double>& initial_shares);
 
 protected:
     void operations() override;
@@ -29,4 +27,4 @@ private:
 };
 
 
-#endif //TRAB1_BOLSA_AUTOINVESTOR_H
+#endif //TRAB1_BOLSA_MAEINVESTOR_H

@@ -3,7 +3,7 @@
 #include "include/UserInvestor.h"
 #include "include/utils.h"
 #include "include/NoInvestor.h"
-#include "include/MASInvestor.h"
+#include "include/MMSInvestor.h"
 #include "include/AITraining.h"
 
 void runTests(bool create_data);
@@ -61,6 +61,6 @@ void runTests(bool create_data){
     ai.trainAI(initial_shares);
 
     market.addInvestor(new NoInvestor(1., "No", InvestorType::AI));
-    market.addInvestor(new MASInvestor(1., "Auto", InvestorType::AI, initial_shares));
+    //market.addInvestor(new MMSInvestor(1., "Auto", InvestorType::AI, initial_shares));
     market.startMarket();
 }

@@ -16,6 +16,8 @@
  */
 class WorkDay {
 public:
+    WorkDay* previous;
+
     /**
      * Creates a new work day object based on work papers
      * @param day Day of negotiation

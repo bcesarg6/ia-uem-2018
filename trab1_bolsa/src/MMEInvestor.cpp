@@ -2,13 +2,13 @@
 // Created by cristofer on 09/05/18.
 //
 
-#include "include/MASInvestor.h"
+#include "include/MMEInvestor.h"
 #include "include/Market.h"
 
-MASInvestor::MASInvestor(double start_wallet, const std::string &name, InvestorType type, std::map<Company,
+MMEInvestor::MMEInvestor(double start_wallet, const std::string &name, InvestorType type, std::map<Company,
         double>& initial_shares) : BaseInvestor(start_wallet, name, type), initial_shares(initial_shares) {}
 
-void MASInvestor::operations() {
+void MMEInvestor::operations() {
     if(last_work == nullptr){
         for(std::string& company : companies){
             Company comp = Market::getCompanyCode(company);

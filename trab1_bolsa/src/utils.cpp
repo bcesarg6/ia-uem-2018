@@ -12,6 +12,7 @@ void readFile(std::string file_name, Market& market){
     std::ifstream file(file_name);
     Company company_code;
     WorkDay* workday;
+    WorkDay* previous = nullptr;
     char* in;
 
     int year, month, day;
@@ -80,11 +81,13 @@ void readFile(std::string file_name, Market& market){
             workday = market.getWorkDayByDate(day, month, year);
             if(!workday){
                 workday = new WorkDay(day, month, year);
+                workday->previous = previous;
+                previous = workday;
+                market.addWorkDay(workday);
             }
 
             workday->addWorkPaper(new WorkPaper(company_name, openp, maxp, minp, avgp, lastp), company_code);
 
-            market.addWorkDay(workday);
         }
     }
     else{

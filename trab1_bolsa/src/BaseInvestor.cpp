@@ -37,11 +37,21 @@ void BaseInvestor::sell(Company company, double amount) {
 }
 
 void BaseInvestor::registerAction(Company company, ActionType action, double amount){
-    if(actions.find(std::pair<WorkDay*, Company>(actual_work, company)) != actions.end()){
-        std::cout << "Já existe uma ação registrada para a compania " << Market::getCompanyName(company) << " para este dia" << std::endl;
+    if(action == ActionType::BUY){
+        if(buy_actions.find(std::pair<WorkDay*, Company>(actual_work, company)) != buy_actions.end()){
+            std::cout << "Já existe uma ação registrada para a compania " << Market::getCompanyName(company) << " para este dia" << std::endl;
+        }
+        else{
+            buy_actions.insert(std::make_pair(std::pair<WorkDay*, Company>(actual_work, company), amount));
+        }
     }
     else{
-        actions.insert(std::make_pair(std::pair<WorkDay*, Company>(actual_work, company), std::pair<ActionType, double>(action, amount)));
+        if(sell_actions.find(std::pair<WorkDay*, Company>(actual_work, company)) != sell_actions.end()){
+            std::cout << "Já existe uma ação registrada para a compania " << Market::getCompanyName(company) << " para este dia" << std::endl;
+        }
+        else{
+            sell_actions.insert(std::make_pair(std::pair<WorkDay*, Company>(actual_work, company), amount));
+        }
     }
 }
 
@@ -50,19 +60,19 @@ void BaseInvestor::doActions(bool print_report) {
 
     for(std::string& name : companies){
         company = Market::getCompanyCode(name);
-        auto it = actions.find(std::pair<WorkDay*, Company>(actual_work, company));
+        auto it = sell_actions.find(std::pair<WorkDay*, Company>(actual_work, company));
 
-        if(it != actions.end()){
-            if(it->second.first == ActionType::BUY){
-                buy(company, it->second.second);
-            }
-            else if(it->second.first == ActionType::SELL){
-                sell(company, it->second.second);
-            }
-
+        if(it != sell_actions.end()){
+            buy(company, it->second);
         }
-        else{
-            std::cout << "Não há ações no dia de hoje para " << name << std::endl;
+    }
+
+    for(std::string& name : companies){
+        company = Market::getCompanyCode(name);
+        auto it = buy_actions.find(std::pair<WorkDay*, Company>(actual_work, company));
+
+        if(it != buy_actions.end()){
+            buy(company, it->second);
         }
     }
 
@@ -89,19 +99,21 @@ void BaseInvestor::doActions(bool print_report) {
 void BaseInvestor::printDayReport(WorkDay* workday){
     Company company;
 
-    std::cout << "Relatório do dia " << workday->getDay() << "/" << workday->getMonth() << "/" << workday->getYear() << std::endl;
+    std::cout << std::endl << "Relatório do dia " << workday->getDay() << "/" << workday->getMonth() << "/" << workday->getYear() << std::endl;
+    if(workday->previous != nullptr) {
+        std::cout << "Dia anterior: " << workday->previous->getDay() << "/" << workday->previous->getMonth() << "/" << workday->previous->getYear() << std::endl;
+    }
 
     for(std::string& name : companies){
         company = Market::getCompanyCode(name);
-        auto action = actions.find(std::pair<WorkDay*, Company>(workday, company));
+        auto buy_action = buy_actions.find(std::pair<WorkDay*, Company>(workday, company));
+        auto sell_action = sell_actions.find(std::pair<WorkDay*, Company>(workday, company));
 
-        if(action != actions.end()){
-            if(action->second.first == ActionType::BUY){
-                std::cout << "Foi realizada uma compra na empresa " << name << " de " << action->second.second << std::endl;
-            }
-            else{
-                std::cout << "Foi realizada uma venda na empresa " << name << " de " << action->second.second << std::endl;
-            }
+        if(buy_action != buy_actions.end()){
+            std::cout << "Foi realizada uma compra na empresa " << name << " de " << buy_action->second<< std::endl;
+        }
+        if(sell_action != sell_actions.end()){
+            std::cout << "Foi realizada uma venda na empresa " << name << " de " << buy_action->second << std::endl;
         }
         std::cout << "Ganho para " << name << " " << gains[std::pair<WorkDay*, Company>(workday, company)] << ", carteira atual " << shares[company] << std::endl;
     }

@@ -6,7 +6,8 @@
 #define TRAB1_BOLSA_INVESTOR_H
 
 #include <string>
-#include <utility> #include "WorkDay.h"
+#include <utility>
+#include "WorkDay.h"
 #include <map>
 #include "Company.h"
 
@@ -25,6 +26,7 @@ enum InvestorType{
 enum ActionType{
     BUY, SELL
 };
+
 
 /**
  * Base abstract class for all investors. Stores all information needed by a investor and implements
@@ -56,7 +58,8 @@ protected:
     double start_wallet, actual_wallet;
     std::string name;
     std::map<Company, double> shares;
-    std::map<std::pair<WorkDay*,Company>, std::pair<ActionType, double>> actions;
+    std::map<std::pair<WorkDay*,Company>, double> buy_actions;
+    std::map<std::pair<WorkDay*,Company>, double> sell_actions;
     std::map<std::pair<WorkDay*,Company>, double> gains;
     InvestorType type;
     WorkDay *last_work = nullptr, *actual_work = nullptr;
@@ -67,7 +70,7 @@ protected:
     virtual void operations() = 0;
 
     /**
-     * Register a action to be done at the end o the day
+     * Register a action to be done at the end of the day
      * @param company Target company o the action
      * @param action Buy or sell type
      * @param amount Amount
