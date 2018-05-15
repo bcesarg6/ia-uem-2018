@@ -63,7 +63,7 @@ void BaseInvestor::doActions(bool print_report) {
         auto it = sell_actions.find(std::pair<WorkDay*, Company>(actual_work, company));
 
         if(it != sell_actions.end()){
-            buy(company, it->second);
+            sell(company, it->second);
         }
     }
 

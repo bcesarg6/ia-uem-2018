@@ -42,6 +42,13 @@ public:
      */
     BaseInvestor(double start_wallet, std::string name, InvestorType type) : start_wallet(start_wallet), actual_wallet(start_wallet),
                                                                 name(std::move(name)), type(type) {};
+
+
+    /**
+     * Construtor vazio
+     */
+    BaseInvestor(){};
+
     /**
      * Updates the actual/last work, calls the operations() function and then call doActions() funcion
      * @param actual Actual work day

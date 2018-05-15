@@ -44,6 +44,12 @@ public:
     int getPastDays() const;
 
     /**
+     *
+     * @return
+     */
+    std::vector<WorkDay*>& getWorkDays();
+
+    /**
      * @return Actual work day object
      */
     WorkDay* getActualWork();

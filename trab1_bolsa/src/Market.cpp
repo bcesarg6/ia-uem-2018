@@ -71,6 +71,8 @@ void Market::nextDay(){
     past_days = past_days + 1;
 }
 
+
+
 void Market::startMarket() {
     WorkDay* actual_work;
 
@@ -122,4 +124,8 @@ Company Market::getCompanyCode(std::string name) {
     else{
         std::cout << "Company code not found!" << std::endl;
     }
+}
+
+std::vector<WorkDay*> &Market::getWorkDays() {
+    return work_days;
 }
