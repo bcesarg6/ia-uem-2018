@@ -98,6 +98,9 @@ void BaseInvestor::doActions(bool print_report) {
 
 void BaseInvestor::printDayReport(WorkDay* workday){
     Company company;
+    double used_wallet = 0, day_gain = 0;
+    static int sub = 0;
+    static int desc = 0;
 
     std::cout << std::endl << "Relatório do dia " << workday->getDay() << "/" << workday->getMonth() << "/" << workday->getYear() << std::endl;
     if(workday->previous != nullptr) {
@@ -113,12 +116,23 @@ void BaseInvestor::printDayReport(WorkDay* workday){
             std::cout << "Foi realizada uma compra na empresa " << name << " de " << buy_action->second<< std::endl;
         }
         if(sell_action != sell_actions.end()){
-            std::cout << "Foi realizada uma venda na empresa " << name << " de " << buy_action->second << std::endl;
+            std::cout << "Foi realizada uma venda na empresa " << name << " de " << sell_action->second << std::endl;
         }
         std::cout << "Ganho para " << name << " " << gains[std::pair<WorkDay*, Company>(workday, company)] << ", carteira atual " << shares[company] << std::endl;
+        day_gain+=gains[std::pair<WorkDay*, Company>(workday, company)];
+        used_wallet+=shares[company];
     }
 
+    if(day_gain < 0){
+        desc++;
+    }
+    else{
+        sub++;
+    }
+
+    std::cout << "Total usado: " << used_wallet << ", ganho do dia: " << day_gain << std::endl;
     std::cout << "Carteira restante: " << actual_wallet << std::endl;
+    std::cout << "Dias de subida: " << sub << ", dias de descida: " << desc << std::endl;
 }
 
 void BaseInvestor::getMMS(WorkDay *workDay, std::map<Company, double>& mms, int mm_days) {

@@ -3,8 +3,9 @@
 #include "include/UserInvestor.h"
 #include "include/utils.h"
 #include "include/NoInvestor.h"
-#include "include/MMSInvestor.h"
+#include "include/ConfMMSInvestor.h"
 #include "include/AITraining.h"
+#include "include/MMSInvestor.h"
 
 void runTests(bool create_data);
 
@@ -30,9 +31,11 @@ int main() {
 }
 
 void runTests(bool create_data){
+    int mode;
     std::map<Company, double> initial_shares;
-    Market market(2, 1, 2014); //Mudar para data de 2016
-    AITraining ai(market, 0.005,0.007, 0.001);
+    std::map<Company,double> confiability;
+    Market market(2, 1, 2015); //Mudar para data de 2016
+    AITraining ai(market, 0.1, 0.05, 0.0002, 0.0002);
 
     if(!create_data){
         readFile("dados2014.txt", market);
@@ -58,9 +61,28 @@ void runTests(bool create_data){
 
         market.addWorkDay(workday);
     }
-    ai.trainAI(initial_shares);
+    ai.trainAI(initial_shares, confiability);
 
-    market.addInvestor(new MMSInvestor(1., "MMS investor", InvestorType::AI,initial_shares,5));
-    //market.addInvestor(new MMSInvestor(1., "Auto", InvestorType::AI, initial_shares));
-    //market.startMarket();
+    std::cout << "Digite 1 para MMS com confiabilidade, 2 para MMS simples, 3 para automático e 4 para entrada do usuário..." << std::endl;
+    std::cin >> mode;
+
+    switch (mode){
+        case 1:
+            market.addInvestor(new ConfMMSInvestor(1., "MMS investor", InvestorType::AI, initial_shares, confiability, 15));
+            break;
+        case 2:
+            market.addInvestor(new MMSInvestor(1., "MMS investor", InvestorType::AI, initial_shares, 180));
+            break;
+        case 3:
+            market.addInvestor(new NoInvestor(1., "Auto", InvestorType::AI));
+            break;
+        case 4:
+            market.addInvestor(new UserInvestor(1., "Auto", InvestorType::USER));
+            break;
+        default:
+            std::cout << "Entrada inválida, iniciando com MMS simples" <<std::endl;
+            market.addInvestor(new MMSInvestor(1., "MMS investor", InvestorType::AI, initial_shares, 180));
+    }
+
+    market.startMarket();
 }

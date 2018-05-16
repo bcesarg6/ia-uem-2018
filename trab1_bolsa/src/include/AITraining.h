@@ -19,21 +19,23 @@ public:
      * Basic constructor, recieves the market used for the training
      * @param market The market filled with data
      */
-    explicit AITraining(Market& market, double alpha, double beta, double gamma) : market(market) ,
-                                                                                    alpha(alpha),
-                                                                                    beta(beta),
-                                                                                    gamma(gamma){}
+    explicit AITraining(Market &market, double alpha, double beta, double delta, double gamma) : market(market) ,
+                                                                                                 alpha(alpha),
+                                                                                                 delta(delta),
+                                                                                                 beta(beta),
+                                                                                                 gamma(gamma){}
 
     /**
      * Trains the AI with a genetic algorithm and populates the initial shares.
      * *insert method explanation*
      * @param initial_shares The map to be populated
      */
-    void trainAI(std::map<Company, double> &initial_shares);
+    void trainAI(std::map<Company, double> &initial_shares, std::map<Company,double>& confiability);
 
 private:
     double alpha; //parametro heuristico
     double beta;
+    double delta;
     double gamma;
     Market& market;
 
