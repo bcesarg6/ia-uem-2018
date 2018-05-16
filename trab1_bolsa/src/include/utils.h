@@ -15,4 +15,4 @@
  * @param file_name
  * @param market
  */
-void readFile(std::string file_name, Market& market);
+WorkDay * readFile(std::string file_name, Market &market, WorkDay *last);

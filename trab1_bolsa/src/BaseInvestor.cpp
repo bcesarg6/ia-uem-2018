@@ -20,6 +20,7 @@ void BaseInvestor::buy(Company company, double amount) {
         return;
     }
 
+    std::cout << "realizando compra de " << Market::getCompanyName(company) << ": "<< amount << std::endl;
     actual_wallet -= amount;
 
     shares[company] += amount;

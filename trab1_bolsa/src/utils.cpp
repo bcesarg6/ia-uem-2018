@@ -7,12 +7,12 @@
 #include <cstring>
 #include "include/utils.h"
 
-void readFile(std::string file_name, Market& market){
+WorkDay* readFile(std::string file_name, Market &market, WorkDay *last) {
     std::string line;
     std::ifstream file(file_name);
     Company company_code;
     WorkDay* workday;
-    WorkDay* previous = nullptr;
+    WorkDay* previous = last;
     char* in;
 
     int year, month, day;
@@ -89,8 +89,11 @@ void readFile(std::string file_name, Market& market){
             workday->addWorkPaper(new WorkPaper(company_name, openp, maxp, minp, avgp, lastp), company_code);
 
         }
+
     }
     else{
         std::cout << "Erro ao abrir arquivo " << file_name << std::endl;
     }
+
+    return previous;
 }

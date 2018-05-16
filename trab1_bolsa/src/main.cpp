@@ -6,6 +6,7 @@
 #include "include/ConfMMSInvestor.h"
 #include "include/AITraining.h"
 #include "include/MMSInvestor.h"
+#include "include/OracleInvestor.h"
 
 void runTests(bool create_data);
 
@@ -38,9 +39,10 @@ void runTests(bool create_data){
     AITraining ai(market, 0.1, 0.05, 0.0002, 0.0002);
 
     if(!create_data){
-        readFile("dados2014.txt", market);
-        readFile("dados2015.txt", market);
-        readFile("dados2016.txt", market);
+        WorkDay* prev;
+        prev = readFile("dados2014.txt", market, nullptr);
+        prev = readFile("dados2015.txt", market, prev);
+        readFile("dados2016.txt", market, prev);
     }
     else{
         WorkDay* workday;
@@ -63,7 +65,7 @@ void runTests(bool create_data){
     }
     ai.trainAI(initial_shares, confiability);
 
-    std::cout << "Digite 1 para MMS com confiabilidade, 2 para MMS simples, 3 para automático e 4 para entrada do usuário..." << std::endl;
+    std::cout << "Digite 1 para MMS com confiabilidade, 2 para MMS simples, 3 para automático, 4 para oráculo e 5 para entrada do usuário..." << std::endl;
     std::cin >> mode;
 
     switch (mode){
@@ -77,6 +79,9 @@ void runTests(bool create_data){
             market.addInvestor(new NoInvestor(1., "Auto", InvestorType::AI));
             break;
         case 4:
+            market.addInvestor(new OracleInvestor(1., "Auto", InvestorType::AI));
+            break;
+        case 5:
             market.addInvestor(new UserInvestor(1., "Auto", InvestorType::USER));
             break;
         default:
