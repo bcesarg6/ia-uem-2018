@@ -108,5 +108,5 @@ double ConfMMSInvestor::calculateBuy(Company company, double wallet, double gain
 
 double ConfMMSInvestor::calculateSell(Company company, double gain) {
     //return (shares[company]/50) + (((1-initial_shares[company]))*gain*-1);
-    return shares[company]/((initial_shares[company]*200) + (gain*-1*200));
+    return shares[company]/((initial_shares[company]*100) + (gain*-1*100));
 }

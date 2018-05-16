@@ -34,13 +34,13 @@ void runTests(bool create_data){
     int mode;
     std::map<Company, double> initial_shares;
     std::map<Company,double> confiability;
-    Market market(2, 1, 2015); //Mudar para data de 2016
+    Market market(4, 1, 2016); //Mudar para data de 2016
     AITraining ai(market, 0.1, 0.05, 0.0002, 0.0002);
 
     if(!create_data){
         readFile("dados2014.txt", market);
         readFile("dados2015.txt", market);
-        //readFile("dados2016.txt", market);
+        readFile("dados2016.txt", market);
     }
     else{
         WorkDay* workday;
@@ -83,6 +83,6 @@ void runTests(bool create_data){
             std::cout << "Entrada inválida, iniciando com MMS simples" <<std::endl;
             market.addInvestor(new MMSInvestor(1., "MMS investor", InvestorType::AI, initial_shares, 180));
     }
-
+    //market.addInvestor(new ConfMMSInvestor(1., "MMS investor", InvestorType::AI, initial_shares, confiability, 15));
     market.startMarket();
 }

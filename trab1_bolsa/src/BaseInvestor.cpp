@@ -133,6 +133,7 @@ void BaseInvestor::printDayReport(WorkDay* workday){
     std::cout << "Total usado: " << used_wallet << ", ganho do dia: " << day_gain << std::endl;
     std::cout << "Carteira restante: " << actual_wallet << std::endl;
     std::cout << "Dias de subida: " << sub << ", dias de descida: " << desc << std::endl;
+    std::cout << "Ganho total: " << (used_wallet-1) << std::endl;
 }
 
 void BaseInvestor::getMMS(WorkDay *workDay, std::map<Company, double>& mms, int mm_days) {

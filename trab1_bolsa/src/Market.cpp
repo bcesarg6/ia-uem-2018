@@ -78,8 +78,11 @@ void Market::startMarket() {
 
     while(hasNextDay()){
         actual_work = getActualWork();
-        for(BaseInvestor* investor : investors){
-            investor->doOperations(actual_work);
+
+        if(actual_work->getYear() == start_year){
+            for(BaseInvestor* investor : investors){
+                investor->doOperations(actual_work);
+            }
         }
 
         nextDay();
