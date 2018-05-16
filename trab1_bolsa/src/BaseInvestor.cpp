@@ -120,3 +120,24 @@ void BaseInvestor::printDayReport(WorkDay* workday){
 
     std::cout << "Carteira restante: " << actual_wallet << std::endl;
 }
+
+void BaseInvestor::getMMS(WorkDay *workDay, std::map<Company, double>& mms) {
+    WorkDay* actual = workDay;
+    int past_days = 0;
+
+    for(int i = 0; i < mm_days; i++){
+        if(actual == nullptr) break;
+
+        for(std::string& comp : companies){
+            Company company = Market::getCompanyCode(comp);
+            mms[company] += actual->getWorkPapers().at(company)->getLastp();
+        }
+        actual = actual->previous;
+        past_days++;
+    }
+
+    for(std::string& comp : companies){
+        Company company = Market::getCompanyCode(comp);
+        mms[company] = mms[company]/past_days;
+    }
+}

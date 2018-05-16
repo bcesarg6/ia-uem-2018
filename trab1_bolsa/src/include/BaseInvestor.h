@@ -35,6 +35,8 @@ enum ActionType{
  */
 class BaseInvestor {
 public:
+    static int mm_days;
+
     /**
      * @param start_wallet Initial wallet, my be used to parcel the initial shares
      * @param name Name of the investor
@@ -43,17 +45,18 @@ public:
     BaseInvestor(double start_wallet, std::string name, InvestorType type) : start_wallet(start_wallet), actual_wallet(start_wallet),
                                                                 name(std::move(name)), type(type) {};
 
-
     /**
      * Construtor vazio
      */
-    BaseInvestor(){};
+    BaseInvestor() = default;
 
     /**
      * Updates the actual/last work, calls the operations() function and then call doActions() funcion
      * @param actual Actual work day
      */
     void doOperations(WorkDay* actual);
+
+    static void getMMS(WorkDay* workDay, std::map<Company, double>& mms);
 
     /**
      * Prints to screen the dayly report with gains and actual wallet
@@ -62,7 +65,7 @@ public:
     void printDayReport(WorkDay* workday);
 
 protected:
-    double start_wallet, actual_wallet;
+    double start_wallet{}, actual_wallet{};
     std::string name;
     std::map<Company, double> shares;
     std::map<std::pair<WorkDay*,Company>, double> buy_actions;

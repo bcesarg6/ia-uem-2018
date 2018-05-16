@@ -39,14 +39,5 @@ void MMSInvestor::operations() {
 }
 
 void MMSInvestor::calculateMMS(WorkDay *workDay) {
-    WorkDay* actual = workDay;
 
-    for(int i = 0; i < mm_days; i++){
-        for(std::string& comp : companies){
-            Company company = Market::getCompanyCode(comp);
-            mms[workDay][company] = actual->getWorkPapers().at(company)->getLastp();
-
-        }
-        actual = actual->previous;
-    }
 }
