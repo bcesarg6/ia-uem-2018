@@ -121,7 +121,7 @@ void BaseInvestor::printDayReport(WorkDay* workday){
     std::cout << "Carteira restante: " << actual_wallet << std::endl;
 }
 
-void BaseInvestor::getMMS(WorkDay *workDay, std::map<Company, double>& mms) {
+void BaseInvestor::getMMS(WorkDay *workDay, std::map<Company, double>& mms, int mm_days) {
     WorkDay* actual = workDay;
     int past_days = 0;
 

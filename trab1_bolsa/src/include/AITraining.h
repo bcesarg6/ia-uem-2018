@@ -7,7 +7,6 @@
 
 
 #include "Market.h"
-#include "ConfInvestor.h"
 
 /**
  * Class representing the AI train. It uses the market information to generate
@@ -20,8 +19,7 @@ public:
      * Basic constructor, recieves the market used for the training
      * @param market The market filled with data
      */
-    explicit AITraining(Market& market, ConfInvestor& confInvestor, double alpha, double beta, double gamma) : market(market) ,
-                                                                                    confInvestor(confInvestor),
+    explicit AITraining(Market& market, double alpha, double beta, double gamma) : market(market) ,
                                                                                     alpha(alpha),
                                                                                     beta(beta),
                                                                                     gamma(gamma){}
@@ -38,9 +36,8 @@ private:
     double beta;
     double gamma;
     Market& market;
-    ConfInvestor& confInvestor;
 
-    void simulateMarket();
+    void simulateMarket(std::map<Company,double>& confiability);
 };
 
 

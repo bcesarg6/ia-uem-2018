@@ -32,8 +32,7 @@ int main() {
 void runTests(bool create_data){
     std::map<Company, double> initial_shares;
     Market market(2, 1, 2014); //Mudar para data de 2016
-    ConfInvestor confInvestor("Confiability investor");
-    AITraining ai(market, confInvestor, 0.05,0.07, 0.01);
+    AITraining ai(market, 0.005,0.007, 0.001);
 
     if(!create_data){
         readFile("dados2014.txt", market);
@@ -61,7 +60,7 @@ void runTests(bool create_data){
     }
     ai.trainAI(initial_shares);
 
-    market.addInvestor(new NoInvestor(1., "No", InvestorType::AI));
+    market.addInvestor(new MMSInvestor(1., "MMS investor", InvestorType::AI,initial_shares,5));
     //market.addInvestor(new MMSInvestor(1., "Auto", InvestorType::AI, initial_shares));
     //market.startMarket();
 }

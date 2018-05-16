@@ -35,8 +35,6 @@ enum ActionType{
  */
 class BaseInvestor {
 public:
-    static int mm_days;
-
     /**
      * @param start_wallet Initial wallet, my be used to parcel the initial shares
      * @param name Name of the investor
@@ -56,7 +54,7 @@ public:
      */
     void doOperations(WorkDay* actual);
 
-    static void getMMS(WorkDay* workDay, std::map<Company, double>& mms);
+    static void getMMS(WorkDay* workDay, std::map<Company, double>& mms, int mm_days);
 
     /**
      * Prints to screen the dayly report with gains and actual wallet
