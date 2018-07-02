@@ -11,10 +11,16 @@ files = ['./pdfs/13.pdf', './pdfs/17.pdf', './pdfs/19.pdf', './pdfs/20.pdf',
          './pdfs/31.pdf', './pdfs/46.pdf', './pdfs/48.pdf', './pdfs/49.pdf',
          './pdfs/50.pdf', './pdfs/98.pdf', './pdfs/118.pdf', './pdfs/120.pdf']
 
+out_files = ['./out/13.txt', './out/17.txt', './out/19.txt', './out/20.txt',
+         './out/21.txt', './out/22.txt', './out/23.txt', './out/29.txt',
+         './out/31.txt', './out/46.txt', './out/48.txt', './out/49.txt',
+         './out/50.txt', './out/98.txt', './out/118.txt', './out/120.txt']
+
 min_tam = 2
 
 refs = ['references', 'eferences']
 
+i = 0
 for filename in files:
     text = textract.process(filename).decode("utf-8")
 
@@ -75,9 +81,20 @@ for filename in files:
     sorted_top = sorted(top_words.items(), key=lambda x: x[1])
     sorted_top = sorted_top[-10:]
 
-    print sorted_top
+    #print sorted_top
 
+    outf = open(out_files[i],"w+")
+
+    outf.write("10 termos mais citados:\n")
     for t in sorted_top:
-        print t[0] + ": " + str(t[1])
+        outf.write(t[0] + ": " + str(t[1]) + "\n")
 
-    print references
+    outf.write(";;\n")
+
+    outf.write(references)
+
+    outf.write("\n;;\n")
+
+    outf.close()
+
+    i = i + 1
