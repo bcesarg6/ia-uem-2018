@@ -1,0 +1,190 @@
+10 termos mais citados:
+return: 48
+series: 49
+process: 50
+gprsv: 72
+data: 79
+time: 79
+models: 88
+function: 89
+volatility: 105
+model: 152
+;;
+
+REFERENCES
+[1] Z. Ghahramani, “An introduction to hidden Markov models and Bayesian
+networks,” Int. J. Pattern Recog. Artif. Intell., vol. 15, no. 01, pp. 9–42,
+2001.
+
+HAN et al.: GAUSSIAN PROCESS REGRESSION STOCHASTIC VOLATILITY MODEL FOR FINANCIAL TIME SERIES
+
+[2] T. Rajbhandary, X.-P. Zhang, and F. Wang, “Piecewise constant modeling
+and Kalman filter tracking of systematic market risk,” in Proc. IEEE Glob.
+Conf. Signal. Inf. Process., Dec. 2013, pp. 1144–1144.
+[3] L. Vo, X.-P. Zhang, and F. Wang, “Multifactor systematic risk analysis
+based on piecewise mean reverting model,” in Proc. IEEE Glob. Conf.
+Signal. Inf. Process., Dec. 2013, pp. 1142–1142.
+[4] C. E. Rasmussen, Gaussian Processes for Machine Learning. Cambridge,
+MA, USA: MIT Press, 2006.
+[5] A. Wilson and Z. Ghahramani, “Copula processes,” in Proc. Adv. Neural
+Inf. Process. Syst., 2010, pp. 2460–2468.
+[6] C. Brownlees, R. Engle, and B. Kelly, “A practical guide to volatility
+forecasting through calm and storm,” J. Risk, vol. 14, no. 2, pp. 1–20,
+2011.
+[7] R. Tsay, Analysis of Financial Time Series. New York, NY, USA: Wiley,
+2010.
+[8] R. F. Engle, “Autoregressive conditional heteroscedasticity with estimates
+of the variance of United Kingdom inflation,” Econometrica, J. Econometric Soc., vol. 50, pp. 987–1007, 1982.
+[9] T. Bollerslev, “Generalized autoregressive conditional heteroskedasticity,”
+J. Econometrics, vol. 31, pp. 307–327, 1986.
+[10] L. R. Glosten, R. Jagannathan, and D. E. Runkle, “On the relation between
+the expected value and the volatility of the nominal excess return on
+stocks,” J. Finance, vol. 48, no. 5, pp. 1779–1801, 1993.
+[11] S. Taylor, Modelling Financial Time Series. Chichester, Chichester, U.K.:
+Wiley, 1986.
+[12] M. Fridman and L. Harris, “A maximum likelihood approach for nonGaussian stochastic volatility models,” J. Bus. Econ. Stat., pp. 284–291,
+1998.
+[13] E. Jacquier, N. G. Polson, and P. Rossi, “Bayesian analysis of stochastic
+volatility models,” J. Bus. Econ. Statist., vol. 12, no. 4, pp. 371–89, 1994.
+[14] E. Jacquier, N. G. Polson, and P. E. Rossi, “Bayesian analysis of stochastic
+volatility models with fat-tails and correlated errors,” J. Econometrics,
+vol. 122, no. 1, pp. 185–212, 2004.
+[15] A. C. Harvey and N. Shephard, “Estimation of an asymmetric stochastic
+volatility model for asset returns,” J. Bus. Econ. Statist., vol. 14, no. 4,
+pp. 429–434, 1996.
+[16] N. Shephard, “Statistical aspects of arch and stochastic volatility,” Monogr.
+Statist. Appl. Probability, vol. 65, pp. 1–68, 1996.
+[17] S. Neil and T. Andersen, “Stochastic volatility: Origins and overview,”
+Univ. Oxford, Dept. Economics, Oxford, U.K., Economics Series Working
+Papers 389, 2008.
+[18] R. Frigola, Y. Chen, and C. Rasmussen, “Variational Gaussian process state-space models,” in Proc. Adv. Neural Inf. Process. Syst.,2014,
+pp. 3680–3688.
+[19] R. Frigola, F. Lindsten, T. B. Schön, and C. E. Rasmussen, “Bayesian inference and learning in Gaussian process state-space models with particle
+MCMC,” in Proc. Adv. Neural Inf. Process. Syst., 2013, pp. 3156–3164.
+[20] N. Lawrence, “Probabilistic non-linear principal component analysis with
+Gaussian process latent variable models,” J. Mach. Learn. Res., vol. 6,
+pp. 1783–1816, 2005.
+[21] J. Ko and D. Fox, “GP-BayesFilters: Bayesian filtering using Gaussian
+process prediction and observation models,” Auton. Robots, vol. 27,
+no. 1, pp. 75–90, 2009.
+[22] J. Wang, A. Hertzmann, and D. Blei, “Gaussian process dynamical models,” in Proc. Adv. Neural Inf. Process. Syst., 2005, pp. 1441–1448.
+[23] A. Doucet, S. Godsill, and C. Andrieu, “On sequential Monte Carlo
+sampling methods for Bayesian filtering,” Stat. Comput., vol. 10, no. 3,
+pp. 197–208, 2000.
+[24] J. S. Liu and R. Chen, “Sequential Monte Carlo methods for dynamic
+systems,” J. Amer. Stat. Assoc., vol. 93, no. 443, pp. 1032–1044, 1998.
+[25] C. Andrieu, A. Doucet, and R. Holenstein, “Particle Markov chain Monte
+Carlo methods,” J. Roy. Statist. Soc. B, vol. 72, no. 3, pp. 269–342, 2010.
+[26] F. Lindsten, M. Jordan, and T. Schön, “Particle Gibbs with ancestor sampling,” J. Mach. Learn. Res., vol. 15, pp. 2145–2184, 2014.
+[27] S. Kim, N. Shephard, and S. Chib, “Stochastic volatility: Likelihood inference and comparison with ARCH models,” Rev. Econ. Stud., vol. 65,
+no. 3, pp. 361–393, 1998.
+[28] Y. Wu, J. M. Hernández-Lobato, and Z. Ghahramani, “Gaussian process
+volatility model,” in Proc. Adv. Neural Inf. Process. Syst., 2014, pp. 1044–
+1052.
+[29] J. Campbell, A. W.-C. Lo, and A. C. MacKinlay, The Econometrics of
+Financial Markets. Princeton, Princeton, NJ, USA: Princeton Univ. Press,
+1997.
+[30] S.-H. Poon and C. W. Granger, “Forecasting volatility in financial markets:
+A review,” J. Econ. Literature, vol. 41, no. 2, pp. 478–539, 2003.
+
+1027
+
+[31] A. A. Christie, “The stochastic behavior of common stock variances:
+Value, leverage and interest rate effects,” J. Financial Econ., vol. 10, no.
+4, pp. 407–432, 1982.
+[32] G. Wu, “The determinants of asymmetric volatility,” Rev. Financial Stud.,
+vol. 14, no. 3, pp. 837–59, 2001.
+[33] J. Yu, “On leverage in a stochastic volatility model,” J. Econometrics,
+vol. 127, no. 2, pp. 165–178, 2005.
+[34] Y. Omori, S. Chib, N. Shephard, and J. Nakajima, “Stochastic volatility
+with leverage: Fast and efficient likelihood inference,” J. Econometrics,
+vol. 140, no. 2, pp. 425–449, 2007.
+[35] T. Bollerslev, R. Chou, and K. F. Kroner, “Arch modeling in finance: A
+review of the theory and empirical evidence,” J. Econometrics, vol. 52,
+nos. 1/2, pp. 5–59, 1992.
+[36] D. Nelson, “Conditional heteroskedasticity in asset returns: A new approach,” Econometrica, vol. 59, no. 2, pp. 347–70, Mar. 1991.
+[37] J. D. Hamilton, Time Series Analysis. Princeton, Princeton, NJ, USA:
+Princeton Univ. Press, 1994.
+[38] A. McLeod and W. Li, “Diagnostic checking ARMA time series models
+using squared-residual autocorrelations,” J. Time Series Anal., vol. 4, no.
+4, pp. 269–273, 1983.
+[39] R. E. Kalman, “A new approach to linear filtering and prediction problems,” Trans. ASME J. Basic Eng., vol. 82, no. 1, pp. 35–45, 1960.
+[40] C. Andrieu, N. De Freitas, A. Doucet, and M. Jordan, “An introduction to
+MCMC for machine learning,” Mach. Learn., vol. 50, nos. 1/2, pp. 5–43,
+2003.
+[41] N. Gordon, D. Salmond, and A. Smith, “Novel approach to nonlinear/nonGaussian Bayesian state estimation,” IEE Proc. Radar Signal Process.,
+vol. 140, no. 2, pp. 107–113, Apr. 1993.
+[42] R. M. Neal, “Slice sampling,” Ann. Statist., vol. 31, no. 3, pp. 705–767,
+2003.
+[43] A. J. Patton, “Volatility forecast comparison using imperfect volatility
+proxies,” J. Econometrics, vol. 160, no. 1, pp. 246–256, 2011.
+[44] S. J. Koopman, B. Jungbacker, and E. Hol, “Forecasting daily variability
+of the S&P 100 stock index using historical, realised and implied volatility
+measurements,” J. Empirical Finance, vol. 12, no. 3, pp. 445–475, 2005.
+[45] A. Torben, T. Bollerslev, F. Diebold, and P. Labys, “Modeling and forecasting realized volatility,” Econometrica, vol. 71, no. 2, pp. 579–625,
+2003.
+[46] F. Diebold and R. Mariano, “Comparing predictive accuracy,” J. Bus.
+Econ. Stat., vol. 13, pp. 253–263, 1995.
+[47] M. Takahashi, T. Watanabeb, and Y. Omoric, “Volatility and quantile forecasts by realized stochastic volatility models with generalized hyperbolic
+distribution,” Int. J. Forecasting, vol. 32, no. 2, pp. 437–457, Apr. 2016.
+[48] T. G. Andersen, T. Bollerslev, F. X. Diebold, and P. Labys, “Modeling and
+forecasting realized volatility,” Econometrica, vol. 71, no. 2, pp. 579–625,
+Mar. 2003.
+[49] T. G. Andersen, T. Bollerslev, and F. X. Diebold, “Roughing it up: Including jump components in the measurement, modeling, and forecasting of return volatility,” Rev. Econ. Statist., vol. 89, no. 4, pp. 701–720,
+Nov. 2007.
+[50] F. Corsi, “A simple approximate long-memory model of realized volatility,” J. Financial Econometrics, vol. 7, no. 2, p. pp. 174–196, 2009.
+[51] M. Takahashi, Y. Omoric, and T. Watanabeb, “Estimating stochastic
+volatility models using daily returns and realized volatility simultaneously,” Comput. Statist. Data Anal., vol. 53, no. 6, pp. 2404–2426,
+Apr. 2009.
+[52] J. Nakajima and Y. Omori, “Stochastic volatility model with leverage and
+asymmetrically heavy-tailed error using GH skew students t-distribution,”
+Comput. Stat. Data Anal., vol. 56, pp. 3690–3704, 2012.
+
+Jianan Han received the Bachelor’s degree in network engineering from Hebei Normal University,
+Shijiazhuang, China, and the Master’s degree of Applied Science in electrical and computer engineering
+from Ryerson University, Toronto, ON, Canada, in
+2010 and 2015, respectively. He is currently a Software and Algorithm Developer at the EidoSearch Inc.
+From 2012 to 2015, he was with the Electrical and
+Computer Engineering Department, Ryerson University. His research interests include machine learning,
+signal processing, and data visualization.
+
+1028
+
+IEEE JOURNAL OF SELECTED TOPICS IN SIGNAL PROCESSING, VOL. 10, NO. 6, SEPTEMBER 2016
+
+Xiao-Ping Zhang (M’97–SM’02) received the B.S.
+and Ph.D. degrees from Tsinghua University, Beijing, China both in electronic engineering, in 1992
+and 1996, respectively, and the MBA (Hons.) degree
+in finance, economics, and entrepreneurship from the
+University of Chicago Booth School of Business,
+Chicago, IL, USA.
+Since Fall 2000, he has been with the Department of Electrical and Computer Engineering, Ryerson University, where he is currently a Professor,
+Director of Communication and Signal Processing
+Applications Laboratory. He has served as the Program Director of Graduate
+Studies. He is cross appointed to the Finance Department at the Ted Rogers
+School of Management at Ryerson University. He was Visiting Scientist at Research Laboratory of Electronics (RLE), Massachusetts Institute of Technology,
+in 2015. His research interests include statistical signal processing, multimedia
+content analysis, sensor networks and electronic systems, computational intelligence, and applications in big data, finance, and marketing. He is the Cofounder
+and CEO for EidoSearch, an Ontario-based company offering a content-based
+search and analysis engine for financial big data.
+Dr. Zhang is a registered Professional Engineer in Ontario, Canada, and a
+member of Beta Gamma Sigma Honor Society. He is the General Cochair for
+ICASSP2021. He is the General chair for MMSP2015. He is the Publicity Chair
+for ICME’06 and the Program Chair for ICIC’05 and ICIC’10. He served as
+a Guest Editor for Multimedia Tools and Applications, and the International
+Journal of Semantic Computing. He is a Tutorial Speaker in ACMMM2011, ISCAS2013, ICIP2013, and ICASSP2014. He is an Associate Editor for the IEEE
+TRANSACTIONS ON SIGNAL PROCESSING, the IEEE TRANSACTIONS ON IMAGE
+PROCESSING, the IEEE TRANSACTIONS ON MULTIMEDIA, the IEEE TRANSACTIONS ON CIRCUITS AND SYSTEMS FOR VIDEO TECHNOLOGY, the IEEE SIGNAL
+PROCESSING LETTERS and for Journal of Multimedia.
+
+Fang Wang received the Ph.D. degree in Management Information Systems and the MBA degree in
+finance. He is currently an Associate Professor of
+Marketing in the Lazaridis School of Business &
+Economics, Wilfrid Laurier University, Canada. Her
+research interests include data mining, e-commerce,
+firm strategy, and long-term firm productivity. Her
+work has appeared in Information & Management,
+Journal of Marketing, International Journal of Research in Marketing, Journal of the Academy of Marketing Science, among others.
+
+
+;;

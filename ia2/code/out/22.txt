@@ -1,0 +1,243 @@
+10 termos mais citados:
+system: 84
+affected: 85
+turbulence: 93
+source: 95
+model: 97
+capital: 135
+contagion: 156
+country: 200
+volatility: 251
+financial: 271
+;;
+
+REFERENCES
+[1] F. Schweitzer, G. Fagiolo, D. Sornette, F. Vega-Redondo, A. Vespignani,
+and D. R. White, âEconomic networks: The new challenges,â Science,
+vol. 325, no. 5939, pp. 422â425, 2009.
+[2] Y. Leitner, âFinancial networks: Contagion, commitment, and private sector bailouts,â J. Finance, vol. 60, no. 6, pp. 2925â2953, 2005.
+[3] P. Glasserman and B. P. Young, âHow likely is contagion in financial
+networks?â J. Banking Finance, vol. 50, pp. 383â399, 2015.
+[4] G. Castellacci and Y. Choi, âFinancial instability contagion: A dynamical
+systems approach,â Quant. Finance, vol. 14, no. 7, pp. 1243â1255, 2014.
+[5] F. Allen and D. Gale, âFinancial contagion,â J. Political Econ., vol. 108,
+no. 1, pp. 1â33, 2000.
+[6] S. Claessens and K. J. Forbes, Eds, International Financial Contagion.
+New York, NY, USA: Springer-Verlag, 2001.
+[7] K. J. Forbes and R. Rigobon, âMeasuring contagion: Conceptual and
+empirical issues,â International Financial Contagion, S. Claessens and
+K. J. Forbes. New York, NY, USA: Springer-Verlag, 2001.
+[8] S. Claessens, R. Dornbusch, and Y. C. Park, âContagion: Why crises spread
+and how this can be stopped?â in International Financial Contagion,
+S. Claessens and K. J. Forbes, Eds. New York, NY, USA: Springer-Verlag,
+2001.
+[9] M. Pritsker, âThe channels for financial contagion,â in International Financial Contagion, S. Claessens and K. J. Forbes, Eds. New York, NY,
+USA: Springer-Verlag, 2001.
+[10] M. Elliott, B. Golub, and M. O. Jackson, âFinancial networks and contagion,â Amer. Econ. Rev., vol. 104, no. 10, pp. 3115â3153, 2014.
+[11] K. J. Forbes and F. E. Warnock, âCapital flow waves: Surges, stops, flight,
+and retrenchment,â J. Int. Econ., vol. 88, no. 2, pp. 235â251, 2012.
+[12] M. Bordo and A. Murshid, âAre financial crises becoming more contagious? What is the Historical Evidence on Contagion?â in International
+Financial Contagion, S. Claessens and K. J. Forbes, Eds. New York, NY,
+USA: Springer-Verlag, 2001.
+[13] M. Dungey, R. A. Fry, B. GonzaĚlez-Hermosillo, and V. Martin, Transmission of Financial Crises and Contagion: A Latent Factor Approach.
+New York, NY, USA: Oxford Univ. Press, 2010.
+[14] N. Boyson, C. Stahel, and R. Stulz, âHedge fund contagion and liquidity
+shocks,â J. Finance, vol. 65, no. 5, pp. 1789â1816, 2010.
+[15] K. H. Bae, G. A. Karolyi, and R. M. Stulz, âA new approach to measuring
+financial contagion,â Rev. Financial Stud., vol. 16, no. 3, pp. 717â763,
+2003.
+[16] D. Collins and S. Gavron, âChannels of financial market contagion,â Appl.
+Econ., vol. 36, no. 21, pp. 2461â2469, 2004.
+[17] R. Dornbusch, Y. C. Park, and S. Claessens, âContagion: Understanding
+how it spreads,â World Bank Res. Obs., vol. 15, no. 2, pp. 177â197, 2000.
+[18] C. Raddatz and S. L. Schmulder, âOn the international transmission
+of shocks: Micro-evidence from mutual fund portfolios,â J. Int. Econ.,
+vol. 88, no. 2, pp. 357â374, 2012.
+[19] M. Melvin and B. P. Melvin, âThe global transmission of volatility in the
+foreign exchange market,â Rev. Econ. Statist., vol. 85, no. 3, pp. 670â679,
+2003.
+
+[20] N. Nomikos and E. Salvador, âThe role of volatility regimes on volatility transmission patterns,â Quant. Finance, vol. 14, no. 1, pp. 1â13,
+2014.
+[21] H. H. Lee, C. Y. Park, and H. S. Byun, âDo contagion effects exist in
+capital flow volatility?â J. Jpn. Int. Econ., vol. 30, pp. 76â95, 2013.
+[22] R. D. Vilag, G. H. Ionescu, M. D. Ungureanu, and I. Vasile, âContagion
+causes-rational or irrational behavior,â in Proc. Ind. Revolutions Globalization Post-Globalization Perspect. Vol IV: Bank. Account. Financial
+Syst. 21st Century Perspect., 2009, pp. 669â678.
+[23] S. Griffith-Jones, âStabilising capital flows to developing countries,â IDS
+Bull., vol. 30, no. 1, pp. 33â49, 1999.
+[24] E. G. Mendoza and M. E. Terrones, âAn anatomy of credit booms: Evidence from macro aggregates and micro data,â Nat. Bureau Econom. Res.,
+Working Paper 14049, 2008.
+[25] C. M. Reinhart and V. R. Reinhart, âCapital flow bonanzas: An encompassing view of the past and present,â Nat. Bureau Econom. Res., Working
+Paper 14321, 2008.
+[26] R. J. Hodrick and E. C. Prescott, âPostwar U.S. business cycles: An
+empirical investigation,â J. Money Credit Banking, vol. 29, no. 1,
+pp. 1â16, 1997.
+[27] M. O. Ravn and H. Uhlig, âOn adjusting the Hodrick-Prescott filter for the
+frequency of observations,â Rev. Econ. Statist., vol. 84, no. 2, pp. 371â376,
+2002.
+[28] R. Weron and M. Zator, âA note on using the Hodrick-Prescott filter in
+electricity markets,â Energy Econ., vol. 48, pp. 1â6, 2015.
+[29] L. Laeven and F. Valencia, âSystemic banking crises database: An update,â
+IMF Working Paper 12/163, 2012.
+[30] M. Fratzscher, âCapital flows, push versus pull factors and the global
+financial crisis,â J. Int. Econ., vol. 88, no. 2, pp. 341â356, 2012.
+[31] G. Fazio, âExtreme interdependence and extreme contagion between
+emerging markets,â J. Int. Money Finance, vol. 26, no. 8, pp. 1261â1291,
+2007.
+[32] E. T. Whittaker, âOn a new method of graduation,â Proc. Edinburgh Math.
+Soc., vol. 41, pp. 63â75, 1922.
+[33] L. A. Zadeh, âThe concept of a linguistic variable and its application to
+approximate reasoning-1,â Inf. Sci., vol. 8, pp. 199â249, 1975.
+[34] J. M. Mendel and X. W. Liu, âSimplified interval type-2 fuzzy logic
+systems,â IEEE Trans. Fuzzy Syst., vol. 21, no. 6, pp. 1056â1069, Dec.
+2013.
+[35] J. M. Mendel and R. I. John, âType-2 fuzzy sets made simple,â IEEE
+Trans. Fuzzy Syst., vol. 10, no. 2, pp. 117â127, Apr. 2002.
+[36] R. R. Yager, âFuzzy Subsets of Type II in Decisions,â J. Cybern., vol. 10,
+nos. 1â3, pp. 137â159, 1980.
+[37] J. M. Mendel, R. I. John, and F. Liu, âInterval type-2 fuzzy logic systems
+made simple,â IEEE Trans. Fuzzy Syst., vol. 14, no. 6, pp. 808â821,
+Dec. 2006.
+[38] E. A. Jammeh, M. Fleury, C. Wagner, H. Hagras, and M. Ghanbari,
+âInterval type-2 fuzzy logic congestion control for video streaming across
+IP networks,â IEEE Trans. Fuzzy Syst., vol. 17, no. 5, pp. 1123â1142, Oct.
+2009.
+[39] J. M. Mendel and H. W. Wu, âType-2 fuzzistics for symmetric interval
+type-2 fuzzy sets: Part 1, forward problems,â IEEE Trans. Fuzzy Syst.,
+vol. 14, no. 6, pp. 781â792, Dec. 2006.
+[40] J. M. Mendel and H. W. Wu, âType-2 fuzzistics for symmetric interval
+type-2 fuzzy sets: Part 2, inverse problems,â IEEE Trans. Fuzzy Syst.,
+vol. 15, no. 2, pp. 301â308, Apr. 2007.
+[41] Y. Choi and R. Douady, âFinancial crisis dynamics: Attempt to define a
+market instability indicator,â Quant. Finance, vol. 12, no. 9, pp. 1351â
+1365, 2012.
+[42] G. Castellacci and Y. Choi, âModeling contagion in the Eurozone crisis
+via dynamical systems,â J. Banking Finance, vol. 50, pp. 400â410, 2015.
+[43] W. S. Son and Y. J. Park, âDelayed feedback on the dynamical model of a
+financial system,â Chaos Solitons Fractals, vol. 44, nos. 4/5, pp. 208â217,
+2011.
+[44] Z. H. Hu and W. Chen, âModeling of macroeconomics by a novel discrete nonlinear fractional dynamical system,â Discrete Dyn. Nature Soc.,
+vol. 2013, p. 9, 2013, Art. no. 275134.
+[45] B. Bede, I. J. Rudas, and A. L. Bencsik, âFirst order linear fuzzy differential
+equations under generalized differentiability,â Inf. Sci., vol. 177, pp. 1648â
+1662, 2007.
+[46] M. Chen, Y. Fu, X. Xue, and C. Wu, âTwo-point boundary value problems
+of undamped uncertain dynamical systems,â Fuzzy Sets Syst., vol. 159,
+pp. 2077â2089, 2008.
+[47] B. Chen and X. Liu, âReliable control design of fuzzy dynamical systems
+with time-varying delay,â Fuzzy Sets Syst., vol. 146, pp. 349â374, 2004.
+
+XU et al.: FUZZY DYNAMICAL SYSTEM SCENARIO SIMULATION-BASED CROSS-BORDER FINANCIAL CONTAGION ANALYSIS
+
+[48] L. Hong and J. Sun, âBifurcations of fuzzy nonlinear dynamical systems,â
+Commun. Nonlinear Sci. Numer. Simul., vol. 11, no. 1, pp. 1â12, 2006.
+[49] J. P. Xu, Z. G. Liao, and Z. N. Hu, âA class of linear differential dynamical
+systems with fuzzy initial condition,â Fuzzy Sets Syst., vol. 158, no. 21,
+pp. 2339â2358, 2007.
+[50] J. P. Xu, Z. G. Liao, and J. J. Nieto, âA class of linear differential dynamical systems with fuzzy matrices,â J. Math. Anal. Appl., vol. 368, no. 1,
+pp. 54â68, 2010.
+[51] S. Arora and B. Barak, Computational Complexity: A Modern Approach.
+London, U.K.: Cambridge Univ. Press, 2009.
+[52] D. K. Backus and P. J. Kehoe, âInternational evidence on the historical
+properties of business cycles,â Amer. Econ. Rev., vol. 88, no. 4, pp. 864â
+888, 1992.
+[53] I. H. Correia, J. L. Neves, and S. T. Rebelo, âBusiness cycles from
+1850C1950: New facts about old data,â Eur. Econ. Rev., vol. 36, nos.
+2/3, pp. 459â467, 1992.
+[54] T. J. Cooley and L. E. Ohanian, âThe cyclical behavior of prices,â J.
+Monetary Econ., vol. 28, no. 1, pp. 25â60, 1991.
+[55] M. Baxter and R. King, âMeasuring business cycles: Approximate bandpass filters for economic time series,â Rev. Econ. Statist., vol. 81, no. 4,
+pp. 575â593, 1999.
+[56] A. Iacobucci and A. Noullez, âA frequency selective filter for short-length
+time series,â Comput. Econ., vol. 25, nos. 1/2, pp. 75â102, 2005.
+[57] R. F. Engle and C. W. J. Granger, âCo-integration and error correction:
+Representation, estimation, and testing,â Econometrica, vol. 55, no. 2,
+pp. 251â276, 1987.
+[58] A. C. Stockman and L. L. Tesar, âTastes and technology in a 2-country
+model of the business cycle: Explainning international comovements,â
+Amer. Econ. Rev., vol. 85, no. 1, pp. 168â185, 1995.
+[59] R. M. Neumann, R. Penl, and A. Tanku, âVolatility of capital flows and
+financial liberalization: Do specific flows respond differently?â Int. Rev.
+Econ. Finance, vol. 18, no. 3, pp. 488â501, 2009.
+[60] H. W. Wu and J. M. Mendel, âUncertainty bounds and their use in the
+design of interval type-2 fuzzy logic systems,â IEEE Trans. Fuzzy Syst.,
+vol. 10, no. 5, pp. 622â639, Oct. 2002.
+[61] D. R. Wu and J. M. Mendel, âEnhanced KarnikâMendel algorithms,â
+IEEE Trans. Fuzzy Syst., vol. 17, no. 4, pp. 923â934, Aug. 2009.
+[62] D. Kenourgios and D. Dimitriou, âContagion of the global financial crisis and the real economy: A regional analysis,â Econ. Model., vol. 44,
+pp. 283â293, 2015.
+[63] F. Brauer and C. Castillo-Chavez, Mathematical Models in Population
+Biology and Epidemiology. New York, NY, USA: Springer-Verlag, 2001.
+[64] T. Bendixson, âSus les courbes deĚfinies par des eĚquations differentielles,â
+Acta Math., vol. 24, pp. 1â88, 1901.
+[65] CEIC, Global Database, 2015. [Online]. Available: http:/www.
+ceicdata.com/en/products/global
+
+Xinxin Xu (Mâ15) received the Ph.D degree in economics from Sichuan University, Chengdu, China, in
+2014, and was a Visiting Scholar at National University of Singapore, Singapore, from 2012 to 2013.
+She is currently a Postdoctoral Fellow at Sichuan
+University, and an Adjunct Distinguished Associate
+Research Fellow with Chengdu University, Chengdu.
+She received the General Program of China Postdoctoral Science Foundation (Grant No. 2015M572470)
+and the research fund of Sichuan University (Grant
+No. skzx2015-sb04) in 2015. Her research interests
+include financial engineering, macroeconomics, world economics, and dynamical systems.
+Dr. Xu is a Member of the IEEE Control Systems Society and a Member of
+the IEEE Systems, Man, and Cybernetics Society.
+
+459
+
+Ziqiang Zeng (Sâ11âMâ15) received the B.S. degree in applied mathematics and the Ph.D. degree in
+management science and engineering from Sichuan
+University, Chengdu, China, in 2009 and 2014, respectively, and was a Visiting Scholar at the University of Florida, Gainesville, FL, USA, from 2012 to
+2013.
+He is currently a Postdoctoral Fellow with Sichuan
+University, and is supported by the China Postdoctoral Science Foundation to be a Postdoctoral Fellow
+working with the University of Washington, Seattle,
+WA, USA, from 2016 to 2018. He also acts as an Adjunct Distinguished Associate Research Fellow at Chengdu University, Chengdu, China, since 2015.
+He has published more than 20 peer-reviewed papers in international journals
+and conferences, and two books by Springer and Sichuan University Press. He
+received the Youth Program of National Natural Science Foundation of China
+(Grant No. 71501137), the General Program of China Postdoctoral Science
+Foundation (Grant No. 2015M572480) in 2015, the project of Research Center
+for System Sciences and Enterprise Development (Grant No. Xq16B05) and the
+research fund of Sichuan University (Grant No. skqy201647) in 2016. His current research interest includes multistage decision making, financial contagion,
+fuzzy theory, and engineering optimization.
+Dr. Zeng is a Member of the IEEE Control Systems Society, a Member of
+the IEEE Systems, Man, and Cybernetics Society, and an Associate Member of
+American Society of Civil Engineers.
+
+Jiuping Xu (Mâ11âSMâ14) received the first Ph.D.
+degree in applied mathematics from Tsinghua
+University, Beijing, China, in 1995, and the second
+Ph.D. degree in physical chemistry from Sichuan
+University, Chengdu, China, in 1999.
+He is currently a Distinguished Professor of
+âChang Jiang Scholars Programâ with Sichuan University. He has published more than 40 books by
+Springer, Taylor & Francis, and more than 400
+international peer-reviewed journal papers in areas
+of uncertainty decision making, systems engineering, economic theorem, and information science. His current research interests
+include uncertainty decision making, financial engineering, fuzzy dynamical
+systems, and complex systems with applications.
+Prof. Xu has been appointed as an Academician of the International Academy
+of Systems and Cybernetic Sciences since 2010. He is also a Lifetime Academician of the Lotfi Zadeh International Academy of Sciences in recognition of
+his contribution to the development of science and organization of scientific
+forums since 2014. He is currently the President of the International Society for
+Management Science and Engineering Management, the Vice President of the
+Chinese Society of Optimization & Overall Planning and Economical Mathematics, and the Vice President of the Management Science and Engineering
+Society of China. At present, He is a Member of the IEEE Control Systems
+Society, a Member of the IEEE Systems, Man, and Cybernetics Society, and a
+Member of the American Society of Civil Engineers.
+
+Mengxiang Zhang (Sâ14) received the B.S. and the
+M.S. degrees in system science from Sichuan University, Chengdu, China, in 2012 and 2015, respectively,
+where he is currently working toward the Ph.D. degree in management science and engineering.
+He has published several peer-reviewed papers in
+international journals. His areas of research interests
+mainly focus on dynamical system, uncertain decision making, and system engineering.
+Mr. Zhang is a Member of the IEEE Control Systems Society and a Student Member of the American
+Society of Civil Engineers.
+
+
+;;

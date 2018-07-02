@@ -1,0 +1,149 @@
+10 termos mais citados:
+filtering: 36
+financial: 38
+time: 41
+spread: 43
+state: 45
+ted: 46
+market: 52
+liquidity: 63
+model: 67
+data: 69
+;;
+ EFERENCES
+[1] A. Abiad, âEarly warning systems for currency crises: A regimeswitching approach,â in Hidden Markov Models in Finance, R. Mamon
+and R. Elliott, Eds. New York, NY, USA: Springer, 2007, pp. 155â184.
+[2] H. Akaike, âA new look at the statistical model identification,â IEEE
+Trans. Autom. Control, vol. AC-19, no. 6, pp. 716â723, Dec. 1974.
+[3] Bank of International Settlement. (2010). Group of Governors and Heads
+of Supervision Announces Higher Global Minimum Capital Standards
+[Online]. Available: http://www.bis.org/press/p100912.pdf
+[4] R. Bianchi, M. Drew, and T. Wijeratne, âSystemic risk, the TED spread
+and hedge fund returns,â Int. J. Bus. Econ., vol. 1, no. 1, pp. 59â78, 2009.
+[5] N. Bloom and M. Floetotto, âGood news at last? The recession will
+be over sooner than you think,â Centre for Economic Policy Research,
+London, U.K., 2009 [Online]. Available: http://www.voxeu.org/article/
+good-news-last-recession-will-be-over-sooner-you-think
+[6] K. Boudt, E. Paulus, and R. Rosenthal, âFunding liquidity, market liquidity and TED spread: A two-regime model,â Working Paper, 2010
+[Online]. Available: http://dx.doi.org/10.2139/ssrn.1668635
+[7] M. Brunnermeier, âDeciphering the liquidity and credit crunch 2007â
+2008,â J. Econ. Perspect., vol. 23, no. 1, pp. 77â100, 2009.
+[8] M. Brunnermeier and L. Pedersen, âMarket liquidity and funding liquidity,â Rev. Financial Stud., vol. 22, no. 6, pp. 2201â2238, 2008.
+[9] K. Bulteel, T. Wilderjans, F. Tuerlinckx, and E. Ceulemans, âCHull as an
+alternative to AIC and BIC in the context of mixtures of factor analyzers,â
+Behav. Res. Methods, vol. 45, pp. 782â791, 2013.
+
+TENYAKOV et al.: FILTERING OF DISCRETE-TIME HMM-DRIVEN MULTIVARIATE ORNSTEIN-UHLENBECK MODEL
+
+[10] R. Campbell, K. Koedijk, and P. Kofman, âIncreased correlation in bear
+markets,â Financial Anal. J., vol. 58, no. 1, pp. 87â94, 2002.
+[11] E. Ceulemans and H. Kiers, âSelecting among three-mode principal component models of different types and complexities: A numerical convex
+hull based method,â Brit. J. Math. Stat. Psychol., vol. 59, pp. 133â150,
+2006.
+[12] P. Date and K. Ponomareva, âLinear and nonlinear filtering in mathematical finance: A review,â IMA J. Manage. Math., vol. 22, pp. 195â211,
+2011.
+[13] P. Date, R. Mamon, and A. Tenyakov, âFiltering and forecasting commodity futures prices under an HMM framework,â Energy Econ., vol. 40,
+pp. 1001â1013, 2013.
+[14] A. Dempster, N. Laird, and D. Rubin, âMaximum likelihood from incomplete data via the EM algorithm,â J. Roy. Stat. Soc. B, Methodol., vol. 39,
+no. 1, pp. 1â38, 1977.
+[15] G. Dionne and O. M. Chun, âDefault and liquidity regimes in the bond
+market during the 2002-2012 period,â Can. J. Econ., vol. 46, no. 4,
+pp. 1160â1195, 2013.
+[16] R. Elliott, L. Aggoun, and J. Moore, Hidden Markov Models: Estimation
+and Control. New York, NY, USA: Springer, 1995.
+[17] R. Elliott, W. Hunter, and B. Jamieson, âFinancial signal processing: A
+self-calibrating model,â Int. J. Theor. Appl. Finance, vol. 4, pp. 567â584,
+2001.
+[18] R. Elliott and C. Wilson, âThe term structure of interest rates in a hidden
+Markov setting,â in Hidden Markov Models in Finance, R. Mamon and
+R. Elliott, Eds. New York, NY, USA: Springer, 2007.
+[19] C. Erlwein and R. Mamon, âAn online estimation scheme for Hull-White
+model with HMM-driven parameters,â Stat. Methods Appl., vol. 18, no. 1,
+pp. 87â107, 2009.
+[20] C. Erlwein, F. Benth, and R. Mamon, âHMM filtering and parameter estimation of an electricity spot price model,â Energy Econ., vol. 32, no. 5,
+pp. 1034â1043, 2010.
+[21] C. Erlwein, R. Mamon, and M. Davison, âAn examination of HMMbased investment strategies for asset allocation,â Appl. Stochastic Models
+Bus. Ind., vol. 27, pp. 204â221, 2011.
+[22] G. Gorton, Misunderstanding Financial Crises: Why We Donât See Them
+Coming. London, U.K.: Oxford Univ. Press, 2012.
+[23] R. Goyenko. (2013). Treasury Liquidity and Funding Liquidity:
+Evidence From Mutual Fund Returns [Online]. Available:
+http://dx.doi.org/10.2139/ssrn.2023187
+[24] J. Hamilton, Time Series Analysis. Princeton, NJ, USA: Princeton Univ.
+Press, 1994.
+[25] M. Hardy, âA regime-switching model of long-term stock returns,â North
+Amer. Actuarial J., vol. 6, no. 1, pp. 171â173, 2002.
+[26] N. Hughes. (2005). A Trade War With China. Foreign Affairs [Online].
+Available: http://www.foreignaffairs.com/articles/60825/neil-c-hughes/atrade-war-with-china
+[27] J. James and N. Webber, Interest Rate Modelling. Hoboken, NJ, USA:
+Wiley, 2000.
+[28] P. Krugman, âThe coincidence of a liberalâMission not accomplished, not yet anyway,â New York Times, Mar. 12, 2008 [Online].
+Available: http://krugman.blogs.nytimes.com/2008/03/12/mission-notaccomplished-not-yet-anyway/
+[29] F. Longin and B. Solnik, âExtreme correlation of international equity
+markets,â J. Finance, vol. 56, no. 2, pp. 649â676, 2001.
+[30] L. Mancini, A. Ranaldo, and J. Wrampelmeyer. (2012). The Foreign
+Exchange Market: Not as Liquid as You May Think [Online]. Available:
+http://www.voxeu.org/article/foreign-exchange-market-not-liquid-youmay-think
+[31] G. Schwarz, âEstimating the dimension of a model,â Ann. Statist., vol. 6,
+no. 2, pp. 461â464, 1978.
+[32] S. Shreve, Stochastic Calculus for Finance II: Continuous Time Models.
+New York, NY, USA: Springer, 2004.
+
+1005
+
+[33] R. Sipley, Market Indicators: The Best-Kept Secret to More Effective
+Trading and Investing. New York, NY, USA: Bloomberg Press, 2009.
+[34] J. W. van der End and M. Tabbae, âWhen liquidity risk becomes a systemic issue: Empirical evidence of bank behaviour,â J. Financial Stab.,
+vol. 8, pp. 107â120, 2012.
+[35] D. Vayanos and J. Wand, âMarket liquidityâTheory and empirical evidence,â in Handbook of the Economics of Finance: Financial
+Markets and Asset Pricing, G. Constantinides, R. Stulz, and M. Harris.
+Amsterdam, The Netherlands: Elsevier, 2013, pp. 1289â1361.
+[36] X. Xi and R. Mamon, âParameter estimation of an asset price model
+driven by a weak hidden Markov chain,â Econ. Modell., vol. 28, pp. 36â
+46, 2011.
+[37] X. Xi and R. Mamon, âYield curve modelling using a multivariate higherorder HMM,â in State-Space Models and Applications in Economics and
+Finance, Y. Zeng and S. Wu, Eds. New York, NY, USA: Springer, 2013,
+pp. 185â202.
+[38] N. Zhou and R. Mamon, âAn accessible implementation of interest rate
+models with Markov-switching,â Expert Syst. Appl., vol. 39, pp. 4679â
+4689, 2012.
+
+Anton Tenyakov received the B.Sc. degree in applied
+mathematics (first class with distinction) and the
+M.A. degree in statistics (with concentration in
+Financial Mathematics) both from York University,
+Toronto, ON, Canada, and the Ph.D. degree from the
+University of Western Ontario, London, ON, Canada.
+He is a Manager, Financial Modeling in the Treasury
+and Balance Sheet Management Department, TD
+Bank Group, Toronto, ON, Canada. His research
+interests include the applications of HMM filtering
+methods in the parameter estimation of new and
+extended regime-switching-based models for various financial markets.
+Rogemar Mamon (Mâ16) is a Professor with the
+Department of Statistical and Actuarial Sciences,
+University of Western Ontario, London, ON, Canada.
+His research interests include the applications of
+stochastic processes to financial and actuarial modeling, hidden Markov models and their estimation
+including filtering, smoothing and prediction, and
+inverse problems in finance. He is a Co-Editor of the
+IMA Journal of Management Mathematics (Oxford
+University Press). He is an elected Fellow of the
+U.K.âs Institute of Mathematics and its Applications
+and Chartered Scientist of the U.K.âs Science Council.
+Matt Davison received the degrees in engineering and maths. He was previously a Front Office
+Desk Quant with Deutsche Bank Canada. He is
+a Professor with the Department of Statistical
+and Actuarial Sciences and the Department of
+Applied Mathematics, University of Western Ontario,
+London, ON, Canada. He has held the Canada
+Research Chair in Quantitative Finance and is a
+Fellow of the Fields Institute for Research in
+Mathematical Sciences, Toronto, ON, Canada. His
+research interests include computational finance,
+incomplete market theory, and energy finance. He continues to consult with
+industry and serves as the Director and an Advisor to several Toronto-area
+financial companies.
+
+
+;;

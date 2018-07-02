@@ -1,0 +1,213 @@
+10 termos mais citados:
+prices: 39
+points: 43
+agents: 52
+network: 54
+value: 57
+tipping: 58
+intrinsic: 76
+model: 77
+price: 98
+market: 108
+;;
+
+REFERENCES
+[1] R. Albert and A.-L. BarabaĚsi, âStatistical mechanics of complex
+networks,â Rev. Mod. Phys., vol. 74, pp. 47â97, 2002.
+[2] D. Brockmann and D. Helbing, âThe hidden geometry of complex,
+network-driven contagion phenomena,â Science, vol. 342, pp. 1337â42,
+2013.
+[3] S. B. Rosenthal, C. R. Twomey, A. T. Hartnett, H. S. Wu, and I. D. Couzin,
+âRevealing the hidden networks of interaction in mobile animal groups
+allows prediction of complex behavioral contagion,â Proc. Nat. Acad. Sci.,
+vol. 112, pp. 4690â4695, 2015.
+[4] M. BogunĚaĚ, D. Krioukov, and K. C. Claffy, âNavigability of complex
+networks,â Nature Phys., vol. 5, pp. 74â80, 2008.
+
+KOSTANJCĚAR et al.: ESTIMATING TIPPING POINTS IN FEEDBACK-DRIVEN FINANCIAL NETWORKS
+
+[5] I. Dobson, B. A. Carreras, V. E. Lynch, and D. E. Newman, âComplex
+systems analysis of series of blackouts: Cascading failure, critical points,
+and self-organization,â Chaos, vol. 17, 2007 Art. no. 026103.
+[6] P.-A. NoeĚl, C. D. Brummitt, and R. M. DSouza, âControlling selforganizing dynamics on networks using models that self-organize,â Phys.
+Rev. Lett., vol. 111, 2013, Art. no. 078701.
+[7] M. Scheffer, S. Carpenter, J. A. Foley, C. Folke, and B. Walker, âCatastrophic shifts in ecosystems,â Nature, vol. 413, pp. 591â596, 2001.
+[8] R. M. May, S. A. Levin, and G. Sugihara, âComplex systems: Ecology
+for bankers,â Nature, vol. 451, pp. 893â895, 2008.
+[9] J. M. Drake and B. D. Griffen, âEarly warning signals of extinction in
+deteriorating environments,â Nature, vol. 467, pp. 456â459, 2010.
+[10] M. Scheffer, âComplex systems: Foreseeing tipping points,â Nature,
+vol. 467, pp. 411â412, 2010.
+[11] M. Scheffer et al., âAnticipating critical transitions,â Science, vol. 338,
+pp. 344â348, 2012.
+[12] C. Boettiger and A. Hastings, â Tipping points: From patterns to predictions,â Nature, vol. 493, pp. 157â158, 2013.
+[13] T. S. Lontzek, Y. Cai, K. L. Judd, and T. M. Lenton, â Stochastic integrated
+assessment of climate tipping points indicates the need for strict climate
+policy,â Nature Climate Change, vol. 5, pp. 441â444, 2015.
+[14] M. Scheffer et al., âEarly-warning signals for critical transitions,â Nature,
+vol. 461, pp. 53â59, 2009.
+[15] D. J. Watts, âA simple model of global cascades on random networks,â
+Proc. Nat. Acad. Sci., vol. 99, pp. 5766â5771, 2002.
+[16] P. Crucitti, V. Latora, and M. Marchiori, âModel for cascading failures in
+complex networks,â Phys. Rev. E, vol. 69, 2004, Art. no. 045104.
+[17] D. S. Scharfstein and J. C. Stein, âHerd behavior and investment,â Amer.
+Econ. Rev., vol. 80, pp. 465â479, 1990.
+[18] E. Samanidou, E. Zschischang, D. Stauffer, and T. Lux, âAgent-based
+models of financial markets,â Rep. Progress Phys., vol. 70, pp. 409â450,
+2007.
+[19] D. Sornette, Why Stock Markets Crash: Critical Events in Complex
+Financial Systems. Princeton, NJ, USA: Princeton Univ. Press, 2009.
+[20] T. Lux, âHerd behaviour, bubbles and crashes,â Econ. J., vol. 105,
+pp. 881â96, 1995.
+[21] T. Lux and M. Marchesi, âScaling and criticality in a stochastic multi-agent
+model of a financial market,â Nature, vol. 397, pp. 498â500, 1999.
+[22] T. Lux and M. Marchesi, âVolatility clustering in financial markets: A
+microsimulation of interacting agents,â Int. J. Theor. Appl. Finance, vol. 3,
+pp. 675â702, 2000.
+[23] R. Cont and J. P. Bouchaud, âHerd behavior and aggregate fluctuations in
+financial markets,â Macroecon. Dyn., vol. 4, pp. 170â196, 2000.
+[24] D. Sornette, âCritical market crashes,â Phys. Rep., vol. 378, pp. 1â98,
+2003.
+[25] D. Abreu and M. K. Brunnermeier, âBubbles and crashes,â Econometrica,
+vol. 71, pp. 173â204, 2003.
+[26] W. Yan, R. Woodard, and D. Sornette, âDiagnosis and prediction of tipping
+points in financial markets: Crashes and rebounds,â Phys. Procedia, vol. 3,
+pp. 1641â1657, 2010.
+[27] A. Majdandzic, B. Podobnik, S. V. Buldyrev, D. Y. Kenett, S. Havlin,
+and H. Eugene Stanley, âSpontaneous recovery in dynamical networks,â
+Nature Phys., vol. 10, pp. 34â38, 2013.
+[28] B. Podobnik, T. Lipic, D. Horvatic, A. Majdandzic, S. R. Bishop,
+and H. E. Stanley, âPredicting the lifetime of dynamic networks
+experiencing persistent random attacks,â Sci. Rep., vol. 5, 2015,
+Art. no. 14286.
+[29] L. Feng, B. Li, B. Podobnik, T. Preis, and H. E. Stanley, âLinking agentbased models and stochastic models of financial markets,â Proc. Nat.
+Acad. Sci. United States Amer., vol. 109, pp. 8388â8393, 2012.
+[30] A. Johansen, âCharacterization of large price variations in financial markets,â Phys. A: Stat. Mech. Appl., vol. 324, pp. 157â166, 2003.
+[31] D. Sornette, âDragon-kings, black swans, and the prediction of crises,â
+Int. J. Terraspace Sci. Eng., vol. 2, pp. 1â18, 2009.
+[32] H. Zhang, T. Leung, and O. Hadjiliadis, âStochastic modeling and fair
+valuation of drawdown insurance,â Insurance: Math. Econ., vol. 53,
+pp. 840â850, 2013.
+[33] D. Johnston and P. DjuricĚ, âThe science behind risk management,â IEEE
+Signal Process. Mag., vol. 28, no. 5, pp. 26â36, Sep. 2011.
+[34] F. Schweitzer, G. Fagiolo, D. Sornette, F. Vega-Redondo, A. Vespignani,
+and D. R. White, âEconomic networks: The new challenges,â Science,
+vol. 325, pp. 422â425, 2009.
+[35] J. F. Nash, âThe bargaining problem,â Econometrica, vol. 18, pp. 155â162,
+1950.
+
+1051
+
+[36] A. Rubinstein, âPerfect equilibrium in a bargaining model,â Econometrica,
+vol. 50, pp. 97â109, 1982.
+[37] D. Gale, âBargaining and competition part I: Characterization,â Econometrica, vol. 54, 1986, Art. no. 785.
+[38] D. Gale, âLimit theorems for markets with sequential bargaining,â J. Econ.
+Theory, vol. 43, pp. 20â54, 1987.
+[39] M. Manea, âBargaining in stationary networks,â Amer. Econ. Rev.,
+vol. 101, pp. 2042â2080, 2011.
+[40] S. A. West, I. Pen, and A. S. Griffin, âCooperation and competition
+between relatives,â Science, vol. 296, pp. 72â75, 2002.
+[41] J. Aguirre, D. Papo, and J. M. BulduĚ, âSuccessful strategies for competing
+networks,â Nature Phys., vol. 9, pp. 230â234, 2013.
+[42] S. A. Levin, âPublic goods in relation to competition, cooperation,
+and spite,â Proc. Nat. Acad. Sci. United States Amer., vol. 111,
+pp. 10 838â10 845, 2014.
+[43] K. Binmore, A. Rubinstein, and A. Wolinsky, âThe NASH bargaining
+solution in economic modelling,â RAND J. Econ., vol. 17, pp. 176â188,
+1986.
+[44] R. J. Shiller, Irrational Exuberance. Princeton, NJ, USA: Princeton Univ.
+Press, 2000.
+[45] F. Allen, S. Morris, and A. Postlewaite, âFinite bubbles with short
+sale constraints and asymmetric information,â J. Econ. Theory, vol. 61,
+pp. 206â229, 1993.
+[46] J. B. De Long, A. Shleifer, L. H. Summers, and R. J. Waldmann,
+âNoise trader risk in financial markets,â J. Political Economy, vol. 98,
+pp. 703â738, 1990.
+[47] H. L. Vogel, Financial Market Bubbles and Crashes. Cambridge, U.K.:
+Cambridge Univ. Press, 2009.
+[48] J. S. Rosenschein and G. Zlotkin, Rules of Encounter: Designing Conventions for Automated Negotiation Among Computers. Cambridge, MA,
+USA: MIT Press, 1994.
+[49] J. von Neumann and O. Morgenstern, Theory of Games and Economic
+Behavior. Princeton, NJ, USA: Princeton Univ. Press, 1944.
+[50] M. Elliott, B. Golub, and M. O. Jackson, âFinancial networks and contagion,â Amer. Econ. Rev., vol. 104, pp. 3115â3153, 2014.
+[51] S. Maslov, âSimple model of a limit order-driven market,â Phys. A: Stat.
+Mech. Appl., vol. 278, pp. 571â578, 2000.
+[52] J. Scheinkman and W. Xiong, âOverconfidence and speculative bubbles,â
+J. Political Economy, vol. 111, pp. 1183â1220, 2003.
+[53] W. C. Brainard and J. Tobin, âPitfalls in financial model-building,â Cowles
+Foundation Discussion Papers, 1968.
+[54] O. Blanchard, C. Rhee, and L. Summers, â The stock market, profit, and
+investment,â Quart. J. Econ., vol. 108, pp. 115â136, 1993.
+[55] M. J. Gordon, âDividends, earnings, and stock prices,â Rev. Econ. Statist.,
+vol. 41, pp. 99â105, 1959.
+[56] Z. Bodie, A. Kane, and A. J. Marcus, Essentials of Investments. New York,
+NY, USA: McGraw Hill, 2003.
+[57] J. Y. Campbell and R. J. Shiller, âStock prices, earnings, and expected
+dividends,â J. Finance, vol. 43, pp. 661â676, 1988.
+[58] R. J. Shiller, [Online]. Available: http://www.econ.yale.edu/
+shiller/data.htm.
+[59] D. J. Watts and S. H. Strogatz, âCollective dynamics of âsmall-worldâ
+networks,â Nature, vol. 393, pp. 440â442, 1998.
+[60] T. Koller, M. Goedhart, and D. Wessels, Valuation: Measuring and Managing the Value of Companies. Hoboken, NJ, USA: Wiley, 2005.
+[61] F. Ding, N. V. Dokholyan, S. V. Buldyrev, H. E. Stanley, and E. I.
+Shakhnovich, âDirect molecular dynamics observation of protein folding transition state ensemble,â Biophys. J., vol. 83, pp. 3525â3532, 2002.
+[62] J. Y. Campbell and R. J. Shiller, âCointegration and tests of present value
+models,â J. Political Economy, vol. 95, pp. 1062â1088, 1987.
+[63] R. F. Engle and C. W. J. Granger, âCo-integration and error correction: Representation, estimation, and testing,â Econometrica, vol. 55,
+pp. 251â276, 1987.
+[64] J. D. Hamilton, Time Series Analysis. Princeton, NJ, USA: Princeton Univ.
+Press, 1994.
+[65] S.-J. Kim, K. Koh, S. Boyd, and D. Gorinevsky, âL1 trend filtering,â SIAM
+Rev., vol. 51, pp. 339â360, 2009.
+[66] S.-J. Kim, K. Koh, M. Lustig, S. Boyd, and D. Gorinevsky, âAn interiorpoint method for large-scale 1 -regularized least squares,â IEEE J. Sel.
+Topics Signal Process., vol. 1, no. 4, pp. 606â617, Dec. 2007.
+[67] E. F. Fama and K. R. French, âThe cross-section of expected stock returns,â
+J. Finance, vol. 47, pp. 427â465, 1992.
+[68] P. Balduzzi, âTransaction costs and predictability: Some utility cost
+calculations,â J. Financial Econ., vol. 52, pp. 47â78, 1999.
+
+1052
+
+IEEE JOURNAL OF SELECTED TOPICS IN SIGNAL PROCESSING, VOL. 10, NO. 6, SEPTEMBER 2016
+
+Zvonko KostanjcĚar received the Dipl.Eng. degree in electrical and computer engineering and
+in financial mathematics and the Ph.D. degree, in
+2010, both from the University of Zagreb, Zagreb,
+Croatia. He is currently an Assistant Professor with
+the University of Zagreb, also the President of the
+IEEE Signal Processing Society, Croatia Chapter. His
+research interests include development of the stochastic models, statistical methods and machine learning
+algorithms for data analysis, risk measurement, and
+asset allocation. He received the Roberto Giannini
+Teaching Award from the Faculty of Electrical Engineering and Computing,
+University of Zagreb.
+
+Stjepan BegusĚicĚ received the B.S. and M.S. degrees in information and communication technology
+with specialization in information processing from
+the University of Zagreb, Zagreb, Croatia, in 2012
+and 2014, respectively, where he is currently working toward the Ph.D. degree in the Department of
+Electronic Systems and Information Processing, Faculty of Electrical Engineering and Computing. His
+research interests include signal processing and computational methods for finance, risk analysis, and
+asset allocation.
+
+Harry Eugene Stanley received the Ph.D. degree
+from Harvard University, Cambridge, MA, USA, in
+1967 (T.A. Kaplan & Nobelist J.H. Van Vleck). In
+1979, he became a University Professor, and in 2011,
+a William Fairfield Warren Distinguished Professor
+with Boston University. He is a Professor of physics,
+chemistry, biomedical engineering, and physiology.
+He is also the Director of the Center for Polymer
+Studies. He is a Member of the National Academy
+of Sciences. His research interests include statistical
+physics, complex systems, and economics.
+
+Boris Podobnik received the B.S.E., M.S., and Ph.D.
+degrees in physics from the University of Zagreb, Zagreb, Crotia. In 2014, he became a Professor with
+the University of Rijeka. He is also a Professor
+with Zagreb School of Economics and Management.
+His research interests include theories regarding data
+analysis, complex systems, and economics.
+
+
+;;

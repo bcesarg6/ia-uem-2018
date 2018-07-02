@@ -1,0 +1,141 @@
+10 termos mais citados:
+retailer: 40
+power: 41
+imbalance: 46
+bidding: 46
+market: 54
+demand: 56
+scenario: 58
+time: 64
+price: 102
+load: 107
+;;
+
+REFERENCES
+[1] R. H. Boroumand and G. Zachmann, “‘Retailers’ risk management and
+vertical arrangements in electricity markets,” Energy Policy, vol. 40,
+pp. 465–472, 2012.
+[2] E. A. Feinberg and D. Genethliou, “Load forecasting,” in Mathematics for
+Restructured Electric Power Systems: Optimization Control, and Computational Intelligence. New York, NY, USA: Springer, 2005, pp. 269–285.
+[3] A. Faruqui and S. Sergici, “Household response to dynamic pricing of
+electricity: A survey of 15 experiments,” J. Regul. Econ., vol. 38, no. 2,
+pp. 193–225, 2010.
+[4] D. Hammerstrom, “Pacific Northwest Gridwise Testbed Demonstration
+Projects,” Pacific Northwest Nat. Lab., Richland, WA, USA, Tech. Rep.
+PNNL-17167, 2007.
+[5] IBM, “Ontario Energy board smart price pilot—Final report,” Ontario
+Energy Board, Toronto, ON, Canada, Tech. Rep., 2007.
+[6] D. Violette, J. Erickson, and M. Klos, “Final report for the mypower pricing segments evaluation,” Public Service Elect. Gas Company, Newark,
+NJ, USA, Tech. Rep., 2007.
+[7] C. Bartusch, F. Wallin, M. Odlare, I. Vassileva, and L. Wester, “Introducing
+a demand-based electricity distribution tariff in the residential sector:
+Demand response and customer perception,” Energy Policy, vol. 39, no. 9,
+pp. 5008–5025, 2011.
+
+1850
+
+[8] SEDC, “Mapping demand response in Europe today,” Smart Energy Demand Coalition, Brussels, Belgium, Tech. Rep. SEDC-Mapping-DR-InEurope-2014 0411, Apr. 2014.
+[9] D. S. Kirschen and S. Member, “Demand-side view of electricity markets,”
+IEEE Trans. Power Syst., vol. 18, no. 2, pp. 520–527, May 2003.
+[10] C. Triki and A. Violi, “Dynamic pricing of electricity in retail markets,”
+4OR—Quart. J. Oper. Res., vol. 7, no. 1, pp. 21–36, Oct. 2007.
+[11] A. Hatami, H. Seifi, and M. K. Sheikh-El-Eslami, “A stochastic-based
+decision-making framework for an electricity retailer: Time-of-use pricing
+and electricity portfolio optimization,” IEEE Trans. Power Syst., vol. 26,
+no. 4, pp. 1808–1816, Nov. 2011.
+[12] S. E. Fleten and E. Pettersen, “Constructing bidding curves for a pricetaking retailer in the Norwegian electricity market,” IEEE Trans. Power
+Syst., vol. 20, no. 2, pp. 701–708, May 2005.
+[13] A. Badri and H. Kashefi, “Optimal bidding strategy of retailers in a mixed
+pool-bilateral market considering demand response programs,” in Proc.
+IEEE Smart Grid Conf., 2013, pp. 131–137.
+[14] H. A. Aalami, M. P. Moghaddam, and G. R. Yousefi, “Modeling and
+prioritizing demand response programs in power markets,” Elect. Power
+Syst. Res., vol. 80, pp. 426–435, 2010.
+[15] N. Mahmoudi, M. Eghbal, and T. K. Saha, “Employing demand response
+in energy procurement plans of electricity retailers,” Int. J. Elect. Power
+Energy Syst., vol. 63, pp. 455–460, 2014.
+[16] C. Gorria, J. Jimeno, I. Laresgoiti, M. Lezaun, and N. Ruiz, “Forecasting
+flexibility in electricity demand with price/consumption volume signals,”
+Elect. Power Syst. Res., vol. 95, pp. 200–205, 2013.
+[17] M. Skillbäck and H. Ibrahim, “Evaluation methods for market models
+used in smart grids: An application for the Stockholm royal seaport,” M.S.
+thesis, Dept. Elect. Power Syst., KTH, Stockholm, Sweden, 2012.
+[18] J. G. Kassakian et al., “The impact of distributed generation and electric
+vehicles,” in The Future of the Electric Grid: An Interdisciplinary MIT
+Study, MIT, Cambridge, MA, USA, 2011, ch. 5, pp. 109–126.
+[19] S. Gottwalt, W. Ketter, C. Block, J. Collins, and C. Weinhardt, “Demand
+side management: A simulation of household behavior under variable
+prices,” Energy Policy, vol. 39, no. 12, pp. 8163–8174, 2011.
+[20] P. Grahn, J. Rosenlind, P. Hilber, K. Alvehag, and L. Söder, “A method for
+evaluating the impact of electric vehicle charging on transformer hotspot
+temperature,” in Proc. IEEE PES Int. Conf. Exhib. Innov. Smart Grid
+Technol., 2011, pp. 1–8.
+[21] N. Jewell, L. Bai, J. Naber, and M. L. McIntyre, “Analysis of electric
+vehicle charge scheduling and effects on electricity demand costs,” Energy
+Syst., vol. 5, pp. 767–786, 2014.
+[22] J. Lujano-Rojas, C. Monteiro, R. Dufo-Lopez, and J. Bernal-Agustin,
+“Optimum residential load management strategy for real time pricing
+demand response programs,” Energy Policy, vol. 45, pp. 671–679, 2012.
+[23] C. Roe, S. Meliopoulos, R. Entriken, and S. Chhaya, “Simulated demand
+response of a residential energy management system,” in Proc. IEEE Conf.
+Energytech, 2011, pp. 1–6.
+[24] H. Wu, M. Shahidehpour, A. Alabdulwahab, and A. Abusorrah, “A game
+theoretic approach to risk-based optimal bidding strategies for electric
+vehicle aggregators in electricity markets with variable wind energy
+resources,” IEEE Trans. Sustain. Energy, vol. 7, no. 1, pp. 374–385,
+Jan. 2016.
+[25] M. G. Vayá and G. Andersson, “Optimal bidding strategy of a plug-in electric vehicle aggregator in day-ahead electricity market under uncertainty,”
+IEEE Trans. Power Syst., vol. 30, no. 5, pp. 2375–2385, Sep. 2015.
+[26] S. I. Vagropoulos and A. G. Bakirtzis, “Optimal bidding strategy for
+electric vehicle aggregators in electricity markets,” IEEE Trans. Power
+Syst., vol. 28, no. 4, pp. 4031–4041, Nov. 2013.
+[27] A. J. Conejo, M. Carrion, and J. M. Morales, “Risk management,” in
+Decision Making Under Uncertainty in Electricity Markets. New York,
+NY, USA, Springer, 2010, ch. 4, pp. 121–152.
+
+IEEE TRANSACTIONS ON POWER SYSTEMS, VOL. 32, NO. 3, MAY 2017
+
+[28] C. Bang, F. Fock, and M. Togeby, “The existing Nordic regulating power
+market,” Energy Analysis, Copenhagen, Denmark, Tech. Rep. FlexPower
+WP1-Report 1, 2012.
+[29] B. Biegel, L. H. Hansen, J. Stoustrup, P. Andersen, and S. Harbo, “Value
+of flexible consumption in the electricity markets,” Energy, vol. 66,
+pp. 354–362, 2014.
+[30] K. C. Sou, J. Weimer, H. Sandberg, and K. H. Johansson, “Scheduling
+smart home appliances using mixed integer linear programming,” in Proc.
+IEEE Conf. Decision Control Eur. Control Conf., 2011, pp. 5144–5149.
+[31] K. C. Sou, K. Mikael, J. Wu, H. Sandberg, and K. H. Johansson, “Energy
+and CO2 efficient scheduling of smart home appliances,” in Proc. IEEE
+Eur. Control Conf., 2013, pp. 4051–4058.
+[32] R. Stamminger, “Synergy potential of smart appliances,” Univ. Bonn,
+Bonn, Germany, Tech. Rep. EIE/06/185/SI2.447477, 2008.
+[33] M. Olsson and L. Söder, “Modeling real-time balancing power market
+prices using combined Sarima and Markov processes,” IEEE Trans. Power
+Syst., vol. 23, no. 2, pp. 443–450, May 2008.
+[34] J. Zimmermann, “End-use metering campaign in 400 households in Sweden assessment of the potential electricity savings,” Flines-Rimandoule,
+Enertech, Tech. Rep. 17-05-2743, vol. 17, 2009.
+[35] M. Song, K. Alvehag, J. Widén, and A. Parisio, “Estimating the impacts
+of demand response by simulating household behaviours under price and
+CO2 signals,” Elect. Power Syst. Res., vol. 111, pp. 103–114, 2014.
+[36] L. Abramowski and A. Holmström, “Res 2005–2006 den nationella resvaneundersökningen,” Statens Institut Kommunikationsanalys, Stockholm,
+Sweden, Tech. Rep. TK1101BR0601, 2007.
+[37] J. Dupačoá, N. Gröwe-Kuska, and W. Römisch, “Scenario reduction in
+stochastic programming: An approach using probability metrics,” Math.
+Program. Ser. A, vol. 95, pp. 493–511, 2003.
+[38] H. Heitsch and W. Römisch, “Scenario reduction algorithms in stochastic
+programming,” Comput. Optim. Appl., vol. 24, pp. 187–206, 2003.
+
+Meng Song (S’14) was born in China in 1982.
+She received the B.Eng. degree from Tsinghua University, Beijing, China, in 2004 and the M.Sc. degree from Royal Institute of Technology (KTH),
+Stockholm, Sweden, in 2013. She has been working
+toward the Ph.D. degree at the School of Electrical
+Engineering in KTH since 2014. Her Ph.D. research
+topic concerns the controlling, planning, and operation of the demand side flexibility in smart grids.
+
+Mikael Amelin (M’07) received the Master’s,
+Licentiate, and Ph.D. degrees from the Royal Institute of Technology (KTH), Stockholm, Sweden, in
+1997, 2000, and 2004, respectively. He is an Associate Professor in the School of Electrical Engineering, KTH. His research interests include Monte Carlo
+techniques, analysis and modeling of electricity markets, and rural electrification in developing countries.
+
+
+;;

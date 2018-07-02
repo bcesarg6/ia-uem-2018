@@ -1,0 +1,150 @@
+10 termos mais citados:
+stochastic: 25
+problem: 25
+probability: 26
+section: 27
+pricing: 30
+models: 34
+distribution: 42
+quantile: 50
+model: 50
+data: 54
+;;
+
+REFERENCES
+[1] K. Varshney and A. Mojsilovic, âBusiness analytics based on financial
+time series,â IEEE Signal Process. Mag., vol. 28, no. 5, pp. 83â93,
+Sep. 2011.
+[2] F. Black and M. Scholes, âThe pricing of options and corporate liabilities,â
+J. Political Economy, vol. 81, no. 3, pp. 637â654, 1973.
+[3] M. CarrioĚn, A. B. Philpott, A. J. Conejo, and J. M. Arroyo, âA stochastic programming approach to electric energy procurement for large consumers,â IEEE Trans. Power Syst., vol. 22, no. 2, pp. 744â754, May 2007.
+[4] N. Secomandi and S. Kekre, âOptimal energy procurement in spot and
+forward markets,â Manuf. Serv. Oper. Manag., vol. 16, no. 2, pp. 270â282,
+2014.
+[5] F. E. Benth, J. S. Benth, and S. Koekebakker, Stochastic Modelling of
+Electricity and Related Markets, vol. 11. Singapore: World Scientific,
+2008.
+
+[6] M. Stutzer, âA simple nonparametric approach to derivative security valuation,â J. Finance, vol. 51, no. 5, pp. 1633â1652, 1996.
+[7] Y. AÄąĚt-Sahalia and A. W. Lo, âNonparametric estimation of state-price
+densities implicit in financial asset prices,â J. Finance, vol. 53, no. 2,
+pp. 499â547, 1998.
+[8] P. Diko, S. Lawford, and V. Limpens, âRisk premia in electricity forward prices,â Stud. Nonlinear Dyn. Econometrics, vol. 10, no. 3, 2006,
+Art. no. 7.
+[9] E. Hjalmarsson, âDoes the BlackâScholes formula work for electricity markets? A nonparametric approach,â Univ. Gothenburg, Dept. Economics, Gothenburg, Sweden, Working papers in Economics, no. 101,
+2003.
+[10] L. Meligkotsidou, I. D. Vrontos, and S. D. Vrontos, âQuantile regression analysis of hedge fund strategies,â J. Empir. Finance, vol. 16, no. 2,
+pp. 264â279, 2009.
+[11] M. L. Barnes and A. T. W. Hughes, âA quantile regression analysis of
+the cross section of stock market returns,â Federal Reserve Bank Boston,
+Boston, MA, USA, Working paper, no. 02-2, 2002.
+[12] I.-C. Tsai, âThe relationship between stock price index and exchange rate
+in Asian markets: A quantile regression approach,â J. Int. Financ. Markets,
+Inst. Money, vol. 22, no. 3, pp. 609â621, 2012.
+[13] K. Yu, Z. Lu, and J. Stander, âQuantile regression: Applications and
+current research areas,â J. Royal Stat. Soc. D (The Statistician), vol. 52,
+no. 3, pp. 331â350, 2003.
+[14] I. Takeuchi, K. Nomura, and T. Kanamori, âNonparametric conditional density estimation using piecewise-linear solution path of kernel quantile regression,â Neural Comput., vol. 21, no. 2, pp. 533â559,
+2009.
+[15] J. W. Taylor, âA quantile regression neural network approach to estimating
+the conditional density of multiperiod returns,â Journal of Forecasting,
+vol. 19, no. 4, pp. 299â311, 2000.
+[16] F. Asnicar, âOptimization of electricity reserved capacity,â Ph.D.
+dissertation, Tech. Univ. Denmark, Kongens Lyngby, Denmark,
+2006.
+[17] S. Arora and J. W. Taylor, âForecasting electricity smart meter data using conditional kernel density estimation,â Omega, vol. 59, pp. 47â59,
+2016.
+[18] S. BenTaieb, R. Huser, R. J. Hyndman, and M. G. Genton, âForecasting
+uncertainty in electricity smart meter data by boosting additive quantile
+regression,â IEEE Trans. Smart Grid, to be published.
+[19] S.-K. Chao, W. K. HaĚrdle, and W. Wang, âQuantile regression in risk
+calibration,â in Handbook of Financial Econometrics and Statistics. New
+York, NY, USA: Springer, 2015, pp. 1467â1489.
+[20] Y. Fan, W. K. HaĚrdle, W. Wang, and L. Zhu, âComposite quantile regression for the single-index modelâ, Humboldt-UniversitaĚt zu Berlin,
+Wirtschaftswissenschaftliche FakultaĚt, Tech. Rep., 2013.
+[21] M. Bernardi et al., âBayesian tail risk interdependence using quantile
+regression,â Bayesian Anal., vol. 10, no. 3, pp. 553â603, 2015.
+[22] V. A. Epanechnikov, âNon-parametric estimation of a multivariate probability density,â Theory Probab. Appl., vol. 14, no. 1, pp. 153â158,
+1969.
+[23] R. Koenker, P. Ng, and S. Portnoy, âQuantile smoothing splines,â
+Biometrika, vol. 81, no. 4, pp. 673â680, 1994.
+[24] I. Takeuchi, Q. V. Le, T. D. Sears, and A. J. Smola, âNonparametric
+quantile estimation,â J. Mach. Learn. Res., vol. 7, pp. 1231â1264, 2006.
+[25] X. He, âQuantile curves without crossing,â Amer. Statist., vol. 51, no. 2,
+pp. 186â192, 1997.
+[26] J. Zhuang, I. W. Tsang, and S. C. Hoi, âA family of simple non-parametric
+kernel learning algorithms,â J. Mach. Learn. Res., vol. 12, pp. 1313â1347,
+2011.
+[27] J. V. Rosenberg, âNonparametric pricing of multivariate contingent
+claims,â J. Derivatives, vol. 10, pp. 9â26, 2003.
+[28] E. Jondeau, S.-H. Poon, and M. Rockinger, Financial Modeling Under
+Non-Gaussian Distributions. New York, NY, USA: Springer, 2007.
+[29] P. Embrechts and H. Schmidli, âModelling of extremal events in insurance
+and finance,â Zeitschrift fuĚr Oper. Res., vol. 39, no. 1, pp. 1â34, 1994.
+[30] A. J. McNeil, âEstimating the tails of loss severity distributions using
+extreme value theory,â Astin Bull., vol. 27, no. 01, pp. 117â137, 1997.
+[31] L. K. Hotta, E. C. Lucas, and H. P. Palaro, âEstimation of VaR using
+copula and extreme value theory,â Multinat. Finance J., vol. 12, nos. 3/4,
+pp. 205â218, 2008.
+[32] A. J. McNeil, âExtreme value theory for risk managers,â Departement
+Mathematik, ETH Zentrum, Zurich, Switzerland, 1999.
+[33] S. Shenoy and D. Gorinevsky, âEstimating long tail models for risk trends,â
+IEEE Signal Process. Lett., vol. 22, no. 7, pp. 968â972, Jul. 2015.
+
+SHENOY AND GORINEVSKY: DATA-DRIVEN STOCHASTIC PRICING AND APPLICATION TO ELECTRICITY MARKET
+
+[34] H. N. BystroĚm, âExtreme value theory and extremely large electricity price changes,â Int. Rev. Econ. Finance, vol. 14, no. 1, pp. 41â55,
+2005.
+[35] S. Shenoy, D. Gorinevsky, and S. Boyd, âNon-parametric regression modeling for stochastic optimization of power market forecast,â presented at
+the American Control Conf., Chicago, IL, USA, Jul. 2015.
+[36] S. Shenoy and D. Gorinevsky, âStochastic optimization of power market
+forecast using non-parametric regression models,â in Proc. IEEE Power
+Energy Syst., 2015, pp. 1â5.
+[37] R. Carmona and V. Durrleman, âPricing and hedging spread options,â
+SIAM Rev., vol. 45, no. 4, pp. 627â685, 2003.
+[38] R. Koenker, Quantile Regression (Econometric Society Monographs).
+Cambridge, U.K.: Cambridge Univ. Press, 2005.
+[39] N. Parikh and S. Boyd, âBlock splitting for distributed optimization,â
+Math. Program. Comput., vol. 6, no. 1, pp. 77â102, 2014.
+[40] L. de Haan and A. Ferreira, Extreme Value Theory: An Introduction. New
+York, NY, USA: Springer, 2006.
+[41] Metered load data, PJM, Norristown, PA, USA. [Online]. Available:
+http://www.pjm.com/markets-and-operations/ops-analysis/historicalload- data.aspx
+[42] Energy pricing, PJM, Norristown, PA, USA. [Online]. Available:
+https://dataminer.pjm.com/dataminerui/pages/public/energypricing.jsf
+[43] M. Rosenblatt, âRemarks on a multivariate transformation,â Annals Math.
+Stat., vol. 23, no. 3, pp. 470â472, 1952.
+[44] J. Geweke and G. Amisano, âComparing and evaluating Bayesian predictive distributions of asset returns,â Int. J. Forecast., vol. 26, no. 2,
+pp. 216â230, 2010.
+[45] S. Shenoy and D. Gorinevsky, âRisk adjusted forecasting of electric
+power load,â in Proc. Amer. Control Conf., Portland, OR, USA, 2014,
+pp. 914â919.
+[46] NERC, â2013 Summer Reliability Assessment,â Tech. Rep., May 2013.
+
+1039
+
+Saahil Shenoy (SMâ14) is working toward the
+Ph.D. degree in physics at Stanford University, Stanford, CA, USA, where he is an ARCS Foundation
+Scholar. He completed the MS requirements in Particle Physics at the age of 20. His Stanford research
+is in big data analytics for extreme events, with applications in energy, finance, climate change, cloud
+computing, and risk analysis. He worked on portfolio
+optimization with Charles Schwab. He was the Best
+Student Paper Award Finalist at the 2015 American
+Control Conference and authored several papers in
+IEEE journals and conferences.
+Dimitry Gorinevsky (Mâ91âSMâ98âFâ06) received
+the Ph.D. degree from the Department of Mechanics
+and Mathematics, Moscow (Lomonosov) University,
+Moscow, Russia, and the M.Sc. degree from Moscow
+Institute of Physics and Technology (Phystech), Dolgoprudny, Russia, in 1986 and 1982, respectively. He
+is currently a Consulting Professor in electrical engineering at Stanford University and a Founder of
+Mitek Analytics, an Industrial IoT Analytics Company, Palo Alto, CA, USA. In the past, he spent 10
+years with Honeywell. He worked on many analytics applications across several industries. He was an Associate Editor of the
+IEEE TRANSACTIONS ON CONTROL SYSTEMS TECHNOLOGY, in 2001â2008.
+He received the Control Systems Technology Award, 2002, and Transactions
+on Control Systems Technology Outstanding Paper Award, 2004, of the IEEE
+Control Systems Society. He received the Best Paper Award (Senior Award),
+2013, of the IEEE Signal Processing Society.
+
+
+;;

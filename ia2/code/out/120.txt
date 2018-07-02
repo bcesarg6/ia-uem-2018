@@ -1,0 +1,180 @@
+10 termos mais citados:
+agent: 37
+observer: 37
+detection: 40
+stock: 45
+learning: 50
+social: 55
+agents: 57
+value: 59
+market: 72
+risk: 78
+;;
+ EFERENCES
+[1] B. LeBaron, âAgent-based computational finance,â in Handbook of
+Computational Eeconomics, 2006, vol. 2, pp. 1187â1233.
+[2] B. LeBaron, âAgent-based computational finance: Suggested readings
+and early research,â J. Econ. Dyn. Control, vol. 24, no. 5, pp. 679â702,
+2000.
+[3] E. Samanidou, E. Zschischang, D. Stauffer, and T. Lux, âAgent-based
+models of financial markets,â Rep. Prog. Phys., vol. 70, no. 3, p. 409,
+2007.
+[4] V. Alfi, M. Cristelli, L. Pietronero, and A. Zaccaria, âMinimal agent based
+model for financial markets I,â Eur. Phys. J. B, vol. 67, no. 3, pp. 385â397,
+2009.
+[5] L. Tesfatsion and K. L. Judd, Handbook of Computational Economics:
+Agent-Based Computational Economics. Amsterdam, The Netherlands:
+Elsevier, 2006, vol. 2.
+[6] R. Cont and J.-P. Bouchaud, âHerd behavior and aggregate fluctuations
+in financial markets,â Macroeconomic Dyn., vol. 4, no. 2, pp. 170â196,
+2000.
+[7] C. Avery and P. Zemsky, âMultidimensional uncertainty and herd behavior in financial markets,â Amer. Econ. Rev., vol. 88, no. 4, pp. 724â748,
+Sep., 1998.
+[8] A. Park and H. Sabourian, âHerding and contrarian behavior in financial
+markets,â Econometrica, vol. 79, no. 4, pp. 973â1026, 2011.
+
+1072
+
+IEEE JOURNAL OF SELECTED TOPICS IN SIGNAL PROCESSING, VOL. 10, NO. 6, SEPTEMBER 2016
+
+[9] C. Chamley, Rational Herds: Economic Models of Social Learning.
+Cambridge, U.K.: Cambridge Univ. Press, 2004.
+[10] R. Cont, âVolatility clustering in financial markets: Empirical facts and
+agent-based models,â in Long Memory in Economics. New York, NY,
+USA: Springer, 2007, pp. 289â309.
+[11] T. Lux and M. Marchesi, âVolatility clustering in financial markets:
+A microsimulation of interacting agents,â Int. J. Theor. Appl. Finance,
+vol. 3, no. 4, pp. 675â702, 2000.
+[12] D. Challet et al., Minority Games: Interacting Agents in Financial
+Markets. London, U.K.: Oxford Univ. Press, 2013.
+[13] M. Cristelli, L. Pietronero, and A. Zaccaria, âCritical overview of agentbased models for economics,â arXiv preprint arXiv:1101.1847, 2011.
+[14] N. Apergis and S. M. Miller, âDo structural oil-market shocks affect stock
+prices?â Energy Econ., vol. 31, no. 4, pp. 569â575, 2009.
+[15] S. Gilchrist, V. Yankov, and E. ZakrajsĚek, âCredit market shocks and economic fluctuations: Evidence from corporate bond and stock markets,â
+J. Monetary Econ., vol. 56, no. 4, pp. 471â493, 2009.
+[16] S. Das and M. Magdon-Ismail, âAdapting to a market shock: Optimal
+sequential market-making,â in Proc. Adv. Neural Inf. Process. Syst., 2009,
+pp. 361â368.
+[17] V. Krishnamurthy, âQuickest detection POMDPs with social learning:
+Interaction of local and global decision makers,â IEEE Trans. Inf. Theory,
+vol. 58, no. 8, pp. 5563â5587, Aug. 2012.
+[18] P. Artzner, F. Delbaen, J.-M. Eber, and D. Heath, âCoherent measures of
+risk,â Math. Finance, vol. 9, no. 3, pp. 203â228, 1999.
+[19] S. Bikhchandani, D. Hirshleifer, and I. Welch, âA theory of fads, fashion, custom, and cultural change as informational cascades,â J. Political
+Economy, vol. 100, no. 5, pp. 992â1026, Oct. 1992.
+[20] I. Welch, âSequential sales, learning, and cascades,â J. Finance, vol. 47,
+no. 2, pp. 695â732, Jun. 1992.
+[21] A. V. Banerjee, âA simple model of herd behavior,â Quart. J. Econ.,
+vol. 107, no. 3, pp. 797â817, Aug. 1992.
+[22] L. R. Glosten, âInsider trading, liquidity, and the role of the monopolist
+specialist,â J. Business, vol. 62, no. 2, pp. 211â235, Apr. 1989.
+[23] A. N. Shiryaev and A. Aries, Optimal Stopping Rules. New York, NY,
+USA: Springer, 2007, vol. 8.
+[24] H. V. Poor and O. Hadjiliadis, Quickest Detection. Cambridge, U.K.:
+Cambridge Univ. Press, 2009, vol. 40.
+[25] M. FrisĂŠn, âOptimal sequential surveillance for finance, public health, and
+other areas,â Sequential Anal., vol. 28, no. 3, pp. 310â337, 2009.
+[26] R. A. Cohn, W. G. Lewellen, R. C. Lease, and G. G. Schlarbaum,
+âIndividual investor risk aversion and investment portfolio composition,â
+J. Finance, vol. 30, no. 2, pp. 605â620, May 1975.
+[27] B. Donkers and A. V. Soest, âSubjective measures of household preferences and financial decisions,â J. Econ. Psychol., vol. 20, no. 6,
+pp. 613â642, 1999.
+[28] S. Mitra and T. Ji, âRisk measures in quantitative finance,â Int. J. Bus.
+Continuity Risk Manage., vol. 1, no. 2, pp. 125â135, 2010.
+[29] R. T. Rockafellar and S. Uryasev, âOptimization of conditional value-atrisk,â J. Risk, vol. 2, pp. 21â41, 2000.
+[30] P. Krokhmal, J. Palmquist, and S. Uryasev, âPortfolio optimization with
+conditional value-at-risk objective and constraints,â J. Risk, vol. 4, no. 2,
+pp. 43â68, 2002.
+[31] C. Lim, H. D. Sherali, and S. Uryasev, âPortfolio optimization by
+minimizing conditional value-at-risk via nondifferentiable optimization,â
+Comput. Optim. Appl., vol. 46, no. 3, pp. 391â415, 2010.
+[32] F. Andersson, H. Mausser, D. Rosen, and S. Uryasev, âCredit risk
+optimization with conditional value-at-risk criterion,â Math. Program.,
+vol. 89, no. 2, pp. 273â291, 2001.
+[33] Y. Feng, F. Rubio, and D. Palomar, âOptimal order execution for algorithmic trading: A CVaR approach,â in Proc. IEEE 13th Int. Workshop Signal
+Process. Adv. Wireless Commun. (SPAWC), Jun. 2012, pp. 480â484.
+[34] R. Forsythe, T. A. Rietz, and T. W. Ross, âWishes, expectations and
+actions: a survey on price formation in election stock markets,â Journal
+of Economic Behavior & Organization, vol. 39, no. 1, pp. 83â110, 1999.
+[35] C. R. Plott and K. Y. Chen, âInformation aggregation mechanisms:
+Concept, design and implementation for a sales forecasting problem,â
+California Inst. Technol., Division of the Humanities and Social Sciences,
+Working Papers 1131, 2002.
+[36] R. H. Thaler and W. T. Ziemba, âParimutuel betting markets: Racetracks
+and lotteries,â J. Econ. Perspect., vol. 2, no. 2, pp. 161â174, 1988.
+[37] J. M. Gandar, W. H. Dare, C. R. Brown, and R. A. Zuber, âInformed
+traders and price variations in the betting market for professional basketball games,â J. Finance, vol. 53, no. 1, pp. 385â401, Feb. 1998.
+[38] A. Cartea and S. Jaimungal, âModelling asset prices for algorithmic and
+high-frequency trading,â Applied Mathematical Finance, vol. 20, no. 6,
+pp. 512â547, 2013.
+
+[39] A. N. Akansu and M. U. Torun, A Primer for Financial Engineering:
+Financial Signal Processing and Electronic Trading. New York, NY,
+USA: Academic, 2015.
+[40] M. Avellaneda and S. Stoikov, âHigh-frequency trading in a limit order
+book,â Quant. Finance, vol. 8, no. 3, pp. 217â224, 2008.
+[41] V. Krishnamurthy and A. Aryan, âQuickest detection of market shocks in
+agent based models of the order book,â in Proc. IEEE 51st Conf. Decision
+Control (CDC), Dec. 2012, pp. 1480â1485.
+[42] M. F. Neuts, Structured Stochastic Matrices of MG-1 Type and Their
+Applications. New York, NY, USA: Marcel Dekker, 1989.
+[43] V. Krishnamurthy, âBayesian sequential detection with phase-distributed
+change time and nonlinear penaltyâA POMDP lattice programming
+approach,â IEEE Trans. Inf. Theory, vol. 57, no. 10, pp. 7096â7124, Oct.
+2011.
+[44] S. Karlin and Y. Rinott, âClasses of orderings of measures and related
+correlation inequalities: I. Multivariate totally positive distributions,â
+J. Multivariate Anal., vol. 10, no. 4, pp. 467â498, 1980.
+[45] W. S. Lovejoy, âSome monotonicity results for partially observed Markov
+decision processes,â Oper. Res., vol. 35, no. 5, pp. 736â743, 1987.
+[46] D. M. Topkis, Supermodularity and Complementarity. Princeton, NJ,
+USA: Princeton Univ. Press, 1998.
+[47] D. P. Bertsekas, Dynamic Programming and Optimal Control. Belmont,
+MA, USA: Athena Scientific, 1995, vol. 1.
+[48] D. M. Pennock, âA dynamic pari-mutuel market for hedging, wagering, and information aggregation,â in Proc. 5th ACM Conf. Electron.
+Commerce, 2004, pp. 170â179.
+[49] Y. Chen, D. M. Pennock, and T. Kasturi, âAn empirical study of dynamic
+pari-mutuel markets: Evidence from the tech buzz game,â in Proc. Web
+Mining Web Usage Anal. Workshop (WebDKK), Las Vegas, NV, USA,
+2008.
+[50] L. Bursztyn, F. Ederer, B. Ferman, and N. Yuchtman, âUnderstanding
+mechanisms underlying peer effects: Evidence from a field experiment
+on financial decisions,â Econometrica, vol. 82, pp. 1273â1301, 2014.
+[51] D. A. Graham, âEstimating the state dependent utility function,â Nat.
+Resources J., vol. 23, p. 649, 1983.
+[52] W. N. Evans and W. K. Viscusi, âEstimation of state-dependent utility
+functions using survey data,â Rev. Econ. Statist., vol. 73, no. 1, pp. 94â
+104, 1991.
+[53] S. N. Afriat, âThe construction of utility functions from expenditure
+data,â Int. Econ. Rev., vol. 8, no. 1, pp. 67â77, 1967.
+[54] H. R. Varian, Intermediate Microeconomics: A Modern Approach. New
+York, NY, USA: Norton, 2014.
+[55] G. Charness, U. Gneezy, and A. Imas, âExperimental methods: Eliciting
+risk preferences,â J. Econ. Beh. Organ., vol. 87, pp. 43â51, 2013.
+[56] A. MĂźller and D. Stoyan, Comparison Methods for Stochastic Models
+and Risks. Hoboken, NJ, USA: Wiley, 2002, vol. 389.
+[57] R. T. Rockafellar and S. Uryasev, âConditional value-at-risk for general
+loss distributions,â J. Banking Finance, vol. 26, no. 7, pp. 1443â1471,
+2002.
+Vikram Krishnamurthy (Fâ05) received the Ph.D.
+degree from the Australian National University,
+Canberra, ACT, Australia, in 1992. He is currently a Professor and holds the Canada Research
+Chair in stastistical signal processing with the
+Department of Electrical Engineering, University
+of British Columbia, Vancouver, BC, Canada. His
+research interests include stastistical signal processing and stochastic control with applications in
+social networks, and dynamical models for protein
+molecules in biosensing devices. He has served as a
+Distinguished Lecturer for the IEEE Signal Processing Society and the Editorin-Chief of the IEEE J OURNAL S ELECTED T OPICS IN S IGNAL P ROCESSING.
+He received a Honorary Doctorate from KTH (Royal Institute of Technology),
+Stockholm, Sweden, in 2013. He is author of the book: Partially Observed
+Markov Decision Processes (Cambridge University Press, 2016).
+Sujay Bhatt received the M.Tech. degree from Indian
+Institute of Technology Bombay, Mumbai, India. He
+is currently working with Vikram Krishnamurthy at
+the University of British Columbia, Vancouver, BC,
+Canada. His research interests include social learning,
+Bayesian learning over networks, and game theory.
+
+
+;;

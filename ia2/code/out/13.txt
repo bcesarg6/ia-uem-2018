@@ -1,0 +1,85 @@
+10 termos mais citados:
+low: 22
+wealth: 23
+cash: 25
+time: 25
+control: 27
+mpc: 28
+financial: 28
+controller: 30
+controllers: 36
+pid: 42
+;;
+ EFERENCES
+[1] K. M. Passino, Humanitarian Engineering: Advancing Technologies
+for Sustainable Development, 3nd ed. Columbus, OH, USA: Bede
+Publishing, 2016.
+[2] A. Pawasutipaisit and R. M. Townsend, “Wealth accumulation and
+factors accounting for success,” J. Econ., vol. 161, no. 1, pp. 56–81,
+2011.
+[3] S. Rutherford, The Poor and Their Money. Oxford, U.K.:
+Oxford Univ. Press, 2001.
+[4] R. C. Merton, “Optimum consumption and portfolio rules in a
+continuous-time model,” J. Econ. Theory, vol. 3, no. 4, pp. 373–413,
+1971.
+[5] J. Y. Campbell and L. M. Viceira, “Consumption and portfolio decisions
+when expected returns are time varying,” Nat. Bureau Econ. Res.,
+Tech. Rep. 5857, vol. 114, pp. 433–495, 1999.
+
+2201
+
+[6] F. J. Zimmerman and M. R. Carter, “Asset smoothing, consumption
+smoothing and the reproduction of inequality under risk and subsistence
+constraints,” J. Develop. Econ., vol. 71, no. 2, pp. 233–260, 2003.
+[7] D. Collins, J. Morduch, S. Rutherford, and O. Ruthven, Portfolios of the
+Poor: How the World’s Poor Live on Two Dollars a Day. Princeton, NJ,
+USA: Princeton Univ. Press, 2009.
+[8] D. Hulme and P. Mosley, Finance Against Poverty. Evanston, IL, USA:
+Routledge, 1996.
+[9] J. Zollmann, “Kenya financial diaries: shilingi KWA shilingi—The
+financial lives of the poor,” FSD Kenya, Nairobi, Kenya, Tech. Rep.,
+2014.
+[10] D. A. Kendrick, Stochastic Control for Economic Models. New York,
+NY, USA: McGraw-Hill, 1981.
+[11] J. Segupta and P. Fanchon, Control Theory Methods in Economics.
+Norwell, MA, USA: Springer, 1997.
+[12] T. F. Cosimano, “Optimal experimentation and the perturbation method
+in the neighborhood of the augmented linear regulator problem,” J. Econ.
+Dyn. Control, vol. 32, no. 6, pp. 1857–1894, 2008.
+[13] F. Herzog, G. Dondi, and H. P. Geering, “Stochastic model predictive
+control and portfolio optimization,” Int. J. Theor. Appl. Finance, vol. 10,
+no. 2, pp. 203–233, 2007.
+[14] V. V. Dombrovskii, D. V. Dombrovskii, and E. A. Lyashenko, “Predictive
+control of random-parameter systems with multiplicative noise. Application to investment portfolio optimization,” Autom. Remote Control,
+vol. 66, no. 4, pp. 583–595, 2005.
+[15] D. Karlan, A. L. Ratan, and J. Zinman, “Savings by and for the poor:
+A research review and agenda,” Rev. Income Wealth, vol. 60, no. 1,
+pp. 36–78, 2014.
+[16] J. E. Taylor and I. Adelman, “Agricultural household models: Genesis, evolution, and extensions,” Rev. Econ. Household, vol. 1, no. 1,
+pp. 33–58, 2003.
+[17] P. A. Samuelson, “Lifetime portfolio selection by dynamic stochastic
+programming,” Rev. Econ. Statist., vol. 51, no. 3, pp. 239–246, 1969.
+[18] A. Mas-Colell, M. D. Whinston, and J. R. Green, Microeconomic
+Theory. New York, NY, USA: Oxford Univ. Press, 1995.
+[19] D. P. Bertsekas, Dynamic Programming and Optimal Control, vol. 1.
+Belmont, MA, USA: Athena Scientific, 1995.
+[20] D. P. Bertsekas and J. N. Tsitsiklis, Neuro-Dynamic Programming.
+Belmont, MA, USA: Athena Scientific, 1996.
+[21] H. J. Kushner and P. G. Dupuis, Numerical Methods for Stochastic Control Problems in Continuous Time. Hamburg, Germany:
+Springer-Verlag, 2001.
+[22] K. Passino, Biomimicry for Optimization, Control, and Automation.
+London, U.K.: Springer-Verlag, 2005.
+[23] S. J. Qin and T. A. Badgwell, “A survey of industrial model predictive
+control technology,” Control Eng. Pract., vol. 11, no. 7, pp. 733–764,
+2003.
+[24] C. B. Barrett, M. R. Carter, and M. Ikegami, “Poverty traps and social
+protection,” World Bank, Social Protection, Washington, DC, USA,
+Tech. Rep. 0804, 2008.
+[25] P. M. R. Carter and C. B. Barrett, “The economics of poverty traps
+and persistent poverty: An asset-based approach,” J. Develop. Studies,
+vol. 42, no. 2, pp. 178–199, 2006.
+[26] F. Borrelli, A. Bemporad, and M. Morari. (2015). Predictive Control for Linear and Hybrid Systems, 2015. [Online]. Available:
+http://www.mpc.berkeley.edu/mpc-course-material
+
+
+;;

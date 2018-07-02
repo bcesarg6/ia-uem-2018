@@ -1,0 +1,108 @@
+10 termos mais citados:
+gpu: 32
+values: 33
+used: 34
+pricing: 40
+gpe: 41
+options: 43
+asset: 44
+option: 46
+time: 49
+price: 51
+;;
+
+REFERENCES
+[1] S. M. Bartram, G. W. Brown, and F. R. Fehle, âInternational evidence on financial derivatives usage,â Financial Manage., vol. 38, no. 1,
+pp. 185â206, 2009.
+[2] A. Devenow and I. Welch, âRational herding in financial economics,â Eur.
+Econ. Rev., vol. 40, pp. 603â615, 1996.
+[3] F. Black and M. Scholes, âThe pricing of options and corporate liabilities,â
+J. Political Economy, vol. 81, pp. 637â654, 1973.
+[4] L. H. Ederington and W. Guan, âWhy are those options smiling?â
+J. Derivatives, vol. 10, no. 2, pp. 9â34, 2002.
+[5] O. A. Vasicek, âAn equilibrium characterization of the term structure,â
+J. Financial Econ., vol. 5, pp. 177â188, 1977.
+[6] J. C. Cox, J. E. Ingersoll, and S. A. Ross, âA theory of the term structure
+of interest rates,â Econometrica, vol. 53, pp. 129â151, 1985.
+[7] J. C. Hull, Options, Futures and Other Derivatives, 8th ed. Boston, MA,
+USA: Prentice-Hall, 2012.
+[8] P. Glasserman, Monte Carlo Methods in Financial Engineering. New
+York, NY, USA: Springer-Verlag, 2004, p. 548.
+[9] S. I. Heston, âA closed-form solution for options with stochastic volatility
+with applications to bond and currency options,â Rev. Financial Stud.,
+vol. 6, pp. 327â343, 1993.
+[10] D. Duffie and R. Kan, âA yield-factor model of interest rates,â Math.
+Finance, vol. 6, no. 4, pp. 379â406, 1996.
+[11] B. Oksendal, âThe Ito formula and the martingale representation theorem,â in Stochastic Differential Equations. New York, NY, USA: SpringerVerlag, 2005, pp. 43â49.
+[12] L. A. Abbas-Turki and B. Lapeyre, âAmerican options pricing on multicore graphic cards,â in Proc. Int. Conf. Bus. Intell. Financial Eng., Beijing,
+China, 2009, pp. 307â311.
+[13] M. S. Joshi, âGraphical Asian options,â Wilmott J., vol. 2, no. 2,
+pp. 97â107, 2010.
+[14] S. Solomon, R. K. Thulasiram, and P. Thulasiraman, âOption pricing on
+the GPU,â in Proc. 12th IEEE Int. Conf. High Perform. Comput. Commun.,
+Melbourne, Vic., Australia, 2010, pp. 289â296.
+[15] D. Egloff, âHigh performance finite difference PDE solvers on GPUs,â
+QuantAlea Gmbh, Tech. Rep., Zurich, Switzerland, (2010, Feb.). [Online].
+Available: http://download.quantalea.net/ fdm-gpu.pdf
+[16] D. Egloff, âPricing financial derivatives with high performance finite difference solvers on GPUs,â in GPU Computing Gems Jade Edition, W.
+Hwu, Ed. Burlington, MA, USA: Morgan Kaufmann, 2011.
+[17] M. Fatica and E. Phillips, âPricing American options with least squares
+Monte Carlo on GPUs,â Proc. 6th Workshop High Perform. Comput.
+Finance, Denver, 2013.
+[18] C. de Schryver et al., âAn energy efficient FPGA accelerator for Monte
+Carlo option pricing with the Heston model,â in Proc. Int. Conf. Reconfigurable Comput. FPGAs, Cancun, Mexico, 2011, pp. 468â474.
+[19] N. A. Woods and T. VanCourt, âFPGA acceleration of quasi-Monte Carlo
+in finance,â in Proc. Int. Conf. Field Program. Logic Appl., Heidelberg,
+Germany, 2008, pp. 335â340.
+[20] A. Kaganov, P. Chow, and A. Lakhany, âFPGA acceleration of MonteCarlo based credit derivative pricing,â in Proc. Int. Conf. Field Program.
+Logic Appl., Heidelberg, Germany, 2008, pp. 329â334.
+[21] A. H. T. Tse, D. B. Thomas, K. H. Tsoi, and W. Luk, âReconfigurable
+control variate Monte-Carlo designs for pricing exotic options,â in Proc.
+Int. Conf. Field Program. Logic Appl., Milano, Italy, 2010, pp. 364â367.
+[22] A. H. T. Tse, D. B. Thomas, K. H. Tsoi, and W. Luk, âEfficient reconfigurable design for pricing Asian options,â ACM SIGARCH Computer
+Archit. News, vol. 38, no. 4, pp. 14â20, 2011.
+[23] B. Betkaoui, D. B. Thomas, and W. Luk, âComparing performance and
+energy efficiency of FPGAs and GPUs for high productivity computing,â in Proc. Int. Conf. Field-Program. Technol., Beijing, China, 2010,
+pp. 94â101.
+[24] D. Manners, âAltera goes for the data centre,â Electron. Weekly,
+Oct. 8, 2014. [Online]. Available: http://www.electronicsweekly.com/
+news/business/altera-goes-data-centre-2014-10/. [Accessed on: Oct. 14,
+2014].
+
+[25] Y. Hu, Q. Li, Z. Cao, and J. Wang, âParallel simulation of high-dimensional
+American option pricing based on CPU versus MIC,â Concurrency Comput., Practice Experience, vol. 27, pp. 1110â1121, 2014.
+[26] M. Manssen, M. Weigel, and A. K. Hartmann, âRandom number generators for massively parallel simulations on GPU,â Eur. Phys. J. Special
+Topics, vol. 210, pp. 53â72, 2012.
+[27] S. Trainor, âTowards a portable accelerated asset path simulator for derivatives pricing,â Ph.D. dissertation, Queenâs University Belfast, Belfast,
+U.K., 2015.
+
+Danny Crookes became a Professor of computer
+engineering in 1993 at Queens University Belfast
+(QUB), Belfast, U.K., and was the Head of Computer Science from 1993 to 2002. He is the Director
+of Research for Speech, Image and Vision Systems
+at the Institute for Electronics, Communications and
+Information Technology, QUB. His current research
+interests include the use of novel architectures (especially GPUs) for high-performance image and speech
+processing. He is currently involved in projects in acceleration of financial simulations, speech enhancement, face recognition, and image processing for cancer diagnosis. He has
+published more than 230 scientific papers in journals and international conferences, and has presented tutorials on parallel image processing at several
+international conferences.
+
+Sean Trainor received the M.Sc. degree in
+pure mathematics from Queenâs University Belfast
+(QUB), Belfast, U.K., in 2008, and the Ph.D. degree
+in financial simulation from the Institute for Electronics, Communications and Information Technology,
+QUB, in 2015. He has worked in developing financial products in several financial markets companies
+in the City of London.
+
+Richard Jiang received the Ph.D. degree in computer
+science from Queenâs University Belfast, Belfast,
+U.K., in 2008.
+After the Ph.D. study, he was with Brunel University, Loughborough University, Swansea University, the University of Bath, and the University of
+Sheffield. He joined Northumbria University, Newcastle upon Tyne, U.K., in May 2013, where he is
+currently a Lecturer in the Department of Computer
+Science and Digital Technologies. His research interests mainly reside in the fields of artificial intelligence, manâmachine interaction, hardware acceleration, visual forensics, and
+biomedical image analysis. His research has been funded by EPSRC, BBSRC,
+TSB, EU FP, and industry, and he has authored some 50 publications.
+
+
+;;
