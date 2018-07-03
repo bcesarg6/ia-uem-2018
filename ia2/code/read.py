@@ -1,8 +1,6 @@
-#import PyPDF2
 import textract
 import nltk
 import re
-import string
 from nltk.tokenize import word_tokenize
 from nltk.corpus import stopwords
 
@@ -22,9 +20,29 @@ refs = ['references', 'eferences']
 
 i = 0
 for filename in files:
+    #Le o texto do PDF e armazena em uma unica string
     text = textract.process(filename).decode("utf-8")
-    #print text
 
+    #Leitura da intituicao
+    inst_start = text.find('IEEE')
+    inst_end = text.find(',')
+    inst = text[inst_start:inst_end]
+
+    #Leitura dos autores
+    abs_start = text.find("Abstract")
+    lines = text[:abs_start].split("\n")
+
+    j = len(lines) - 1
+    while lines[j] == '':
+        del lines[j]
+        j = j - 1
+
+    autores = ''
+    autores = lines[-1].encode("UTF-8")
+    if lines[-2][-1] == ',':
+        autores = autores + "\n" + lines[-2].encode("UTF-8")
+
+    #Leitura das referencias
     ref_pos = text.find('REFERENCES')
     if ref_pos == -1:
         ref_pos = text.find('EFERENCES')
@@ -32,30 +50,13 @@ for filename in files:
     if ref_pos != -1:
         ref_text = text[ref_pos-1:]
 
+    #Pre-processamento
     pattern = re.compile('[\W_]+', re.UNICODE)
 
     text = re.sub(r'\W+', ' ', text)
 
-    #pdfFileObj = open(filename, 'rb')
-
-    #pdfReader = PyPDF2.PdfFileReader(pdfFileObj)
-
-    #num_pages = pdfReader.numPages
-    #print "Numpages: " + str(num_pages)
-
-    #count = 0
-    #title = ''
-    #while count < num_pages:
-    #    pageObj = pdfReader.getPage(count)
-    #    count +=1
-    #    title = pageObj.extractText()
-    #    if count == 2:
-    #        break
-    #print title
-
     tokens = word_tokenize(text)
 
-    #print tokens
     punctuations = ['(',')',';',':','[',']',',', '.', '{', '}', '!', '@', '#', '$', '%', '"', '>', '<', '+', '=',
                     '?', '/']
 
@@ -68,8 +69,8 @@ for filename in files:
         if (not (word in stop_words)) and (not word in punctuations):
             keywords.append(word)
 
+    #Procura das top 10 palavras
     top_words = {}
-
     for word in keywords:
         word = word.lower()
 
@@ -85,18 +86,20 @@ for filename in files:
     sorted_top = sorted(top_words.items(), key=lambda x: x[1])
     sorted_top = sorted_top[-10:]
 
-    #print sorted_top
-
+    #Escrita no arquivo
     outf = open(out_files[i],"w+")
 
-    outf.write("10 termos mais citados:\n")
     for t in sorted_top:
         outf.write(t[0] + ": " + str(t[1]) + "\n")
-
     outf.write(";;\n")
 
     outf.write(ref_text.encode('utf-8'))
+    outf.write("\n;;\n")
 
+    outf.write(inst)
+    outf.write("\n;;\n")
+
+    outf.write(autores)
     outf.write("\n;;\n")
 
     outf.close()

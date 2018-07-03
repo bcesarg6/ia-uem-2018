@@ -1,4 +1,3 @@
-10 termos mais citados:
 traders: 47
 price: 49
 detection: 52
@@ -211,4 +210,9 @@ Prof. McGinnity is a fellow of the Institution of Engineering and Technology
 and a Chartered Engineer.
 
 
+;;
+IEEE TRANSACTIONS ON NEURAL NETWORKS AND LEARNING SYSTEMS
+;;
+and Thomas Martin McGinnity, Senior Member, IEEE
+Yi Cao, Yuhua Li, Senior Member, IEEE, Sonya Coleman, Member, IEEE, Ammar Belatreche, Member, IEEE,
 ;;

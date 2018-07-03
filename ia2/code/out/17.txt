@@ -1,4 +1,3 @@
-10 termos mais citados:
 prices: 39
 points: 43
 agents: 52
@@ -210,4 +209,8 @@ His research interests include theories regarding data
 analysis, complex systems, and economics.
 
 
+;;
+IEEE JOURNAL OF SELECTED TOPICS IN SIGNAL PROCESSING
+;;
+Zvonko KostanjcĚar, Member, IEEE, Stjepan BegusĚicĚ, Harry Eugene Stanley, and Boris Podobnik
 ;;

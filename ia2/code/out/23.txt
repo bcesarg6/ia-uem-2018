@@ -1,4 +1,3 @@
-10 termos mais citados:
 return: 48
 series: 49
 process: 50
@@ -187,4 +186,8 @@ work has appeared in Information & Management,
 Journal of Marketing, International Journal of Research in Marketing, Journal of the Academy of Marketing Science, among others.
 
 
+;;
+IEEE JOURNAL OF SELECTED TOPICS IN SIGNAL PROCESSING
+;;
+Jianan Han, Xiao-Ping Zhang, Senior Member, IEEE, and Fang Wang
 ;;

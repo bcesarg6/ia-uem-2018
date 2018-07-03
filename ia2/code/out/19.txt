@@ -1,4 +1,3 @@
-10 termos mais citados:
 market: 40
 multivariate: 41
 using: 44
@@ -230,4 +229,9 @@ IEEE TRANSACTIONS ON SIGNAL PROCESSING, and the IEEE TRANSACTIONS ON
 NEURAL NETWORKS. He has produced award winning papers and products resulting from his collaboration with the industry.
 
 
+;;
+IEEE JOURNAL OF SELECTED TOPICS IN SIGNAL PROCESSING
+;;
+Lisa Aufegger, Anthony G. Constantinides, Life Fellow, IEEE, and Danilo P. Mandic, Fellow, IEEE
+Apit Hemakom, Student Member, IEEE, Theerasak Chanwimalueang, Student Member, IEEE, Alicia Carrión,
 ;;

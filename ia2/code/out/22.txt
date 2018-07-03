@@ -1,4 +1,3 @@
-10 termos mais citados:
 system: 84
 affected: 85
 turbulence: 93
@@ -240,4 +239,9 @@ Mr. Zhang is a Member of the IEEE Control Systems Society and a Student Member o
 Society of Civil Engineers.
 
 
+;;
+IEEE TRANSACTIONS ON FUZZY SYSTEMS
+;;
+and Mengxiang Zhang, Student Member, IEEE
+Xinxin Xu, Member, IEEE, Ziqiang Zeng, Member, IEEE, Jiuping Xu, Senior Member, IEEE,
 ;;

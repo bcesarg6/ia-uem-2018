@@ -1,4 +1,3 @@
-10 termos mais citados:
 agent: 37
 observer: 37
 detection: 40
@@ -177,4 +176,8 @@ Canada. His research interests include social learning,
 Bayesian learning over networks, and game theory.
 
 
+;;
+IEEE JOURNAL OF SELECTED TOPICS IN SIGNAL PROCESSING
+;;
+Vikram Krishnamurthy, Fellow, IEEE, and Sujay Bhatt
 ;;

@@ -1,4 +1,3 @@
-10 termos mais citados:
 gpu: 32
 values: 33
 used: 34
@@ -105,4 +104,8 @@ biomedical image analysis. His research has been funded by EPSRC, BBSRC,
 TSB, EU FP, and industry, and he has authored some 50 publications.
 
 
+;;
+IEEE JOURNAL OF SELECTED TOPICS IN SIGNAL PROCESSING
+;;
+Danny Crookes, Senior Member, IEEE, Sean Trainor, and Richard Jiang
 ;;

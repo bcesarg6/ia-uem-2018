@@ -1,4 +1,3 @@
-10 termos mais citados:
 pareto: 58
 jump: 69
 fuzzy: 70
@@ -162,4 +161,8 @@ cited paper in the research area of Mathematics by Essential Science Indicator
 from Thomson Reuters.
 
 
+;;
+IEEE TRANSACTIONS ON FUZZY SYSTEMS
+;;
+Chien-Feng Wu, Bor-Sen Chen, Life Fellow, IEEE, and Weihai Zhang, Senior Member, IEEE
 ;;

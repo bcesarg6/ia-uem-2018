@@ -1,4 +1,3 @@
-10 termos mais citados:
 low: 22
 wealth: 23
 cash: 25
@@ -82,4 +81,8 @@ vol. 42, no. 2, pp. 178–199, 2006.
 http://www.mpc.berkeley.edu/mpc-course-material
 
 
+;;
+IEEE TRANSACTIONS ON CONTROL SYSTEMS TECHNOLOGY
+;;
+Hugo Gonzalez Villasanti and Kevin M. Passino, Fellow, IEEE
 ;;

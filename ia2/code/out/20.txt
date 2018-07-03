@@ -1,4 +1,3 @@
-10 termos mais citados:
 financial: 43
 generated: 51
 number: 56
@@ -278,4 +277,8 @@ Soft Computing (Springer). He is on the Editorial Board of a number of other
 international journals.
 
 
+;;
+IEEE TRANSACTIONS ON FUZZY SYSTEMS
+;;
+Michela Antonelli, Dario Bernardo, Hani Hagras, Fellow, IEEE, and Francesco Marcelloni, Member, IEEE
 ;;

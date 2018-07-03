@@ -1,4 +1,3 @@
-10 termos mais citados:
 boolean: 43
 based: 43
 terms: 43
@@ -205,4 +204,8 @@ intelligence.
 Dr. Gegov is a Fellow of the HEA.
 
 
+;;
+IEEE TRANSACTIONS ON FUZZY SYSTEMS
+;;
+Abdul Malek Yaakob, Antoaneta Serguieva, Senior Member, IEEE, and Alexander Gegov, Member, IEEE
 ;;

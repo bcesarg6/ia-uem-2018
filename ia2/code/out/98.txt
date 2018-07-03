@@ -1,4 +1,3 @@
-10 termos mais citados:
 numbers: 32
 function: 33
 level: 34
@@ -146,4 +145,8 @@ Sciences, in 2015.
 His main research interests include financial engineering, stochastic analysis, probability theory, statistics, econometrics, and machine learning.
 
 
+;;
+IEEE TRANSACTIONS ON FUZZY SYSTEMS
+;;
+Piotr Nowak and MichaĹ PawĹowski
 ;;

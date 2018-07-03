@@ -1,4 +1,3 @@
-10 termos mais citados:
 stochastic: 25
 problem: 25
 probability: 26
@@ -147,4 +146,8 @@ Control Systems Society. He received the Best Paper Award (Senior Award),
 2013, of the IEEE Signal Processing Society.
 
 
+;;
+IEEE JOURNAL OF SELECTED TOPICS IN SIGNAL PROCESSING
+;;
+Saahil Shenoy, Senior Member, IEEE, and Dimitry Gorinevsky, Fellow, IEEE
 ;;

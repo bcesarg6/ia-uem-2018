@@ -1,4 +1,3 @@
-10 termos mais citados:
 financial: 63
 models: 65
 threshold: 67
@@ -229,4 +228,8 @@ interests include software engineering, service oriented architecture, pervasive
 computing, bankruptcy prediction methods, and business intelligence.
 
 
+;;
+IEEE TRANSACTIONS ON EVOLUTIONARY COMPUTATION
+;;
+Travis Miranda Lakshmi, Aruldoss Martin, and Venkatasamy Prasanna Venkatesan
 ;;
