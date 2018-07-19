@@ -1,0 +1,211 @@
+boolean: 43
+based: 43
+terms: 43
+criteria: 51
+number: 54
+matrix: 57
+topsis: 72
+type: 80
+rule: 93
+fuzzy: 146
+;;
+
+REFERENCES
+[1] A. Hadi-Vencheh and M. Mirjaberi, âSeclusion-factor method to solve
+fuzzy-multiple criteria decision-making problems,â IEEE Trans. Fuzzy
+Syst., vol. 19, no. 2, pp. 201â209, Apr. 2011.
+[2] T. T. Nguyen, L. Gordon-Brown, A. Khosravi, D. Creighton, and Saeid
+Nahavandi, âFuzzy portfolio allocation models through a new risk measure
+and fuzzy sharpe ratio,â IEEE Trans. Fuzzy Syst., vol. 23, no. 3, pp. 656â
+676, Jun. 2015.
+[3] A. Kelemenis, K. Ergazakis, and D. Askounis, âSupport managersâ selection using an extension of fuzzy TOPSIS,â Expert Syst. Appl., vol. 38,
+no. 3, pp. 2774â2782, Mar. 2011.
+[4] A. Awasthi, S. S. Chauhan, and H. Omrani, âApplication of fuzzy TOPSIS in evaluating sustainable transportation systems,â Expert Syst. Appl.,
+vol. 38, no. 10, pp. 12270â12280, Sep. 2011.
+[5] H. Shidpour, M. Shahrokhi, and A. Bernard, âA multi-objective programming approach, integrated into the TOPSIS method, in order to optimize
+product design; in three-dimensional concurrent engineering,â Comput.
+Ind. Eng., vol. 64, no. 4, pp. 875â885, Apr. 2013.
+[6] Y. T. IĚcĚ§, âAn experimental design approach using TOPSIS method for
+the selection of computer-integrated manufacturing technologies,â Robot.
+Comput. Integr. Manuf., vol. 28, no. 2, pp. 245â256, Apr. 2012.
+[7] A. Pires, N.-B. Chang, and G. Martinho, âAn AHP-based fuzzy interval
+TOPSIS assessment for sustainable expansion of the solid waste management system in SetuĚbal Peninsula, Portugal,â Resources Conservation
+Recycling, vol. 56, no. 1, pp. 7â21, Nov. 2011.
+[8] M. Saremi, S. F. Mousavi, and A. Sanayei, âTQM consultant selection
+in SMEs with TOPSIS under fuzzy environment,â Expert Syst. Appl.,
+vol. 36, no. 2, pp. 2742â2749, Mar. 2009.
+[9] M. DagĚdeviren, S. Yavuz, and N. KÄąlÄąncĚ§, âWeapon selection using the
+AHP and TOPSIS methods under fuzzy environment,â Expert Syst. Appl.,
+vol. 36, no. 4, pp. 8143â8151, May 2009.
+[10] D. Mohamad and R. M. Jamil, âA preference analysis model for selecting
+tourist destinations based on motivational factors: A case study in Kedah,
+Malaysia,â Procedia, Soc. Behav. Sci., vol. 65, pp. 20â25, Dec. 2012.
+[11] E. Ansarifar, F. Shahidi, M. Mohebbi, S. M. Razavi, and J. Ansarifar, âA
+new technique to evaluate the effect of chitosan on properties of deep-fried
+Kurdish cheese nuggets by TOPSIS,â LWT-Food Sci. Technol., vol. 62,
+no. 2, pp. 1211â1219, Jul. 2015.
+[12] S.-Y. Chou, Y.-H. Chang, and C.-Y. Shen, âA fuzzy simple additive weighting system under group decision-making for facility location selection
+with objective/subjective attributes,â Eur. J. Oper. Res., vol. 189, no. 1,
+pp. 132â145, Aug. 2008.
+[13] K. Hwang and C. L. Yoon, Multiple Attribute Decision Making: Methods
+and Applications. New York, NY, USA: Springer-Verlag, 1981.
+[14] J.-W. Wang, C.-H. Cheng, and K.-C. Huang, âFuzzy hierarchical TOPSIS
+for supplier selection,â Appl. Soft Comput., vol. 9, pp. 377â386, 2009.
+[15] C.-T. Chen, âExtensions of the TOPSIS for group decision-making under
+fuzzy environment,â Fuzzy Sets Syst., vol. 114, no. 1, pp. 1â9, Aug. 2000.
+[16] T.-Y. Chen, âA linear assignment method for multiple-criteria decision
+analysis with interval type-2 fuzzy sets,â Appl. Soft Comput., vol. 13,
+no. 5, pp. 2735â2748, 2013.
+[17] A. A. Bazzazi, M. Osanloo, and B. Karimi, âDeriving preference order
+of open pit mines equipment through MADM methods: Application of
+modified VIKOR method,â Expert Syst. Appl., vol. 38, pp. 2550â2556,
+2011.
+
+332
+
+[18] S.-M. Chen and L.-W. Lee, âFuzzy multiple attributes group decisionmaking based on the interval type-2 TOPSIS method,â Expert Syst. Appl.,
+vol. 37, no. 4, pp. 2790â2798, Apr. 2010.
+[19] J. M. Mendel, R. I. John, and F. L. Liu, âInterval type 2 fuzzy logical
+system made simple,â IEEE Trans. Fuzzy Syst., vol. 6, no. 14, pp. 808â
+821, Dec. 2006.
+[20] L. A. Zadeh, âThe concept of a linguistic variable and its application to
+approximate reasoning,â J. Inf. Sci., vol. 1, no. 8, pp. 199â249, 1975.
+[21] J. M. Mendel, Uncertain Rule-Based Fuzzy Logic Systems: Introduction
+and New Directions. Upper Saddle River, NJ, USA: Prentice-Hall, 2001.
+[22] M. H. Fazel Zarandi, I. B. Turksen, and O. Torabi Kasbi, âType-2
+fuzzy modeling for desulphurization of steel process,â Expert Syst. Appl.,
+vol. 32, pp. 157â171, 2007.
+[23] L. A. Zadeh, âFuzzy sets,â J. Inf. Control, vol. 8, pp. 338â353, 1965.
+[24] J. Mendel and Q. Liang, âEqualization of nonlinear time-varying channels using type-2 fuzzy adaptive filters,â IEEE Trans. Fuzzy Syst., vol. 5,
+no. 8, pp. 551â563, Oct. 2000.
+[25] J. Hu, Y. Zhang, X. Chen, and Y. Liu, âMulti-criteria decision making
+method based on possibility degree of interval type-2 fuzzy number,â
+Knowl.-Based Syst., no. 463, pp. 21â29, 2013.
+[26] J. M. Mendel and D. R. Wu, Perceptual Computing: Aiding People in
+Making Subjective Judgments. New York, NY, USA: Wiley/IEEE Press,
+2010.
+[27] J. M. Mendel et al., âWhat computing with words means to me,â IEEE
+Comput. Intell. Mag., vol. 5, no. 1, pp. 20â26, Feb. 2010.
+[28] H. Hagras, F. Doctor, V. Callaghan, and A. Lopez, âAn incremental adaptive lifelong learning approach for type-2 fuzzy embedded agents in ambient intelligent environments,â IEEE Trans. Fuzzy Syst., vol. 15, no. 1,
+pp. 41â55, Feb. 2007.
+[29] E. A. Jammeh, M. Fleury, C. Wagner, H. Hagras, and M. Ghanbari,
+âInterval type-2 fuzzy logic congestion control for video streaming across
+IP networks,â IEEE Trans. Fuzzy Syst., vol. 17, no. 5, pp. 1123â1142,
+Oct. 2009.
+[30] C. Wagner and H. Hagras, âToward general type-2 fuzzy logic systems
+based on z-slices,â IEEE Trans. Fuzzy Syst., vol. 18, no. 4, pp. 637â660,
+Aug. 2010.
+[31] D. R. Wu and J. M. Mendel, âOn the continuity of type-1 and interval
+type-2 fuzzy logic systems,â IEEE Trans. Fuzzy Syst., vol. 19, no. 1,
+pp. 179â192, Feb. 2011.
+[32] L. A. Zadeh, âA note on Z-numbers,â Inf. Sci., vol. 181, no. 14, pp. 2923â
+2932, Jul. 2011.
+[33] B. Kang, D. Wei, Y. Li, and Y. Deng, âA method of converting Z-number
+to,â J. Inf. Comput. Sci., vol. 3, pp. 703â709, Mar. 2012.
+[34] A. Sotoudeh-Anvari and S. Sadi-Nezhad, âA new approach based on the
+level of reliability of information to determine the relative weights of
+criteria in fuzzy TOPSIS,â Int. J. Appl. Decis. Sci., vol. 8, pp. 164â178,
+2015.
+[35] R. A. Aliev and O. H. Huseynov, Decision Theory with Imperfect Information. Hackensack, NJ, USA: World Scientific, 2014.
+[36] A. Gegov, Fuzzy Networks for Complex System: A Modular Rule Base
+Approach. Berlin, Germany: Springer-Verlag, 2011.
+[37] A. Gegov, N. Petrov, and B. Vatchova, âAdvanced modelling of complex
+processes by rule based networks,â in Proc. IEEE Int. Conf. Intell. Syst.,
+2010, pp. 197â202.
+[38] F. J. J. Santos and H. A. Camargo, âDecision support systems in multicriteria groups: An approach based on fuzzy rules,â in Proc. IEEE Int. Conf.
+Fuzzy Syst., Jul. 2010, pp. 1â8.
+[39] A. Gegov, N. Petrov, and E. Gegov, âRule base identification in fuzzy
+networks by Boolean matrix equations,â J. Intell. Fuzzy Syst., vol. 1,
+no. 26, pp. 405â419, 2014.
+[40] A. Gegov, F. Arabikhan, and N. Petrov, âLinguistic composition based
+modelling by fuzzy networks with modular rule bases,â Fuzzy Sets Syst.,
+vol. 269, pp. 1â29, Jun. 2015.
+[41] M. Yaakob and A. Gegov, âInteractive TOPSIS based group decision
+making methodology using z-numbers,â Int. J. Comput. Intell. Syst.,
+vol. 9, pp. 311â324, 2016.
+[42] R. W. Chen, D. Navin-Chandra, and Fritz B. Prinz, âA cost-benefit analysis
+model of product design for recyclability and its application,â IEEE Trans.
+Compon. Packag. Manuf. Technol., vol. 17, no. 4, pp. 502â507, Dec. 1994.
+[43] T. Clark, Why Track Actual Costs and Resource Usage on Projects?. New
+York, NY, USA: ACM, Mar. 2008.
+[44] P. Grzegorzewski and E. MroĚwka, âTrapezoidal approximations of fuzzy
+numbersârevisited,â Fuzzy Sets Syst., vol. 158, no. 7, pp. 757â768,
+Apr. 2007.
+[45] A. M. Yaakob and A. Gegov, âFuzzy rule based approach with z-numbers
+for selection of alternatives using TOPSIS,â in Proc. IEEE Int. Conf. Fuzzy
+Syst., 2015, pp. 1â8.
+
+IEEE TRANSACTIONS ON FUZZY SYSTEMS, VOL. 25, NO. 2, APRIL 2017
+
+[46] F. Tiryaki and M. Ahlatcioglu, âFuzzy stock selection using a new fuzzy
+ranking and weighting algorithm,â Appl. Math. Comput., vol. 170, no. 1,
+pp. 144â157, Nov. 2005.
+[47] J. Lukeman, The Market Makerâs Edge: Day Trading Tactics from a Wall
+Street Insider. Toronto, ON, Canada: McGraw-Hill, 2003.
+[48] A. Roshayani, U. Laily, and M. A. Siti Maznah, Financial Accounting An
+Introduction, 2nd ed. Selangor, Malaysia: McGraw-Hill, 2007.
+[49] J. J. Weygandt, D. E. Kieso, and P. D. Kimmel, Accounting Principles,
+6th ed. Hoboken, NJ, USA: Wiley, 2002.
+[50] V. G. Hansen, âDetection performance of some nonparametric rank tests
+and an application to radar,â IEEE Trans. Inf. Theory, vol. IT-16, no. 3,
+pp. 309â318, May 1970.
+[51] A. Serguieva and J. Hunter, âFuzzy interval methods in investment risk
+appraisal,â Int. J. Inf. Sci. Fuzzy Sets Syst., vol. 142, no. 3, pp. 443â466,
+2004.
+[52] A. Serguieva, Computational Intelligence in Asset Risk Analysis.
+Uxbridge, U.K.: Brunel Univ., 2004.
+[53] A. Serguieva, T. Khan, and T. Kalganova, âAn intelligent system for risk
+classification of equity investment projects,â J. Appl. Syst. Stud. (Spec.
+Issue Real Life Appl. Nat. Inspired Comb. Heuristics), vol. 4, no. 2,
+pp. 236â261, 2003.
+[54] A. Serguieva and T. Kalganova, âA neuro-fuzzy-evolutionary classifier
+of risky investments,â in Proc. 11th IEEE Int. Conf. Fuzzy Syst., 2002,
+pp. 997â1002.
+Abdul Malek Yaakob was born in Pahang, Malaysia,
+in 1985. He received the Diploma degree in computer
+science and the B.Sc. degree in mathematics from the
+Universiti Teknologi MARA, Malaysia, in 2006 and
+2008, respectively, and the M.Sc. degree in mathematics from Universiti Teknologi Malaysia, Johor
+Bahru, Malaysia, in 2011. He is currently working
+toward the Ph.D. degree with the School of Computing, University of Portsmouth, Portsmouth, U.K.
+Since February 2009, he has been a Tutor in mathematics with the School of Quantitative Sciences,
+Universiti Utara Malaysia, Sintok, Malaysia. His current and previous research
+interests include rule-based systems and networks, computational intelligence,
+financial mathematics, and decision-making analysis.
+Antoaneta Serguieva (SMâ11) received the M.Sc.
+degree in systems engineering from the Technical
+University of Sofia, Sofia, Bulgaria, the M.B.A. degree in finance from the University of National and
+World Economy, Sofia, the Ph.D. degree in computer
+science from Brunel University, London, U.K., and
+is currently completing the Ph.D. degree in applied
+mathematics at Kingâs College London.
+She is a member of the Research Center for
+Blockchain Technologies, University College London (UCL), London, U.K., since 2016; and is an
+elected UCL Academic Board member since 2016. She is a Senior Teaching Fellow at the Financial Computing and Analytics Group, Department of
+Computer Science, UCL, since 2010; where she has been Program Director
+for M.Sc. Financial Computing from 2014 to 2016, and is starting as Program
+Co-Director for the new M.Sc. Business Analytics in 2016. She is also a Research Advisor in Advanced Analytics at the Bank of England, since 2015.
+Her research interests include nature-inspired computational intelligence and
+heuristics in modeling complex sociotechnical systems, contagion mechanisms,
+behavioral tendencies, and cognition.
+Alexander Gegov (Mâ15) was born in Sofia,
+Bulgaria, in 1961. He received the B.Sc. degree in
+automatics and the M.Sc. degree in robotics from
+the Technical University of Sofia, Sofia, in 1987 and
+1989, respectively, and the Ph.D. degree in control
+systems and the D.Sc. degree in intelligent systems
+from the Bulgarian Academy of Sciences, Sofia, in
+1992 and 1997, respectively.
+Since 2009, he has been a Reader in computational
+intelligence with the School of Computing, University of Portsmouth, Portsmouth, U.K. He is the author of four research monographs, ten book chapters, and more than 40 journal
+articles. His current and previous research interests include complex system
+modeling and simulation, rule-based systems and networks, and computational
+intelligence.
+Dr. Gegov is a Fellow of the HEA.
+
+
+;;
+IEEE TRANSACTIONS ON FUZZY SYSTEMS
+;;
+Abdul Malek Yaakob, Antoaneta Serguieva, Senior Member, IEEE, and Alexander Gegov, Member, IEEE
+;;

@@ -1,0 +1,218 @@
+traders: 47
+price: 49
+detection: 52
+table: 53
+matched: 56
+trading: 57
+order: 103
+orders: 127
+trade: 132
+wash: 141
+;;
+ EFERENCES
+[1] F. Allen and D. Gale, “Stock-price manipulation,” Rev. Financial Stud.,
+vol. 5, no. 3, pp. 503–529, Jul. 1992.
+[2] Y. Cao, Y. Li, S. Coleman, A. Belatreche, and T. M. McGinnity, “Adaptive hidden Markov model with anomaly states for price manipulation
+detection,” IEEE Trans. Neural Netw. Learn. Syst., vol. 26, no. 2,
+pp. 318–330, Feb. 2015.
+[3] Y. Cao, Y. Li, S. Coleman, A. Belatreche, and T. M. McGinnity,
+“A hidden Markov model with abnormal states for detecting stock price
+manipulation,” in Proc. IEEE Int. Conf. Syst., Man, Cybern. (SMC),
+Manchester, U.K., Oct. 2013, pp. 3014–3019.
+[4] Y. Cao, Y. Li, S. Coleman, A. Belatreche, and T. M. McGinnity,
+“Detecting price manipulation in the financial market,” in Proc. IEEE
+Conf. Comput. Intell. Financial Eng. Econ. (CIFEr), London, U.K.,
+Mar. 2014, pp. 77–84.
+[5] Y. Cao, Y. Li, S. Coleman, A. Belatreche, and T. M. McGinnity,
+“Detecting wash trade in the financial market,” in Proc. IEEE Conf.
+Comput. Intell. Financial Eng. Econ. (CIFEr), London, U.K., Mar. 2014,
+pp. 85–91.
+[6] J. Zhai and Y. Cao, “On the calibration of stochastic volatility models:
+A comparison study,” in Proc. IEEE Conf. Comput. Intell. Financial
+Eng. Econ. (CIFEr), London, U.K., Mar. 2014, pp. 303–309.
+[7] F. Allen, L. Litov, and J. Mei, “Large investors, price manipulation,
+and limits to arbitrage: An anatomy of market corners,” Rev. Finance,
+vol. 10, no. 4, pp. 645–693, Oct. 2006.
+[8] D. Cumming, F. Zhan, and M. J. Aitken. (Sep. 2012). High Frequency Trading and End-of-Day Price Dislocation. [Online]. Available:
+http://dx.doi.org/10.2139/ssrn.2145565
+
+[9] SEC.
+(Oct.
+2011).
+Limit
+Orders.
+[Online].
+Available:
+http://www.sec.gov/answers/limit.htm
+[10] K. Menyah and K. Paudyal, “The components of bid–ask spreads on
+the London stock exchange,” J. Banking Finance, vol. 24, no. 11,
+pp. 1767–1785, Nov. 2000.
+[11] FSA. (Mar. 2006). The Code of Market Conduct. [Online]. Available:
+http://www.fsa.gov.uk/pubs/hb-releases/rel52/rel52mar.pdf
+[12] EU. (Jun. 2014). European Commission. [Online]. Available: http://ec.
+europa.eu/finance/securities/abuse/index_en.htm
+[13] CME.
+(Aug.
+2014).
+U.S.
+Commodity
+Futures
+Trading
+Commission. [Online]. Available: http://www.cftc.gov/filings/orgrules/
+rule082814cmedcm001.pdf
+[14] CME Group. (Jul. 2013). Market Regulation Advisory Notice: Wash
+Trades Prohibited—Rule 534. [Online]. Available: http://www.
+cftc.gov/stellent/groups/public/@rulesandproducts/documents/ifdocs/
+rul070913cmecbotnymexcomandkc1.pdf
+[15] M. Franke, B. Hoser, and J. Schröder, “On the analysis of irregular
+stock market trading behavior,” in Proc. Data Anal., Mach. Learn. Appl.,
+Freiburg im Breisgau, Germany, 2007, pp. 355–362.
+[16] G. K. Palshikar and M. M. Apte, “Collusion set detection using graph
+clustering,” Data Mining Knowl. Discovery, vol. 16, no. 2, pp. 135–164,
+Apr. 2008.
+[17] J. Wang, S. Zhou, and J. Guan, “Detecting potential collusive cliques
+in futures markets based on trading behaviors from real data,”
+Neurocomputing, vol. 92, pp. 44–53, Sep. 2012.
+[18] N. Hautsch and R. Huang, “The market impact of a limit order,” J. Econ.
+Dyn. Control, vol. 36, no. 4, pp. 501–522, Apr. 2012.
+[19] ITG. (Jul. 2013). Global Cost Review Q1/2013. [Online].
+Available:
+http://www.itg.com/marketing/ITG_GlobalCostReview
+_Q12013_20130725.pdf
+[20] S. Patterson, J. Strasburg, and J. Trindle. (Mar. 2013). The
+Wall Street Journal. [Online]. Available: http://online.wsj.com/article/
+SB10001424127887323639604578366491497070204.html
+[21] N. Jamal. (Dec. 2012). LSE Broker Fined for ’Wash Trade’.
+[Online]. Available: http://dawn.com/news/771335/lse-broker-fined-forwash-trade
+[22] T. Loh and G. Cumming. (Jun. 2012). Market Manipulation: Safe Harbour for Wash Trades and Matched Orders Upheld. [Online]. Available:
+http://www.timothyloh.com/publications/120606_market_manipulation_
+cfa.html
+[23] EU.
+(2015).
+European
+Commission.
+[Online].
+Available:
+http://ec.europa.eu/finance/securities/prospectus/index_en.htm
+[24] E. Tsang, R. Olsen, and S. Masry, “A formalization of double auction market dynamics,” Quant. Finance, vol. 13, no. 7, pp. 981–988,
+Jul. 2013.
+[25] NANEX. (May 2013). Chicago PMI. [Online]. Available:
+http://www.nanex.net/aqck2/4304.html
+[26] M. J. Aitken, F. H. Harris, and S. Ji, “Trade-based manipulation and
+market efficiency: A cross-market comparison,” in Proc. 22nd Austral.
+Finance Banking Conf., Sydney, NSW, Australia, Nov. 2009, p. 18.
+[27] R. Andonov, V. Poirriez, and S. Rajopadhye, “Unbounded knapsack
+problem: Dynamic programming revisited,” Eur. J. Oper. Res., vol. 123,
+no. 2, pp. 394–407, Jun. 2000.
+[28] V. Poirriez, N. Yanev, and R. Andonov, “A hybrid algorithm for
+the unbounded knapsack problem,” Discrete Optim., vol. 6, no. 1,
+pp. 110–124, Feb. 2009.
+[29] M. Zukerman, L. Jia, T. Neame, and G. J. Woeginger, “A polynomially
+solvable special case of the unbounded knapsack problem,” Oper. Res.
+Lett., vol. 29, no. 1, pp. 13–16, Aug. 2001.
+[30] J. Kleinberg and É. Tardos, Algorithm Design, 1st ed. London, U.K.:
+Pearson, 2005.
+[31] Z. Ni, H. He, J. Wen, and X. Xu, “Goal representation heuristic dynamic
+programming on maze navigation,” IEEE Trans. Neural Netw. Learn.
+Syst., vol. 24, no. 12, pp. 2038–2050, Dec. 2013.
+[32] Y. Jiang and Z.-P. Jiang, “Robust adaptive dynamic programming and
+feedback stabilization of nonlinear systems,” IEEE Trans. Neural Netw.
+Learn. Syst., vol. 25, no. 5, pp. 882–893, May 2014.
+[33] NANEX. (Jul. 2013). Exploratory Trading in the eMini. [Online].
+Available: http://www.nanex.net/aqck2/4136.html
+[34] Y. Ou, L. Cao, C. Luo, and C. Zhang, “Domain-driven local
+exceptional pattern mining for detecting stock price manipulation,”
+in Proc. PRICAI, Trends Artif. Intell., Hanoi, Vietnam, Dec. 2008,
+pp. 849–858.
+[35] E. J. Lee, K.-S. Eom, and K. S. Park, “Microstructure-based manipulation: Strategic behavior and performance of spoofing traders,”
+J. Financial Markets, vol. 16, no. 2, pp. 227–252, May 2013.
+
+CAO et al.: DETECTING WASH TRADE IN FINANCIAL MARKET USING DIGRAPHS AND DYNAMIC PROGRAMMING
+
+[36] N. Hautsch and R. Huang. (Aug. 2011). Limit Order Flow, Market
+Impact and Optimal Order Sizes: Evidence From NASDAQ TotalViewITCH Data. [Online]. Available: http://dx.doi.org/10.2139/ssrn.1914293
+[37] L. Cao, Y. Ou, and P. S. Yu, “Coupled behavior analysis with applications,” IEEE Trans. Knowl. Data Eng., vol. 24, no. 8, pp. 1378–1392,
+Aug. 2012.
+
+Yi Cao received the B.Eng. degree in navigation
+and control in aeronautics from Beihang University,
+Beijing, China, in 2002, the M.S. degree in computer science from Florida International University,
+Miami, FL, USA, in 2005, and the Ph.D. degree in
+financial machine learning from the University of
+Ulster, Londonderry, U.K., in 2015.
+He was an Integrated Circuit and Hardware
+Engineer with Vimicro, Beijing, and Conexant
+Beijing Design Centre, Beijing, from 2005 to 2008.
+From 2008 to 2011, he was a Senior System Engineer with Ericsson, Beijing. He is currently a Lecturer in computational
+finance with the Centre for Computational Finance and Economic Agents,
+School of Computer Science and Electronic Engineering, University of Essex,
+Colchester, U.K.
+
+Yuhua Li (SM’11) received the Ph.D. degree in
+general engineering from the University of Leicester,
+Leicester, U.K.
+He was a Senior Research Fellow with Manchester
+Metropolitan University, Manchester, U.K., and
+a Research Associate with the University of
+Manchester, Manchester, from 2000 to 2005. He was
+a Lecturer with the School of Computing and Intelligent Systems, University of Ulster, Londonderry,
+U.K., from 2005 to 2014. He is currently a Lecturer
+with the School of Computing, Science and Engineering, University of Salford, Salford, U.K. His current research interests
+include pattern recognition, machine learning, data science, knowledge-based
+systems, and condition monitoring and fault diagnosis.
+
+2363
+
+Sonya Coleman (M’11) received the B.Sc.
+(Hons.) degree in mathematics, statistics, and computing, and the Ph.D. degree in mathematical
+image processing from the University of Ulster,
+Londonderry, U.K.
+She has experience managing research grants (with
+respect to technical aspects and personnel) as both
+a Principal and Co-Investigator. In addition, she is
+a Co-Investigator on the EU FP7 funded projects
+RUBICON and VISUALISE. She is currently a
+Reader with the University of Ulster. She has
+authored or co-authored over 80 research papers in image processing, robotics,
+and computational neuroscience.
+Ammar
+Belatreche
+(M’09) received the
+Ph.D. degree in computer science from the
+University of Ulster, Londonderry, U.K.
+He was a Research Assistant with the Intelligent
+Systems Engineering Laboratory, University
+of Ulster, where he is currently a Lecturer
+with the School of Computing and Intelligent
+Systems. His current research interests include
+bioinspired adaptive systems, machine learning,
+pattern recognition, and image processing and
+understanding.
+Dr. Belatreche is a fellow of the Higher Education Academy, a member
+of the IEEE Computational Intelligence Society (CIS), and the Northern
+Ireland Representative of the IEEE CIS. He is also an Associate Editor of
+Neurocomputing, and has served as a Program Committee Member and a
+Reviewer of several international conferences and journals.
+Thomas Martin McGinnity (SM’09) received the
+B.Sc. (Hons.) degree in physics and the Ph.D. degree
+from the University of Durham, Durham, U.K.,
+in 1975 and 1979, respectively.
+He was a Professor of Intelligent Systems Engineering and the Director of the Intelligent Systems
+Research Centre with the Faculty of Computing
+and Engineering, University of Ulster, Ulster, U.K.
+He was the Director with the University of Ulster’s
+Technology Transfer Company, Innovation Ulster,
+and a spin out company, Flex Language Services.
+He is currently a Dean of Science and Technology with Nottingham Trent
+University, Nottingham, U.K. He has authored or co-authored approximately
+300 research papers and has attracted over £24 million in research funding.
+Prof. McGinnity is a fellow of the Institution of Engineering and Technology
+and a Chartered Engineer.
+
+
+;;
+IEEE TRANSACTIONS ON NEURAL NETWORKS AND LEARNING SYSTEMS
+;;
+and Thomas Martin McGinnity, Senior Member, IEEE
+Yi Cao, Yuhua Li, Senior Member, IEEE, Sonya Coleman, Member, IEEE, Ammar Belatreche, Member, IEEE,
+;;

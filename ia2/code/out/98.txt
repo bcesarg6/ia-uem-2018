@@ -1,0 +1,152 @@
+numbers: 32
+function: 33
+level: 34
+parameters: 34
+levy: 35
+process: 43
+pricing: 51
+price: 65
+option: 93
+fuzzy: 112
+;;
+
+REFERENCES
+[1] F. Black and M. Scholes, âThe pricing of options and corporate liabilities,â
+J. Political Econ., vol. 81, pp. 637â659, 1973.
+[2] J. C. Hull, Options, Futures and Other Derivatives. New York, NY, USA:
+Prentice Hall, 1997.
+[3] M. Davis, âMathematics of financial markets,â in Mathematics Unlimited
+2001 and Beyond, B. Engquist and W. Schmid, Eds. Berlin, Germany:
+Springer-Verlag, 2001, pp. 361â380.
+[4] G. Bakshi, C. Cao, and Z. Chen, âEmpirical performance of alternative
+option pricing models,â J. Finance, vol. 52, no. 5, pp. 2003â2049, 1997.
+[5] D. S. Bates, âJumps and stochastic volatility: Exchange rate processes
+implicit in Deutschemark options,â Rev. Finance Stud., vol. 9, no. 1,
+pp. 69â107, 1996.
+[6] R. Merton, âOption pricing when underlying stock returns are discontinuous,â J. Finance Econ., vol. 3, pp. 125â144, 1976.
+[7] S. G. Kou, âA jump-diffusion model for option pricing,â Manage. Sci.,
+vol. 48, no. 8, pp. 1086â1101, 2002.
+[8] S. G. Kou and H. Wang, âOption pricing under a double exponential jump
+diffusion model,â Manage. Sci., vol. 50, no. 9, pp. 1178â1192, 2004.
+[9] S. Asmussen, F. Avram, and M. Pistorius, âRussian and American put
+options under exponential phase-type Levy models,â Stoch. Process. Appl.,
+vol. 109, no. 1, pp. 79â111, 2004.
+[10] M. Boyarchenko and S. Boyarchenko, âUserâs guide to pricing double
+barrier options. Part I: Kouâs model and generalizations,â 2008, Available
+at SSRN: http://dx.doi.org/10.2139/ssrn.1272081
+[11] N. Cai, N. Chen, and X. Wan, âPricing double-barrier options under a
+flexible jump diffusion model,â Oper. Res. Lett., vol. 37, no. 3, pp. 163â
+167, 2009.
+[12] N. Cai and S. Kou, âOption pricing under a mixed-exponential jump
+diffusion model,â Manage. Sci., vol. 57, pp. 2067â2081, 2011.
+[13] J. Crosby, N. L. Saux, and A. Mijatovic, âApproximating Levy processes
+with a view to option pricing,â Int. J. Theor. Appl. Finance, vol. 13, no. 1,
+pp. 63â91, 2010.
+[14] M. Jeannin and M. R. Pistorius, âA transform approach to calculate prices
+and greeks of barrier options driven by a class of Levy processes,â Quantitative Finance, vol. 10, no. 6, pp. 629â644, 2010.
+[15] O. E. Barndorff-Nielsen, âProcesses of normal inverse Gaussian type,â
+Finance Stoch., vol. 2, pp. 41â68, 1997.
+[16] D. B. Madan and E. Seneta, âThe variance gamma (V.G.) model for share
+market returns,â J. Bus., vol. 63, no. 4, pp. 511â524, 1990.
+[17] Y. Miyahara, Option Pricing in Incomplete Markets: Modeling Based on
+Geometric Levy Processes and Minimal Entropy Martingale Measures
+(Series in Quantitative Finance). London, U.K.: Imperial College Press,
+2012.
+[18] A. N. Shiryaev, Essentials of Stochastic Finance, Facts, Models, Theory.
+Singapore: World Scientific, 1999.
+[19] L. A. Zadeh, âFuzzy sets,â Inf. Control, vol. 8, pp. 338â353, 1965.
+
+416
+
+[20] H. C. Wu, âPricing European options based on the fuzzy pattern of BlackScholes formula,â Comput. Oper. Res., vol. 31, pp. 1069â1081, 2004.
+[21] A. M. Gil-Lafuente, Fuzzy Logic in Financial Analysis. Berlin, Germany:
+Springer-Verlag, 2005.
+[22] H. C. Wu, âUsing fuzzy sets theory and Black-Scholes formula to generate
+pricing boundaries of European options,â Appl. Math. Comput., vol. 185,
+no. 1, pp. 136â146, 2007.
+[23] Y. Yoshida, âThe valuation of European options in uncertain environment,â
+Eur. J. Oper. Res., vol. 145, no. 1, pp. 221â229, 2003.
+[24] W. Xu, X. Peng, and W. Xiao, âThe fuzzy jump-diffusion model to pricing
+European vulnerable options,â Int. J. Fuzzy Syst., vol. 15, no. 3, pp. 317â
+325, 2013.
+[25] W. Xian-Dong and H. Jian-Min, âReload option pricing in fuzzy framework,â in Proc. Int. Conf. Manage. Sci. Eng., 2014, pp. 147â152.
+[26] K. A. Chrysafis and B. K. Papadopoulos, âOn theoretical pricing of options
+with fuzzy estimators,â J. Comput. Appl. Math., vol. 223, no. 2, pp. 552â
+566, 2009.
+[27] K. Thiagarajah, S. S. Appadoo, and A. Thavaneswaran, âOption valuation model with adaptive fuzzy numbers,â Comput. Math. Appl., vol. 53,
+pp. 831â841, 2007.
+[28] Z. Zmeskal, âGeneralised soft binomial American real option pricing
+model (fuzzyâstochastic approach),â Eur. J. Oper. Res., vol. 207, no. 2,
+pp. 1096â1103, 2010.
+[29] W. Q. Liu and S. H. Li, âEuropean option pricing model in a stochastic and fuzzy environment,â Appl. Math.-J. Chin. Univ., vol. 28, no. 3,
+pp. 321â334, 2013.
+[30] L. H. Zhang, W. G. Zhang, W. J. Xu, and W. L. Xiao, âThe double
+exponential jump diffusion model for pricing European options under
+fuzzy environments,â Econ. Model., vol. 29, no. 3, pp. 780â786, 2012.
+[31] P. Nowak, âOption pricing with Levy process in a fuzzy framework,â
+in Recent Advances in Fuzzy Sets, Intuitionistic Fuzzy Sets, Generalized
+Nets and Related Topics, K. T. Atanassov, W. Homenda, O. Hryniewicz,
+J. Kacprzyk, M. Krawczak, Z. Nahorski, E. Szmidt, and S. Zadrozny, Eds.
+Warsaw, Poland: Systems Research Institute Polish Academy of Sciences,
+2011, pp. 155â167.
+[32] P. Nowak and M. Romaniuk, âApplication of Levy processes and Esscher
+transformed martingale measures for option pricing in fuzzy framework,â
+J. Comput. Appl. Math., vol. 263, pp. 129â151, 2014.
+[33] H. C. Wu, âOptimality conditions for linear programming problems with
+fuzzy coefficients,â Comput. Math. Appl., vol. 55, no. 12, pp. 2807â2822,
+2008.
+[34] M. L. Puri and D. A. Ralescu, âFuzzy random variables,â J. Math. Anal.
+Appl., vol. 114, pp. 409â422, 1986.
+[35] L. A. Zadeh, âThe concept of linguistic variable and its application to
+approximate reasoning I, II and III,â Inf. Sci., vol. 8, 8, 9, pp. 199â249,
+301â357, 43â80, 1975.
+[36] J. Jacod and A. N. Shiryaev, Limit Theorems for Stochastic Processes.
+Berlin, Germany: Springer-Verlag, 1987.
+[37] P. Nowak, âOn Jacod-Grigelionis characteristics for Hilbert space valued
+semimartingales,â Stoch. Anal. Appl., vol. 20, no. 5, pp. 963â998, 2002.
+[38] R. Cont and P. Tankov, Financial Modelling With Jump Processes. London,
+U.K.: Chapman & Hall, 2004.
+
+IEEE TRANSACTIONS ON FUZZY SYSTEMS, VOL. 25, NO. 2, APRIL 2017
+
+[39] F. Delbaen and W. Schachermayer, âA general version of the fundamental
+theorem of asset pricing,â Math. Ann., vol. 300, no. 1, pp. 463â520, 1994.
+[40] J. J. Buckley and E. Eslami, âPricing stock options using fuzzy sets,â
+Iranian J. Fuzzy. Syst., vol. 4, no. 2, pp. 1â14, 2007.
+[41] P. Nowak and M. Romaniuk, âCatastrophe bond pricing for the two-factor
+Vasicek interest rate model with automatized fuzzy decision making,â Soft
+Comput., pp. 1â23, 2015 doi: 10.1007/s00500-015-1957-1.
+[42] K. Piasecki, âOn imprecise investment recommendations,â Stud. Logic,
+GrammarRhetoric, vol. 37, no. 1, pp. 179â194, 2014.
+[43] M. PawĹowski and P. Nowak, âModelling spot prices on the Polish energy
+market,â in Intelligent Systemsâ2014, vol. 323 (Advances in Intelligent
+Systems and Computing Series), D. Filev, J. JabĹkowski, J. Kacprzyk,
+M. Krawczak, I. Popchev, L. Rutkowski, V. Sgurev, E. Sotirova,
+P. Szynkarczyk, and S. Zadrozny, Eds. Berlin, Germany: Springer-Verlag,
+2015, pp. 781â792.
+[44] M. Musiela and M. Rutkowski, Martingale Methods in Financial Modelling. Berlin, Germany: Springer-Verlag, 1997.
+
+Piotr Nowak received the M.Sc. degree in theoretical mathematics from the Faculty of Mathematics,
+Informatics and Mechanics, University of Warsaw,
+Warsaw, Poland, in 1993 and the Ph.D. degree in
+mathematics from the University of Warsaw, in 1999.
+His Ph.D. thesis concerned the theory of stochastic
+integrals.
+He has authored more than 40 papers in international journals, edited volumes, and conference proceedings. His current research at the Systems Research Institute, Polish Academy of Sciences include
+stochastic modeling in finance, insurance and mechanics, as well as financial
+mathematics, stochastic analysis, probability theory, statistics, and control theory.
+
+MichaĹ PawĹowski received the M.Sc. degree in applied mathematics (probabilistic methods in finance)
+from the Faculty of Mathematics, Informatics and
+Mechanics, University of Warsaw, Warsaw, Poland,
+in 2012. He completed the doctoral studies at the
+Institute of Computer Science, Polish Academy of
+Sciences, in 2015.
+His main research interests include financial engineering, stochastic analysis, probability theory, statistics, econometrics, and machine learning.
+
+
+;;
+IEEE TRANSACTIONS ON FUZZY SYSTEMS
+;;
+Piotr Nowak and MichaĹ PawĹowski
+;;

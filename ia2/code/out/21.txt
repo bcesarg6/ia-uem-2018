@@ -1,0 +1,168 @@
+pareto: 58
+jump: 69
+fuzzy: 70
+multiobjective: 82
+policy: 99
+nonlinear: 121
+investment: 130
+stochastic: 135
+financial: 149
+system: 155
+;;
+
+REFERENCES
+[1] J. H. Ma and Y. S. Chen, âStudy for the bifurcation topological structure
+and the global complicated character of a kind of nonlinear finance system
+(I),â Appl. Math. Mech., vol. 22, no. 11, pp. 1240â1251, 2001.
+[2] J. H. Ma and Y. S. Chen, âStudy for the bifurcation topological structure
+and the global complicated character of a kind of nonlinear finance system
+(II),â Appl. Math. Mech., vol. 22, no. 11, pp. 1240â1251, 2001.
+[3] S. H. Strogatz, Nonlinear Dynamics and Chaos: With Applications to
+Physics, Biology, Chemistry, and Engineering. Reading, MA, USA:
+Addison-Wesley, 1994.
+[4] H. W. Lorenz, Nonlinear Economic Dynamics and Chaotic Motion. New
+York, NY, USA: Springer, 1993.
+[5] W. C. Chen, âNonlinear dynamics and chaos in a fractional-order financial
+system,â Chaos, Solitons Fractals, vol. 36, no. 5, pp. 1305â1314, 2008.
+[6] B. Ăksendal and A. Sulem, Applied Stochastic Control of Jump Diffusions,
+2nd ed. Berlin, Germany: Springer, 2007.
+[7] F. Hanson, Applied Stochastic Processes and Control for Jump-Diffusions:
+Modeling, Analysis and Computation, 2nd ed. Philadelphia, PA, USA:
+SIAM, 2007.
+[8] N. C. Framstad, B. Ăksendal, and A. Sulem, âOptimal consumption and
+portfolio in a jump diffusion market with proportional transaction costs,â
+J. Math. Econ., vol. 35, pp. 233â257, Apr. 2001.
+[9] R. Cont and P. Tankov, Financial Modelling with Jump Processes. Boca
+Raton, FL, USA: CRC Press, 2004.
+
+474
+
+[10] I. Pan, S. Das, and S. Das, âMulti-objective active control policy design
+for commensurate and incommensurate fractional order chaotic financial
+systems,â Appl. Math. Model., vol. 39, no. 2, pp. 500â514, 2015.
+[11] B. S. Chen, C. S. Tseng, and H. J. Uang, âRobustness design of nonlinear dynamic systems via fuzzy linear control,â IEEE Trans. Fuzzy Syst.,
+vol. 7, no. 5, pp. 571â585, Oct. 1999.
+[12] C. S. Tseng, B. S. Chen, and H. J. Uang, âFuzzy tracking control design
+for nonlinear dynamic systems via T-S fuzzy model,â IEEE Trans. Fuzzy
+Syst., vol. 9, no. 3, pp. 381â392, Jun. 2001.
+[13] F. L. Lewis, L. Xie, and D. Popa, Optimal and Robust Estimation: With an
+Introduction to Stochastic Control Theory. Boca Raton, FL, USA: CRC
+Press, 2008.
+[14] D. P. Bertsekas and S. E. Shreve, Stochastic Optimal Control: The Discrete
+Time Case, vol. 139. New York, NY, USA: Academic, 1978.
+[15] R. F. Stengel, Stochastic Optimal Control: Theory and Application. Hoboken, NJ, USA: Wiley, 1986.
+[16] R. L. Haupt and S. E. Haupt, Practical Genetic Algorithms, 2nd ed. New
+York, NY, USA: Wiley, 2004.
+[17] S. H. Zak, System and Control. New York, NY, USA: Oxford Univ. Press,
+2003
+[18] K. Tanaka and H. O. Wang, Fuzzy Control Systems Design and Analysis:
+A Linear Matrix Inequality Approach. New York, NY, USA: Wiley, 2001.
+[19] H. C. Sung, D. W. Kim, J. B. Park, and Y. H. Joo, âRobust digital control of
+fuzzy systems with parametric uncertainties: LMI-based digital redesign
+approach,â Fuzzy Sets Sys., vol. 161, pp. 919â933, 2010.
+[20] C. S. Tseng and C. K. Hwang, âFuzzy observer-based fuzzy control design
+for nonlinear systems with persistent bounded disturbances,â Fuzzy Sets
+Syst., vol. 158, no. 2, pp. 164â179, Jan. 2007.
+[21] R. Khasminskii and G. N. Milstein, Stochastic Stability of Differential
+Equations, 2nd ed. Berlin, Germany: Springer, 2011.
+[22] S. Boyd, L. El Ghaoui, E. Feron, and V. Balakrishnan, Linear Matrix
+Inequalities in System and Control Theory. Philadelphia, PA, USA: SIAM,
+1994.
+[23] B. S. Chen and W. Zhang, âStochastic H 2 /H â control with state dependent noise,â IEEE Trans. Automat. Control, vol. 49, no. 1, pp. 45â57, Jan.
+2004.
+[24] D. Hinrichsen and A. Pritchard, âStochastic H â ,â SIAM J. Control Optim.,
+vol. 36, pp. 1504â1538, 1998
+[25] X. Lin and R. Zhang, âH â control for stochastic systems with Poisson
+jumps,â J. Syst. Sci. Complexity, vol. 24, no. 4, pp. 683â700, 2011.
+[26] G. Chen, G. Chen, and S. H. Hsu, Linear Stochastic Control Systems.
+Boca Raton, FL, USA: CRC Press, 1995.
+[27] G. P. Liu, J. B. Yang, and J. F. Whidborne, Multiobjective Optimisation &
+Control. Hertfordshire, U.K.: RSP Ltd, 2002
+[28] L. Rachmawati and D. Srinivasan,âMultiobjective evolutionary algorithm
+with controllable focus on the knees of the Pareto front,â IEEE Trans.
+Evol. Comput., vol. 13, no. 4, pp. 810â824, Aug. 2009.
+[29] K. Deb, Multi-Objective Optimization Using Evolutionary Algorithms, 1st
+ed. Chichester, U.K.: Wiley, 2001.
+[30] K. Deb, A. Pratap, S. Agarwal, and T. Meyarivan, âA fast and elitist
+multiobjective genetic algorithm: NSGA-II,â IEEE Trans. Evol. Comput.,
+vol. 6, no. 2, pp. 182â197, Apr. 2002.
+[31] A. Abraham, L. C. Jain, and R. Goldberg, Evolutionary Multiobjective
+Optimization: Theoretical Advances and Applications. New York, NY,
+USA: Springer, 2005.
+[32] E. Branke, K. Deb, H. Dierolf, and M. Osswald, âFinding knees in
+multi-objective optimization,â Parallel Problem Solving Nature, vol. 3242,
+pp. 722â731, 2004.
+[33] W. H. Zhang and G. Feng, âNonlinear stochastic H 2 /H â control with (x,
+u, v)-dependent noise: Infinite horizon case,â IEEE Trans. Autom. Control,
+vol. 53, no. 5, pp. 1323â1328, Jun. 2008.
+[34] B. S. Chen, C. S. Tseng, and H. J. Uang, âMixed H 2 /H â fuzzy output
+feedback control for nonlinear dynamic systems: An LMI approach,â IEEE
+Trans. Fuzzy Syst., vol. 8, no. 3, pp. 249â265, Jun. 2000.
+[35] B. S. Chen, H. C. Lee, and C. F. Wu, âPareto optimal filter design for
+nonlinear stochastic fuzzy systems via multiobjective optimization,â IEEE
+Trans. Fuzzy Syst., vol. 23, no. 2, pp. 387â399, Apr. 2015.
+[36] A. Gulisashvili, Analytically Tractable Stochastic Stock Price Models.
+New York, NY, USA: Springer, 2012.
+[37] E. M. Stein and J. C. Stein, âStock price distributions with stochastic
+volatility: An analytic approach,â Rev. Financial Stud., 4.4, pp. 727â752,
+1991.
+[38] J. Stoyanov, âStochastic Financial Models,â J. Roy. Statist. Soc.: Ser. A
+(Statist. Soc.) vol. 174, no. 2, pp. 510â511, 2011.
+
+IEEE TRANSACTIONS ON FUZZY SYSTEMS, VOL. 25, NO. 2, APRIL 2017
+
+[39] H. Zhang, H. Yan, F. Yang, and Q. Chen, âQuantized control design for
+impulsive fuzzy networked systems,â IEEE Trans. Fuzzy Syst., vol. 19,
+no. 6, pp. 1153â1162, Dec. 2011.
+[40] H. K. Lam, âLMI-based stability analysis for fuzzy-model-based control systems using artificial TâS fuzzy model,â IEEE Trans. Fuzzy Syst.,
+vol. 19, no. 3, pp. 505â513, Jun. 2011.
+[41] D. Hasan, N. GuĚzel, and M. Sivri, âA fuzzy set-based approach
+to multi-objective multi-item solid transportation problem under uncertainty,â Int. J. Fuzzy Syst., pp. 1â14, 2015. [Online]. Available:
+http://link.springer.com/article/10.1007/s40815-015-0081-9
+
+Chien-Feng Wu received the B.S. degree in electrical engineering and the M.S. degree in electrical
+engineering from Chung Hua University, Hsinchu,
+Taiwan, in 2006 and 2008, respectively. He is currently working toward the Ph.D. degree in electrical
+engineering with the Laboratory of Control and Systems Biolog, Department of Electrical Engineering,
+National Tsing Hua University, Hsinchu.
+His current research interests include robust control, fuzzy control, multiobjective optimization, and
+nonlinear stochastic systems.
+
+Bor-Sen Chen (Fâ01âLFâ14) received the B.S. degree from the Tatung Institute of Technology, Taipei,
+Taiwan, the M.S. degree from National Central University, Chungli, Taiwan, and the Ph.D. degree from
+the University of Southern California, Los Angeles,
+CA, USA, in 1970, 1973, and 1982, respectively.
+He was a Lecturer, Associate Professor, and Professor with the Tatung Institute of Technology from
+1973 to 1987. He is currently a Professor of electrical engineering and computer science with National
+Tsing Hua University, Hsinchu, Taiwan. His current
+research interests include control engineering, signal processing, and systems
+biology.
+Dr. Chen has received the Distinguished Research Award from the National
+Science Council of Taiwan four times. He is a Research Fellow of the National
+Science Council of Taiwan and holds the Excellent Scholar Chair in engineering.
+He has also received the Automatic Control Medal from the Automatic Control
+Society of Taiwan in 2001. He is an Associate Editor of the IEEE TRANSACTIONS ON FUZZY SYSTEMS from 2001 to 2006 and Editor of the Asian Journal
+of Control. He is a Member of the Editorial Advisory Board of Fuzzy Sets and
+Systems and the International Journal of Control, Automation and Systems. He
+was the Editor in Chief of the International Journal of Fuzzy Systems from 2005
+to 2008.
+
+Weihai Zhang (Mâ10âSMâ16) received the M.S. degree from Hangzhou University, Hangzhou, China,
+and the Ph.D. degree from Zhejiang University,
+Hangzhou, in 1994 and 1998, respectively.
+He is currently a Professor with the Shandong University of Science and Technology, Qingdao, China,
+and a Taishan Scholar of Shandong Province. He
+has published more than 100 journal papers. His research interests include linear and nonlinear stochastic optimal control, robust H â control and estimation, stochastic stability, and stabilization.
+Dr. Zhang is an Associate Editor of the Asian Journal of Control and an Associate Editor of the Conference Editorial Board of the IEEE Control Systems
+Society. His representative paper âSIAM J. Control and Optimization, vol. 44,
+no. 6, pp. 1973â1991, 2006â has been selected as a featured fast-moving front
+paper by Thomson Reuters Science Watch, and has been selected as the most
+cited paper in the research area of Mathematics by Essential Science Indicator
+from Thomson Reuters.
+
+
+;;
+IEEE TRANSACTIONS ON FUZZY SYSTEMS
+;;
+Chien-Feng Wu, Bor-Sen Chen, Life Fellow, IEEE, and Weihai Zhang, Senior Member, IEEE
+;;

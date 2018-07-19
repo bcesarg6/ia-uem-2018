@@ -1,0 +1,284 @@
+financial: 43
+generated: 51
+number: 56
+set: 66
+rules: 67
+it2: 83
+fuzzy: 107
+rule: 124
+paes: 145
+rcs: 148
+;;
+
+REFERENCES
+[1] “The Regulatory Opportunity in Financial Services,” (2014).
+[Online]. Available: http://butleranalytics.com/regulatory-opportunityfinancial-services/
+[2] “Predictive Models - Risks and Benefits,” (2014). [Online]. Available:
+http://butleranalytics.com/predictive-models-risks-benefits/
+[3] “Predictive Model Management Strategy,” (2014). [Online]. Available:
+http://butleranalytics.com/financial-regulation-predictive-models/
+[4] A. Garcia-Almanza and E. Tsang, “Forecasting stock prices using genetic
+programming and chance discovery,” presented at the 12th Int. Conf.
+Comput. Econ. Finance, Limassol, Cyprus, Jun. 22–24, 2006.
+[5] A. Garcia-Almanza and E. Tsang, “Evolving decision rules to predict
+investment opportunities,” Int. J. Autom. Comput., vol. 5, no. 1, pp. 22–
+31, 2008.
+[6] A. Garcia-Almanza, “New classification methods for gathering patterns in
+the context of genetic programming,” Ph.D. dissertation, Dept. Comput.
+Electron. Syst., Univ. Essex, Colchester, U.K., 2008.
+[7] L. Breiman, “Random Forests,” Mach. Learn., vol. 45, no. 1, pp. 5–32,
+2001.
+[8] J. Casillas, O. Cordon, F. Herrera, L. Magdalena, Eds., Interpretability
+Issues in Fuzzy Modelling. New York, NY, USA: Springer, 2003.
+[9] M. Setnes and H. Roubos, “GA-fuzzy modelling and classification: Complexity and performance,” IEEE Trans. Fuzzy Syst., vol. 8, no. 5, pp. 509–
+522, Oct. 2000.
+[10] H. Ishibuchi and T. Yamamoto, “Interpretability issues in fuzzy geneticbased machine learning for linguistic modelling,” in Modelling with
+Words (Lecture Notes in Computer Science), vol. 2873. Berlin, Germany:
+Springer-Verlag, 2003, pp. 209–228.
+[11] H. Ishibuchi, T. Nakashima, and M. Nii, Classification and Modeling
+with Linguistic Information Granules: Advanced Approaches to Linguistic
+Data Mining. Berlin, Germany: Springer-Verlag, 2004.
+[12] P. Ducange and F. Marcelloni, “Multi-objective evolutionary fuzzy systems,” in Proc. 9th Int. Workshop Fuzzy Logic Appl., 2011, pp. 83–90.
+[13] M. Fazzolari, R. Alcalá, Y. Nojima, H. Ishibuchi, and F. Herrera, “A review
+of the application of multiobjective evolutionary fuzzy systems: Current
+status and further directions,” IEEE Trans. Fuzzy Syst., vol. 21, no. 1,
+pp. 45–65, Feb. 2013.
+[14] P. Melin and O. Castillo, “A review on type-2 fuzzy logic applications
+in clustering, classification and pattern recognition,” Appl. Soft Comput.,
+vol. 21, pp. 568–577, 2014.
+
+[15] C. Glackin, L. Maguire, R. McIvor, P. Humphreys, and P. Herman, “A
+comparison of fuzzy strategies for corporate acquisition analysis,” Fuzzy
+Sets Syst., vol. 159, no. 18, pp. 2039–2056, 2007.
+[16] D. Bernardo, H. Hagras, and E. Tsang, “A genetic type-2 fuzzy logic based
+system for the generation of summarised linguistic predictive models for
+financial applications,” Soft Comput., vol. 17, no. 12, pp. 2185–2201,
+2013.
+[17] J.A Sanz, D. Bernardo, F. Herrera, H. Bustince, and H. Hagras, “A compact evolutionary interval-valued fuzzy rule-based classification system
+for the modeling and prediction of real-world financial applications with
+imbalanced data,” IEEE Trans. Fuzzy Syst., vol. 23, no. 4, pp. 973–990,
+Aug. 2015.
+[18] D. Wu and W. Tan, “Genetic learning and performance evaluation of
+interval type-2 fuzzy logic controllers,” Eng. Appl. Artif. Intell., vol. 19,
+no. 8, pp. 819–841, 2006.
+[19] R. Martı́nez-Soto, O. Castillo, L. T. Aguilar, and A. R. Dı́az, “A hybrid
+optimization method with PSO and GA to automatically design type-1
+and type-2 fuzzy logic controllers,” Int. J. Mach. Learn. Cybern., vol. 6,
+no. 2, pp. 175–196, 2015.
+[20] O. Linda and M. Manic, “Uncertainity-robust design of interval type-2
+fuzzy logic controller for delta parallel robot,” IEEE Trans. Ind. Informat.,
+vol. 7, no. 4, pp. 661–670, Nov. 2011.
+[21] M. Almaraahi, R. John, and S. Ahmadi, “Learning of type-2 fuzzy logic
+systems by simulated annealing with adaptive step size,” in Electrical
+Engineering and Intelligent Systems (ser. Lecture Notes in Electrical Engineering), vol. 130. Berlin, Germany: Springer-Verlag, 2013, pp. 53–64.
+[22] T. Kumbasar and H. Hagras, “Big bang-big crunch optimization based
+Interval type-2 fuzzy PID cascade controller design strategy,” Inf. Sci.,
+vol. 282, pp. 277–295, 2014.
+[23] J. Mendel, H. Hagras, W-W. Tan, W. Melek, and H. Ying, Introduction
+to Type-2 Fuzzy Logic Control: Theory and Applications. New York, NY,
+USA: Wiley/IEEE Press, 2014.
+[24] G. G. Sundarkumar and V. Ravi, “A novel hybrid undersampling method
+for mining unbalanced datasets in banking and insurance,” Eng. Appl.
+Artif. Intell., vol. 36, pp. 368–377, 2015.
+[25] M. Antonelli, P. Ducange, and F. Marcelloni, “Multi-objective evolutionary rule and condition selection for designing fuzzy rule-based classifiers,”
+in Proc. IEEE Int. Conf. Fuzzy Syst., Brisbane, Australia, Jun. 10–15, 2012,
+pp. 794–800.
+[26] M. Antonelli, P. Ducange, and F. Marcelloni, “A fast and efficient multiobjective evolutionary learning scheme for fuzzy rule-based classifiers,”
+Inf. Sci., vol. 283, pp. 36–54, 2014.
+[27] M. Antonelli, P. Ducange, and F. Marcelloni, “An experimental study
+on evolutionary fuzzy classifiers designed for managing imbalanced
+datasets,” Neurocomput., vol. 146, pp. 125–136, 2014.
+[28] J. Alcala-Fdez, R. Alcala, and F. Herrera, “A fuzzy association rulebased classification model for high-dimensional problems with genetic
+rule selection and lateral tuning,” IEEE Trans. Fuzzy Syst., vol. 19, no. 5,
+pp. 857–872, Oct. 2011.
+[29] J. Huhn and E. Hullermeier, “FURIA: An algorithm for unordered fuzzy
+rule induction,” Data Mining Knowl. Discovery, vol. 19, no. 3, pp. 293–
+319, 2009.
+[30] J. Quinlan, C4.5: Programs for Machine Learning. San Mateo, CA, USA:
+Morgan Kauffman, 1993.
+[31] K. M. Ting, “An instance-weighting method to induce cost-sensitive trees,”
+IEEE Trans. Knowl. Data Eng., vol. 14, no. 3, pp. 659–665, May/Jun.
+2002.
+[32] Q. Liang and J. M. Mendel, “Interval type-2 fuzzy logic systems: Theory
+and design,” IEEE Trans. Fuzzy Syst., vol. 8, no. 5, pp. 535–550, Oct.
+2000.
+[33] D. Bernardo, H. Hagras, and E. Tsang, “An interval type-2 fuzzy logic
+system for the modelling and prediction of financial applications,” presented at the Int. Conf. Auton. Intell. Syst., Aveiro, Portugal, Jun. 25–27,
+2012.
+[34] D. Bernardo, H. Hagras, and E. Tsang, “An interval type-2 fuzzy logic
+based system for model generation and summarization of arbitrage opportunities in stock markets,” presented at the U.K. Workshop Comput.
+Intell., Edinburgh, U.K., Sep. 5–7, 2012.
+[35] D. Bernardo, H. Hagras, and E. Tsang, “A genetic type-2 fuzzy logic based
+system for financial applications modelling and prediction,” presented
+at the Proc. IEEE Int. Conf. Fuzzy Syst., Hyderabad, India, Jul. 7–10,
+2013.
+[36] A. Zhou, B-Y. Qu, H. Li, S-Z. Zhao, P. N. Suganthan, and Q. Zhang,
+“Multiobjective evolutionary algorithms: A survey of the state of the art,”
+Swarm Evol. Comput., vol. 1, no. 1, pp. 32–49, 2011.
+
+ANTONELLI et al.: MULTIOBJECTIVE EVOLUTIONARY OPTIMIZATION OF TYPE-2 FUZZY RULE-BASED SYSTEMS
+
+[37] P. Ducange, B. Lazzerini, and F. Marcelloni, “Multi-objective genetic
+fuzzy classifiers for imbalanced and cost-sensitive datasets,” Soft Comput.,
+vol. 14, no. 10, pp. 713–728, 2010.
+[38] F. Herrera, “Genetic fuzzy systems: Taxonomy, current research trends
+and prospects,” Evol. Intell., vol. 1, no. 1, pp. 27–46, 2008.
+[39] J. M. Alonso and L. Magdalena, “Editorial: Special issue on interpretable
+fuzzy systems,” Inf. Sci., vol. 181, no. 20, pp. 4331–4339, 2011.
+[40] M. J. Gacto, R. Alcalá, and F. Herrera, “Interpretability of linguistic fuzzy
+rule-based systems: An overview of interpretability measures,” Inf. Sci.,
+vol. 128, no. 20, pp. 4340–4360, 2011.
+[41] M. Cococcioni, P. Ducange, B. Lazzerini, and F. Marcelloni, “A Paretobased multi-objective evolutionary approach to the identification of mamdani fuzzy systems,” Soft Comput., vol. 11, no. 11, pp. 1013–1031,
+2007.
+[42] A. Botta, B. Lazzerini, F. Marcelloni, and D. Stefanescu, “Context adaptation of fuzzy systems through a multi-objective evolutionary approach
+based on a novel interpretability index,” Soft Comput., vol. 13, no. 5,
+pp. 437–449, 2009.
+[43] R. Alcalá, P. Ducange, F. Herrera, B. Lazzerini, and F. Marcelloni, “A
+multi-objective evolutionary approach to concurrently learn rule and data
+bases of linguistic fuzzy rule-based systems,” IEEE Trans. Fuzzy Syst.,
+vol. 17, no. 5, pp. 1106–1122, Oct. 2009.
+[44] M. Antonelli, P. Ducange, B. Lazzerini, and F. Marcelloni,
+“Multi-objective evolutionary learning of granularity, membership function parameters and rules of Mamdani fuzzy systems,” Evol. Intell., vol. 2,
+no. 1–2, pp. 21–37, 2009.
+[45] J. Casillas, P. Martinez, and A. D. Benitez, “Learning consistent, complete
+and compact sets of fuzzy rules in conjunctive normal form for regression
+problems,” Soft Comput., vol. 13, no. 5, pp. 451–465, 2009.
+[46] P. Pulkkinen and H. Koivisto, “A dynamically constrained multiobjective
+genetic fuzzy system for regression problems,” IEEE Trans. Fuzzy Syst.,
+vol. 18, no. 1, pp. 161–177, Feb. 2010.
+[47] M. Antonelli, P. Ducange, B. Lazzerini, and F. Marcelloni, “Learning
+concurrently data and rule bases of Mamdani fuzzy rule-based systems by
+exploiting a novel interpretability index,” Soft Comput., vol. 15, no. 10,
+pp. 1981–1998, 2011.
+[48] M. Antonelli, P. Ducange, B. Lazzerini, and F. Marcelloni, “Learning
+knowledge bases of multi-objective evolutionary fuzzy systems by simultaneously optimizing accuracy, complexity and partition integrity,” Soft
+Comput., vol. 15, no. 12, pp. 2335–2354, 2011.
+[49] M. J. Gacto, R. Alcala, and F. Herrera, “Integration of an index to preserve
+the semantic interpretability in the multi-objective evolutionary rule selection and tuning of linguistic fuzzy systems,” IEEE Trans. Fuzzy Syst.,
+vol. 18, no. 3, pp. 515–531, Jun. 2010.
+[50] R. Alcalá, M. J. Gacto, and F. Herrera, “A fast and scalable multiobjective
+genetic fuzzy system for linguistic fuzzy modeling in high-dimensional
+regression problems,” IEEE Trans. Fuzzy Syst., vol. 19, no. 4, pp. 666–681,
+Aug. 2011.
+[51] M. Antonelli, P. Ducange, and F. Marcelloni, “Genetic training instance
+selection in multi-objective evolutionary fuzzy systems: A co-evolutionary
+approach,” IEEE Trans. Fuzzy Syst., vol. 20, no. 2, pp. 276–290, Apr. 2012.
+[52] H. Ishibuchi, T. Murata, and I. B. Turksen, “Single-objective and two
+objective genetic algorithms for selecting linguistic rules for pattern
+classification problems,” Fuzzy Sets Syst., vol. 89, no. 2, pp. 135–150,
+1997.
+[53] O. Cordon, M. J. del Jesus, J. Casillas, F. Herrera, L. Magdalena, and P.
+Villar, “A multiobjective genetic learning process for joint feature selection and granularity and context learning in fuzzy rule-based classification systems,” in Interpretability Issues in Fuzzy Modeling, J. Casillas,
+F. Herrera, O. Cordoon, and L. Magdalena, Eds. Secaucus, NJ, USA:
+Springer-Verlag, 2003, pp. 79–99.
+[54] H. Ishibuchi and T. Yamamoto, “Fuzzy rule selection by multi-objective
+genetic local search algorithms and rule evaluation measures in data mining,” Fuzzy Sets Syst., vol. 141, pp. 59–88, 2004.
+[55] H. Ishibuchi and Y. Nojima, “Analysis of interpretability-accuracy tradeoff
+of fuzzy systems by multiobjective fuzzy genetics-based machine learning,” Int. J. Approx. Reason., vol. 44, no. 1, pp. 4–31, 2007.
+[56] R. Alcalá, Y. Nojima, F. Herrera, and H. Ishibuchi, “Multiobjective genetic
+fuzzy rule selection of single granularity-based fuzzy classification rules
+and its interaction with the lateral tuning of membership functions,” Soft
+Comput., vol. 15, no. 12, pp. 2303–2318, 2011.
+[57] P. Pulkkinen and H. Koivisto, “Fuzzy classifier identification using decision tree and multiobjective evolutionary algorithms,” Int. J. Approx.
+Reason., vol. 48, pp. 526–543, 2008.
+
+263
+
+[58] K. Trawinski, O. Cordon, and A. Quirin, “A Study on the use of multiobjective genetic algorithms for classifier selection in FURIA-based fuzzy
+multiclassifiers,” Int. J. Comput. Intell. Syst., vol. 5, no. 2, pp. 231–253,
+2012.
+[59] O. Cordon, M. J. del Jesus, and F. Herrera, “A proposal on reasoning methods in fuzzy rule-based classification systems,” Int. J. Approx. Reason.,
+vol. 20, no. 1, pp. 21–45, 1999.
+[60] W. W. Cohen, “Fast effective rule induction,” in Proc. 12th Int. Conf.
+Mach. Learning, 1995, pp. 115–123.
+[61] J. R. Quinlan, “Boosting, bagging, and C4.5,” in Proc. 13th Nat. Conf.
+Artif. Intell., 1996, vol. 1, pp. 725–730.
+[62] N. V. Chawla, K. W. Bowyer, L. O. Hall, and W. P. Kegelmeyer, “Smote:
+Synthetic minority over-sampling technique,” J. Artif. Intell. Res., vol. 16,
+pp. 321–357, 2002.
+[63] J. Alcala-Fdez, A. Fernandez, J. Luengo, J. Derrac, and S. Garcia, “KEEL
+data-mining software tool: Data set repository, integration of algorithms
+and experimental analysis framework,” Multiple-Valued Log. Soft Comput., vols. 2/3, pp. 255–287, 2011.
+[64] T. Fawcett, “An introduction to ROC analysis,” Pattern Recog. Lett.,
+vol. 27, no. 8, pp. 861–874, 2006.
+[65] M. Friedman, “The use of ranks to avoid the assumption of normality
+implicit in the analysis of variance,” J. Amer. Stat. Assoc., vol. 32, pp. 675–
+701, 1937.
+[66] R. L. Iman and J. H. Davenport, “Approximations of the critical region
+of the Friedman statistic,” Commun. Statist. A, Theory Methods, vol. 9,
+pp. 571–595, 1980.
+[67] S. Holm, “A simple sequentially rejective multiple test procedure,” Scand.
+J. Statist., vol. 6, pp. 65–70, 1979.
+[68] D. J. Sheskin, Handbook of Parametric and Nonparametric Statistical Procedures, 4th ed. London, U.K.: Chapman & Hall/CRC Press,
+2007.
+
+Michela Antonelli received the M.Sc. degree in computer engineering and the Ph.D. degree in information
+engineering from the University of Pisa, Pisa, Italy,
+in 2003 and 2007, respectively.
+She was a Research Fellow with the Computational Intelligence Group, Department of Information
+Engineering, University of Pisa, from 2008 to 2014.
+She is currently a Research Associate with the Centre for Medical Image Computing, University College
+London, London, U.K. Her main research interests include computational intelligence, with particular emphasis to fuzzy systems and multiobjective evolutionary algorithms.
+
+Dario Bernardo received the B.Sc. and M.Sc. degrees in computer engineering for enterprise management from the University of Pisa, Pisa, Italy, and
+another M.Sc. degree in computational and software
+techniques in engineering from Cranfield University,
+Cranfield, U.K. He is currently working toward the
+Ph.D. degree in computer science with the University
+of Essex, Colchester, U.K., as a Knowledge Partnership Associate.
+He is currently a Data Scientist working in London, U.K., in the field of predictive analytics in finance. His major research interests include computational intelligence, machine
+learning, type-2 fuzzy systems, fuzzy logic, genetic algorithms, and evolutionary computation. His research interests also include big data analytics, algorithm
+scalability, and optimization.
+
+264
+
+Hani Hagras (M’03–SM’05–F’13) received the
+B.Sc. and M.Sc. degrees in electrical engineering
+from Alexandria University, Alexandria, Egypt, and
+the Ph.D. degree in computer science from the University of Essex, Colchester, U.K.
+He is currently a Professor with the School of
+Computer Science and Electronic Engineering, Director of the Computational Intelligence Centre, and
+the Head of the Fuzzy Systems Research Group with
+the University of Essex. His major research interests
+include computational intelligence, notably type-2
+fuzzy systems, fuzzy logic, neural networks, genetic algorithms, and evolutionary computation. His research interests also include ambient intelligence,
+pervasive computing, and intelligent buildings. He is also interested in embedded agents, robotics, and intelligent control. He has authored more than 300
+papers in international journals, conferences, and books.
+Dr. Hagras is a Fellow of the Institution of Engineering and Technology.
+He was the Chair of IEEE Computational Intelligence Society (CIS) Senior
+Members Subcommittee. He has received numerous prestigious international
+awards where most recently he was awarded by the IEEE CIS the 2013 Outstanding Paper Award in the IEEE TRANSACTIONS ON FUZZY SYSTEMS. He
+also received the 2006 Outstanding Paper Award in the IEEE TRANSACTIONS
+ON FUZZY SYSTEMS. He is an Associate Editor of the IEEE TRANSACTIONS ON
+FUZZY SYSTEMS. He is also an Associate Editor of the International Journal of
+Robotics and Automation, the Journal of Cognitive Computation, and the Journal of Ambient Computing and Intelligence. He is a member of the IEEE CIS
+Fuzzy Systems Technical Committee and IEEE CIS Conference Committee. He
+chaired several international conferences where he will act as the Programme
+Chair of the 2017 IEEE International Conference on Fuzzy Systems, Naples,
+Italy, July 2017, and he served as the General Co-Chair of the 2007 IEEE International Conference on Fuzzy Systems, London, U.K.
+
+IEEE TRANSACTIONS ON FUZZY SYSTEMS, VOL. 25, NO. 2, APRIL 2017
+
+Francesco Marcelloni (M’06) received the Laurea
+degree in electronics engineering and the Ph.D. degree in computer engineering from the University of
+Pisa, Pisa, Italy, in 1991 and 1996, respectively.
+He is currently a Full Professor with the Department of Information Engineering, University of Pisa.
+He has co-founded the Computational Intelligence
+Group in 2002 and is the Founder and Head of the
+Competence Centre on MObile Value Added Services (MOVAS), both with the Department of Information Engineering, University of Pisa. His main
+research interests include fuzzy classifiers for big data, multiobjective evolutionary algorithms, genetic fuzzy systems, fuzzy clustering algorithms, pattern
+recognition, signal analysis, neural networks, mobile information systems, and
+data compression and aggregation in wireless sensor networks. He has coedited
+three volumes, four journal special issues, and is (co)author of a book and of
+more than 200 papers in international journals, books, and conference proceedings. He has been TPC co-chair, general co-chair, and tutorial chair of some
+international conferences and has held invited talks in a number of events.
+Dr. Marcelloni is an Associate Editor of Information Sciences (Elsevier) and
+Soft Computing (Springer). He is on the Editorial Board of a number of other
+international journals.
+
+
+;;
+IEEE TRANSACTIONS ON FUZZY SYSTEMS
+;;
+Michela Antonelli, Dario Bernardo, Hani Hagras, Fellow, IEEE, and Francesco Marcelloni, Member, IEEE
+;;
