@@ -129,13 +129,6 @@ def main():
     # convert string class to integers
     str_column_to_int(dataset, len(dataset[0]) - 1)
 
-    for i in range(10):
-        print("Sub_set " + str(i))
-        sub_set = subDataSet(dataset, i)
-        # print(sub_set)
-        print("Sub_set length: " +  str(len(sub_set)))
-
-    return
     # evaluate algorithm
     n_folds = 3
     l_rate = 0.01

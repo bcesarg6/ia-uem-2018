@@ -5,11 +5,11 @@
 from csv import reader
 from src.Perceptron import Perceptron
 
-train_file = 'train_min.data'
-test_file = 'test.data'
+train_file = 'test.data'
+test_file = 'train.data'
 
-learning_rate = 0.1
-n_epochs = 5
+learning_rate = 0.001
+n_epochs = 1000
 
 
 def main():
@@ -21,30 +21,44 @@ def main():
     print("\tTest file: " + test_file + "\n")
 
     trainset = read_file(train_file)
-    print("Trainset ready.")
-
-    testset = read_file(test_file)
-    print("Testset ready.")
 
     for i in range(10):
         new_data.append(setup_dataset(trainset, i))
     trainset = new_data
+    print("Trainset ready.\n")
+
+    testset = read_file(test_file)
+    test_data = setup_test(testset)
 
     new_data = []
     for i in range(10):
         new_data.append(setup_dataset(testset, i))
     testset = new_data
+    print("Testset ready.\n")
 
+    print("Setting up perceptrons...")
     for i in range(10):
-        perceptrons.append(Perceptron(trainset, testset, learning_rate, n_epochs))
-        print(perceptrons[i])
+        perceptrons.append(Perceptron(trainset[i], testset[i], learning_rate, n_epochs))
+    print("Perceptrons ready to be trained\n")
 
-    for perceptron in perceptrons:
-        perceptron.train()
-        perceptron.test()
+    print("Starting training...")
+    for i in range(len(perceptrons)):
+        print("Training perceptron " + str(i))
+        perceptrons[i].train()
+        print("Done.")
+    print("Training all done\n")
+
+    print(test_all(perceptrons, test_data))
+
+    print("End.")
 
 
 def read_file(file_name):
+    """
+    Creates a list of matrixes, in order that each matrix has only the instance class (0 - 9) of its position
+    :param file_name: The file to be read
+    :return: The list of matrixes
+    """
     dataset = [[], [], [], [], [], [], [], [], [], []]
 
     print("Reading file: " + file_name)
@@ -66,6 +80,12 @@ def read_file(file_name):
 
 
 def setup_dataset(dataset, ind):
+    """
+    Normalizes dataset, creating copies for each problem class
+    :param dataset: Dataset to be normalized
+    :param ind: The class index
+    :return: The new dataset
+    """
     new_dataset = []
 
     for data in dataset:
@@ -75,6 +95,55 @@ def setup_dataset(dataset, ind):
             new_dataset.append(new_row)
 
     return new_dataset
+
+
+def setup_test(testset):
+    """
+    Creates a array with the problem class of each instance
+    :param testset: The full testset
+    :return: The array
+    """
+    new_testset = []
+
+    for claz in testset:
+        for instance in claz:
+            new_testset.append(instance[-1])
+
+    return new_testset
+
+
+def test_all(perceptrons, test_data):
+    """
+    Run the tests using all perceptrons as one unit and return the results
+    :param perceptrons: The perceprons list
+    :param test_data: The array containing the right answer
+    :return: The confusion matrix
+    """
+    result = []
+
+    for i in range(11):
+        result.append([])
+        for j in range(11):
+            result[i].append(0)
+
+    print("Testing perceptrons...")
+
+    for i in range(len(test_data)):
+        res = 0
+        for j in range(len(perceptrons)):
+            res = perceptrons[j].test(i)
+            if res:
+                res = j
+                break
+
+        if not res:
+            res = 10
+
+        result[test_data[i]][res] = result[test_data[i]][res] + 1
+
+    print("Testing all done\n")
+
+    return result
 
 
 if __name__ == "__main__":
